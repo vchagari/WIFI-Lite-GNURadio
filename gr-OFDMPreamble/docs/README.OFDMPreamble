@@ -1,0 +1,11 @@
+This is the OFDMPreamble-write-a-block package meant as a guide to building
+out-of-tree packages. To use the OFDMPreamble blocks, the Python namespaces
+is in 'OFDMPreamble', which is imported as:
+
+    import OFDMPreamble
+
+See the Doxygen documentation for details about the blocks available
+in this package. A quick listing of the details can be found in Python
+after importing by using:
+
+    help(OFDMPreamble)

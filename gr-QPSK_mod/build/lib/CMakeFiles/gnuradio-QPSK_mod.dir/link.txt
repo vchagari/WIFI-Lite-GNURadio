@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,libgnuradio-QPSK_mod.so -o libgnuradio-QPSK_mod.so CMakeFiles/gnuradio-QPSK_mod.dir/Vamsi_QPSK_mod_cf_impl.cc.o -lboost_filesystem -lboost_system /usr/local/lib/libgnuradio-runtime.so -Wl,-rpath,/usr/local/lib: 

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<block>
+  <name>vamsi_sourceblk_c</name>
+  <key>sourceblock_vamsi_sourceblk_c</key>
+  <category>sourceblock</category>
+  <import>import sourceblock</import>
+  <make>sourceblock.vamsi_sourceblk_c()</make>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

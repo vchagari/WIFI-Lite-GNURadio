@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<block>
+  <name>vamsi_OFDMPreamble_ff</name>
+  <key>OFDMPreamble_vamsi_OFDMPreamble_ff</key>
+  <category>OFDMPreamble</category>
+  <import>import OFDMPreamble</import>
+  <make>OFDMPreamble.vamsi_OFDMPreamble_ff($Indatalen)</make>
+  <param>
+    <name>Input Data Len</name>
+    <key>Indatalen</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

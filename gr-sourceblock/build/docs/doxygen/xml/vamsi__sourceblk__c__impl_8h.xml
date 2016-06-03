@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="vamsi__sourceblk__c__impl_8h" kind="file">
+    <compoundname>vamsi_sourceblk_c_impl.h</compoundname>
+    <includes refid="vamsi__sourceblk__c_8h" local="no">sourceblock/vamsi_sourceblk_c.h</includes>
+    <incdepgraph>
+      <node id="19">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="18">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="15">
+        <label>vamsi_sourceblk_c_impl.h</label>
+        <link refid="vamsi_sourceblk_c_impl.h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>sourceblock/vamsi_sourceblk_c.h</label>
+        <link refid="vamsi__sourceblk__c_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>sourceblock/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1sourceblock_1_1vamsi__sourceblk__c__impl" prot="public">gr::sourceblock::vamsi_sourceblk_c_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1sourceblock">gr::sourceblock</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/vamsi_sourceblk_c_impl.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="classgr_1_1vamsi__scram_1_1scram__cc" kind="class"><name>gr::vamsi_scram::scram_cc</name>
+    <member refid="classgr_1_1vamsi__scram_1_1scram__cc_1a7d7c6f3fe4142cff8f9e82ccb50929b7" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1vamsi__scram_1_1scram__cc_1a2bec38f1db74f57b99c031f33eb26ffc" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1vamsi__scram" kind="namespace"><name>gr::vamsi_scram</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a40da3c2eaada66303506843d4513a05c" kind="define"><name>VAMSI_SCRAM_API</name></member>
+  </compound>
+  <compound refid="scram__cc_8h" kind="file"><name>scram_cc.h</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/include</name>
+  </compound>
+  <compound refid="dir_8fc91cf9b97ff58994f1a293a942d8eb" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/include/vamsi_scram</name>
+  </compound>
+</doxygenindex>

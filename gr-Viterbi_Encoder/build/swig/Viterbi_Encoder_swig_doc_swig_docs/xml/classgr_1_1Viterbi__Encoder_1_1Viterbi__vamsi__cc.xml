@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1Viterbi__Encoder_1_1Viterbi__vamsi__cc" kind="class" prot="public">
+    <compoundname>gr::Viterbi_Encoder::Viterbi_vamsi_cc</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="Viterbi__vamsi__cc_8h" local="no">Viterbi_vamsi_cc.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1Viterbi__Encoder_1_1Viterbi__vamsi__cc_1a5c829d3c1791f54ccfe23bf639df1a03" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1Viterbi__Encoder_1_1Viterbi__vamsi__cc" kindref="compound">Viterbi_vamsi_cc</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;Viterbi_vamsi_cc&gt; gr::Viterbi_Encoder::Viterbi_vamsi_cc::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder/Viterbi_vamsi_cc.h" line="39" column="1" bodyfile="/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder/Viterbi_vamsi_cc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1Viterbi__Encoder_1_1Viterbi__vamsi__cc_1acc5c93a9282384a948ccf5681d9b7e61" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1Viterbi__Encoder_1_1Viterbi__vamsi__cc_1a5c829d3c1791f54ccfe23bf639df1a03" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::Viterbi_Encoder::Viterbi_vamsi_cc::make</definition>
+        <argsstring>()</argsstring>
+        <name>make</name>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1Viterbi__Encoder_1_1Viterbi__vamsi__cc" kindref="compound">Viterbi_Encoder::Viterbi_vamsi_cc</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1Viterbi__Encoder_1_1Viterbi__vamsi__cc" kindref="compound">Viterbi_Encoder::Viterbi_vamsi_cc</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1Viterbi__Encoder_1_1Viterbi__vamsi__cc_1acc5c93a9282384a948ccf5681d9b7e61" kindref="member">Viterbi_Encoder::Viterbi_vamsi_cc::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder/Viterbi_vamsi_cc.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>gr::Viterbi_Encoder::Viterbi_vamsi_cc</label>
+        <link refid="classgr_1_1Viterbi__Encoder_1_1Viterbi__vamsi__cc"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::Viterbi_Encoder::Viterbi_vamsi_cc</label>
+        <link refid="classgr_1_1Viterbi__Encoder_1_1Viterbi__vamsi__cc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder/Viterbi_vamsi_cc.h" line="37" column="1" bodyfile="/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder/Viterbi_vamsi_cc.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1Viterbi__Encoder_1_1Viterbi__vamsi__cc_1acc5c93a9282384a948ccf5681d9b7e61" prot="public" virt="non-virtual"><scope>gr::Viterbi_Encoder::Viterbi_vamsi_cc</scope><name>make</name></member>
+      <member refid="classgr_1_1Viterbi__Encoder_1_1Viterbi__vamsi__cc_1a5c829d3c1791f54ccfe23bf639df1a03" prot="public" virt="non-virtual"><scope>gr::Viterbi_Encoder::Viterbi_vamsi_cc</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

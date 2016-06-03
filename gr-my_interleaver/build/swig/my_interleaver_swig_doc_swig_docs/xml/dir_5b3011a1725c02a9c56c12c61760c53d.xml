@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_5b3011a1725c02a9c56c12c61760c53d" kind="dir">
+    <compoundname>/home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/include/my_interleaver</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="vamsi__interleaver__cc_8h">vamsi_interleaver_cc.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/include/my_interleaver/"/>
+  </compounddef>
+</doxygen>

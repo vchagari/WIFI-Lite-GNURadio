@@ -1,0 +1,14 @@
+/usr/local/lib/cmake/vamsi_scram/vamsi_scramConfig.cmake
+/usr/local/include/vamsi_scram/api.h
+/usr/local/include/vamsi_scram/scram_cc.h
+/usr/local/lib/libgnuradio-vamsi_scram.so
+/usr/local/lib/python2.7/dist-packages/vamsi_scram/_vamsi_scram_swig.so
+/usr/local/lib/python2.7/dist-packages/vamsi_scram/vamsi_scram_swig.py
+/usr/local/lib/python2.7/dist-packages/vamsi_scram/vamsi_scram_swig.pyc
+/usr/local/lib/python2.7/dist-packages/vamsi_scram/vamsi_scram_swig.pyo
+/usr/local/include/vamsi_scram/vamsi_scram/swig/vamsi_scram_swig.i
+/usr/local/include/vamsi_scram/vamsi_scram/swig/vamsi_scram_swig_doc.i
+/usr/local/lib/python2.7/dist-packages/vamsi_scram/__init__.py
+/usr/local/lib/python2.7/dist-packages/vamsi_scram/__init__.pyc
+/usr/local/lib/python2.7/dist-packages/vamsi_scram/__init__.pyo
+/usr/local/share/gnuradio/grc/blocks/vamsi_scram_scram_cc.xml

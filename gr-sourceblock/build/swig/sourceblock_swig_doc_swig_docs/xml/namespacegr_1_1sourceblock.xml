@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespacegr_1_1sourceblock" kind="namespace">
+    <compoundname>gr::sourceblock</compoundname>
+    <innerclass refid="classgr_1_1sourceblock_1_1vamsi__sourceblk__c" prot="public">gr::sourceblock::vamsi_sourceblk_c</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/include/sourceblock/vamsi_sourceblk_c.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

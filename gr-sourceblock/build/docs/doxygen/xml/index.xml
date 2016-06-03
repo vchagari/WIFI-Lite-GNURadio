@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="classgr_1_1sourceblock_1_1vamsi__sourceblk__c" kind="class"><name>gr::sourceblock::vamsi_sourceblk_c</name>
+    <member refid="classgr_1_1sourceblock_1_1vamsi__sourceblk__c_1abc6a5d6b45f44022dd7278bc4a9a2008" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1sourceblock_1_1vamsi__sourceblk__c_1ace34fc7e3fbb76f6e7778bb5e3270f8a" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1sourceblock_1_1vamsi__sourceblk__c__impl" kind="class"><name>gr::sourceblock::vamsi_sourceblk_c_impl</name>
+    <member refid="classgr_1_1sourceblock_1_1vamsi__sourceblk__c__impl_1aa4370d5e70cc65468cddc5cc61f81eeb" kind="function"><name>vamsi_sourceblk_c_impl</name></member>
+    <member refid="classgr_1_1sourceblock_1_1vamsi__sourceblk__c__impl_1aedd9c422801a38dc2c4c94f1d0377843" kind="function"><name>~vamsi_sourceblk_c_impl</name></member>
+    <member refid="classgr_1_1sourceblock_1_1vamsi__sourceblk__c__impl_1ad30a22168113b44bea7505f54bc430ed" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1sourceblock" kind="namespace"><name>gr::sourceblock</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1aa9c0a9c70f5231e032ecbd7ce6f85a18" kind="define"><name>SOURCEBLOCK_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="vamsi__sourceblk__c_8h" kind="file"><name>vamsi_sourceblk_c.h</name>
+  </compound>
+  <compound refid="vamsi__sourceblk__c__impl_8h" kind="file"><name>vamsi_sourceblk_c_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_e96ab4e01cc1ec23f100f48c12352883" kind="dir"><name>sourceblock</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

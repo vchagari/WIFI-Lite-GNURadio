@@ -1,0 +1,14 @@
+/usr/local/lib/cmake/IFFT_V/IFFT_VConfig.cmake
+/usr/local/include/IFFT_V/api.h
+/usr/local/include/IFFT_V/IFFT_ff.h
+/usr/local/lib/libgnuradio-IFFT_V.so
+/usr/local/lib/python2.7/dist-packages/IFFT_V/_IFFT_V_swig.so
+/usr/local/lib/python2.7/dist-packages/IFFT_V/IFFT_V_swig.py
+/usr/local/lib/python2.7/dist-packages/IFFT_V/IFFT_V_swig.pyc
+/usr/local/lib/python2.7/dist-packages/IFFT_V/IFFT_V_swig.pyo
+/usr/local/include/IFFT_V/IFFT_V/swig/IFFT_V_swig.i
+/usr/local/include/IFFT_V/IFFT_V/swig/IFFT_V_swig_doc.i
+/usr/local/lib/python2.7/dist-packages/IFFT_V/__init__.py
+/usr/local/lib/python2.7/dist-packages/IFFT_V/__init__.pyc
+/usr/local/lib/python2.7/dist-packages/IFFT_V/__init__.pyo
+/usr/local/share/gnuradio/grc/blocks/IFFT_V_IFFT_ff.xml

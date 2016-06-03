@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff__impl" kind="class" prot="public">
+    <compoundname>gr::OFDMPreamble::vamsi_OFDMPreamble_ff_impl</compoundname>
+    <basecompoundref refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff" prot="public" virt="non-virtual">gr::OFDMPreamble::vamsi_OFDMPreamble_ff</basecompoundref>
+    <includes refid="vamsi__OFDMPreamble__ff__impl_8h" local="no">vamsi_OFDMPreamble_ff_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff__impl_1a313893f359318dd87c182d8d08d4b82d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::OFDMPreamble::vamsi_OFDMPreamble_ff_impl::d_Indatalen</definition>
+        <argsstring></argsstring>
+        <name>d_Indatalen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/vamsi_OFDMPreamble_ff_impl.h" line="37" column="1" bodyfile="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/vamsi_OFDMPreamble_ff_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff__impl_1a90cbe97010aacc4ac06e2ec7f1d40e16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::OFDMPreamble::vamsi_OFDMPreamble_ff_impl::vamsi_OFDMPreamble_ff_impl</definition>
+        <argsstring>(int Indatalen)</argsstring>
+        <name>vamsi_OFDMPreamble_ff_impl</name>
+        <param>
+          <type>int</type>
+          <declname>Indatalen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/vamsi_OFDMPreamble_ff_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff__impl_1ad986dceb31e48e9b220fd170e98b01b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::OFDMPreamble::vamsi_OFDMPreamble_ff_impl::~vamsi_OFDMPreamble_ff_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~vamsi_OFDMPreamble_ff_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/vamsi_OFDMPreamble_ff_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff__impl_1a146280027a89bcad55928da85125aee9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::OFDMPreamble::vamsi_OFDMPreamble_ff_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/vamsi_OFDMPreamble_ff_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff__impl_1a30825d5802dc22be0c8a51058e3686c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::OFDMPreamble::vamsi_OFDMPreamble_ff_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/vamsi_OFDMPreamble_ff_impl.h" line="46" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>gr::OFDMPreamble::vamsi_OFDMPreamble_ff_impl</label>
+        <link refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>gr::OFDMPreamble::vamsi_OFDMPreamble_ff</label>
+        <link refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8">
+        <label>gr::OFDMPreamble::vamsi_OFDMPreamble_ff_impl</label>
+        <link refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff__impl"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>gr::OFDMPreamble::vamsi_OFDMPreamble_ff</label>
+        <link refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/vamsi_OFDMPreamble_ff_impl.h" line="35" column="1" bodyfile="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/vamsi_OFDMPreamble_ff_impl.h" bodystart="34" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff__impl_1a313893f359318dd87c182d8d08d4b82d" prot="private" virt="non-virtual"><scope>gr::OFDMPreamble::vamsi_OFDMPreamble_ff_impl</scope><name>d_Indatalen</name></member>
+      <member refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff__impl_1a146280027a89bcad55928da85125aee9" prot="public" virt="non-virtual"><scope>gr::OFDMPreamble::vamsi_OFDMPreamble_ff_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff__impl_1a30825d5802dc22be0c8a51058e3686c4" prot="public" virt="non-virtual"><scope>gr::OFDMPreamble::vamsi_OFDMPreamble_ff_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff_1ad0227772bc1e533fbbbe2a139f1e7e9b" prot="public" virt="non-virtual"><scope>gr::OFDMPreamble::vamsi_OFDMPreamble_ff_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff_1ad0e1ddb0667b9da0fd18f79a1c0396c9" prot="public" virt="non-virtual"><scope>gr::OFDMPreamble::vamsi_OFDMPreamble_ff_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff__impl_1a90cbe97010aacc4ac06e2ec7f1d40e16" prot="public" virt="non-virtual"><scope>gr::OFDMPreamble::vamsi_OFDMPreamble_ff_impl</scope><name>vamsi_OFDMPreamble_ff_impl</name></member>
+      <member refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff__impl_1ad986dceb31e48e9b220fd170e98b01b3" prot="public" virt="non-virtual"><scope>gr::OFDMPreamble::vamsi_OFDMPreamble_ff_impl</scope><name>~vamsi_OFDMPreamble_ff_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<block>
+  <name>vamsi_OFDMCP_ff</name>
+  <key>OFDM_Cyclic_Prefix_vamsi_OFDMCP_ff</key>
+  <category>OFDM_Cyclic_Prefix</category>
+  <import>import OFDM_Cyclic_Prefix</import>
+  <make>OFDM_Cyclic_Prefix.vamsi_OFDMCP_ff($InputLen, $CPLen)</make>
+  <param>
+    <name>Input Data Len</name>
+    <key>InputLen</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>CP Len</name>
+    <key>CPLen</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

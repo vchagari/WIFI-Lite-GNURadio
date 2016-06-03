@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff__impl" kind="class" prot="public">
+    <compoundname>gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff_impl</compoundname>
+    <basecompoundref refid="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff" prot="public" virt="non-virtual">gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff</basecompoundref>
+    <includes refid="vamsi__OFDMCP__ff__impl_8h" local="no">vamsi_OFDMCP_ff_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff__impl_1aad11346b62472e18814537831d9c2064" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff_impl::d_InputLen</definition>
+        <argsstring></argsstring>
+        <name>d_InputLen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/vamsi_OFDMCP_ff_impl.h" line="32" column="1" bodyfile="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/vamsi_OFDMCP_ff_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff__impl_1a41da6e0a69e23b32a2d9ce8d37b45665" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff_impl::d_CPLen</definition>
+        <argsstring></argsstring>
+        <name>d_CPLen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/vamsi_OFDMCP_ff_impl.h" line="32" column="1" bodyfile="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/vamsi_OFDMCP_ff_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff__impl_1ac143169bb52381e0b7e3cbfc26846eef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff_impl::vamsi_OFDMCP_ff_impl</definition>
+        <argsstring>(int InputLen, int CPLen)</argsstring>
+        <name>vamsi_OFDMCP_ff_impl</name>
+        <param>
+          <type>int</type>
+          <declname>InputLen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>CPLen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/vamsi_OFDMCP_ff_impl.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff__impl_1ae76b578a997808f8dfda20a41f48890a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff_impl::~vamsi_OFDMCP_ff_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~vamsi_OFDMCP_ff_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/vamsi_OFDMCP_ff_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff__impl_1a73d9410beaa762880306a2d1b0c45f3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/vamsi_OFDMCP_ff_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff__impl_1aa84c2f1e7ae706c9a79c1fd2202b5095" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/vamsi_OFDMCP_ff_impl.h" line="41" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff_impl</label>
+        <link refid="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gr::block</label>
+      </node>
+      <node id="6">
+        <label>gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff</label>
+        <link refid="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8">
+        <label>gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff_impl</label>
+        <link refid="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff__impl"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>gr::block</label>
+      </node>
+      <node id="9">
+        <label>gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff</label>
+        <link refid="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/vamsi_OFDMCP_ff_impl.h" line="30" column="1" bodyfile="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/vamsi_OFDMCP_ff_impl.h" bodystart="29" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff__impl_1a41da6e0a69e23b32a2d9ce8d37b45665" prot="private" virt="non-virtual"><scope>gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff_impl</scope><name>d_CPLen</name></member>
+      <member refid="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff__impl_1aad11346b62472e18814537831d9c2064" prot="private" virt="non-virtual"><scope>gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff_impl</scope><name>d_InputLen</name></member>
+      <member refid="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff__impl_1a73d9410beaa762880306a2d1b0c45f3d" prot="public" virt="non-virtual"><scope>gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff__impl_1aa84c2f1e7ae706c9a79c1fd2202b5095" prot="public" virt="non-virtual"><scope>gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff_1a0686e672b9595db759ae57780e642d5b" prot="public" virt="non-virtual"><scope>gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff_1aad80f61b2b4abb54de8c76365daccc3d" prot="public" virt="non-virtual"><scope>gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff__impl_1ac143169bb52381e0b7e3cbfc26846eef" prot="public" virt="non-virtual"><scope>gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff_impl</scope><name>vamsi_OFDMCP_ff_impl</name></member>
+      <member refid="classgr_1_1OFDM__Cyclic__Prefix_1_1vamsi__OFDMCP__ff__impl_1ae76b578a997808f8dfda20a41f48890a" prot="public" virt="non-virtual"><scope>gr::OFDM_Cyclic_Prefix::vamsi_OFDMCP_ff_impl</scope><name>~vamsi_OFDMCP_ff_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="classgr_1_1IFFT__V_1_1IFFT__ff" kind="class"><name>gr::IFFT_V::IFFT_ff</name>
+    <member refid="classgr_1_1IFFT__V_1_1IFFT__ff_1a4032d90638a750cd52fd07ca4be4b6e0" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1IFFT__V_1_1IFFT__ff_1a68498a4046888009699c936fa58668e7" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1IFFT__V" kind="namespace"><name>gr::IFFT_V</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1ad8a60ae8c378d449fb053e97b4cf7198" kind="define"><name>IFFT_V_API</name></member>
+  </compound>
+  <compound refid="IFFT__ff_8h" kind="file"><name>IFFT_ff.h</name>
+  </compound>
+  <compound refid="dir_149e37bd327586c525869edcea50501f" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/include/IFFT_V</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/include</name>
+  </compound>
+</doxygenindex>

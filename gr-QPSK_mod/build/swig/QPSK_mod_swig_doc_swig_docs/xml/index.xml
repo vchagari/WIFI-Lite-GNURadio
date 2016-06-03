@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="classgr_1_1QPSK__mod_1_1Vamsi__QPSK__mod__cf" kind="class"><name>gr::QPSK_mod::Vamsi_QPSK_mod_cf</name>
+    <member refid="classgr_1_1QPSK__mod_1_1Vamsi__QPSK__mod__cf_1ab1d95fb14162c5339d032fb6cafe949b" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1QPSK__mod_1_1Vamsi__QPSK__mod__cf_1a69b59ef446750dde256c67f2bf8c8a45" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1QPSK__mod" kind="namespace"><name>gr::QPSK_mod</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a78531759c703cf030674fa1dd3b80dae" kind="define"><name>QPSK_MOD_API</name></member>
+  </compound>
+  <compound refid="Vamsi__QPSK__mod__cf_8h" kind="file"><name>Vamsi_QPSK_mod_cf.h</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/include</name>
+  </compound>
+  <compound refid="dir_30fdc28067a4e45250d5cfaf7ff0ee71" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/include/QPSK_mod</name>
+  </compound>
+</doxygenindex>

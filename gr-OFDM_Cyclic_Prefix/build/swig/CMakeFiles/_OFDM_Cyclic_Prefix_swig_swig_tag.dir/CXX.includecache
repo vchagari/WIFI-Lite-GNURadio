@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build/swig/_OFDM_Cyclic_Prefix_swig_swig_tag.cpp
+

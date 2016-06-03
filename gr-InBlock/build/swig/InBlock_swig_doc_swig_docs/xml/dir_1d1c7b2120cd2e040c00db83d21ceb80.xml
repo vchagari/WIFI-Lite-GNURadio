@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_1d1c7b2120cd2e040c00db83d21ceb80" kind="dir">
+    <compoundname>/home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/include/InBlock</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="vamsi__src__c_8h">vamsi_src_c.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/include/InBlock/"/>
+  </compounddef>
+</doxygen>

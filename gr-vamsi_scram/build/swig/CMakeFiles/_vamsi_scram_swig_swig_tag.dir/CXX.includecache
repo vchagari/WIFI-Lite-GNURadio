@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig/_vamsi_scram_swig_swig_tag.cpp
+

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="vamsi__sourceblk__c_8h" kind="file">
+    <compoundname>vamsi_sourceblk_c.h</compoundname>
+    <includes refid="api_8h" local="no">sourceblock/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="vamsi__sourceblk__c__impl_8h" local="no">vamsi_sourceblk_c_impl.h</includedby>
+    <incdepgraph>
+      <node id="12">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="11">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="9">
+        <label>vamsi_sourceblk_c.h</label>
+        <link refid="vamsi_sourceblk_c.h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>sourceblock/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="14">
+        <label>vamsi_sourceblk_c_impl.h</label>
+        <link refid="vamsi__sourceblk__c__impl_8h"/>
+      </node>
+      <node id="13">
+        <label>vamsi_sourceblk_c.h</label>
+        <link refid="vamsi_sourceblk_c.h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1sourceblock_1_1vamsi__sourceblk__c" prot="public">gr::sourceblock::vamsi_sourceblk_c</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1sourceblock">gr::sourceblock</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/include/sourceblock/vamsi_sourceblk_c.h"/>
+  </compounddef>
+</doxygen>

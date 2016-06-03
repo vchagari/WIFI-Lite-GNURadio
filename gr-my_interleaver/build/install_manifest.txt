@@ -1,0 +1,14 @@
+/usr/local/lib/cmake/my_interleaver/my_interleaverConfig.cmake
+/usr/local/include/my_interleaver/api.h
+/usr/local/include/my_interleaver/vamsi_interleaver_cc.h
+/usr/local/lib/libgnuradio-my_interleaver.so
+/usr/local/lib/python2.7/dist-packages/my_interleaver/_my_interleaver_swig.so
+/usr/local/lib/python2.7/dist-packages/my_interleaver/my_interleaver_swig.py
+/usr/local/lib/python2.7/dist-packages/my_interleaver/my_interleaver_swig.pyc
+/usr/local/lib/python2.7/dist-packages/my_interleaver/my_interleaver_swig.pyo
+/usr/local/include/my_interleaver/my_interleaver/swig/my_interleaver_swig.i
+/usr/local/include/my_interleaver/my_interleaver/swig/my_interleaver_swig_doc.i
+/usr/local/lib/python2.7/dist-packages/my_interleaver/__init__.py
+/usr/local/lib/python2.7/dist-packages/my_interleaver/__init__.pyc
+/usr/local/lib/python2.7/dist-packages/my_interleaver/__init__.pyo
+/usr/local/share/gnuradio/grc/blocks/my_interleaver_vamsi_interleaver_cc.xml

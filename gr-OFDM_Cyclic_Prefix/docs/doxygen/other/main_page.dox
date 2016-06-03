@@ -1,0 +1,10 @@
+/*! \mainpage
+
+Welcome to the GNU Radio OFDM_CYCLIC_PREFIX Block
+
+This is the intro page for the Doxygen manual generated for the OFDM_CYCLIC_PREFIX
+block (docs/doxygen/other/main_page.dox). Edit it to add more detailed
+documentation about the new GNU Radio modules contained in this
+project.
+
+*/

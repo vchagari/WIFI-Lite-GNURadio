@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/swig/_QPSK_mod_swig_doc_tag.cpp
+

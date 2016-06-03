@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<block>
+  <name>Vamsi_QPSK_mod_cf</name>
+  <key>QPSK_mod_Vamsi_QPSK_mod_cf</key>
+  <category>QPSK_mod</category>
+  <import>import QPSK_mod</import>
+  <make>QPSK_mod.Vamsi_QPSK_mod_cf($Inputlen)</make>
+  <param>
+    <name>Input data length</name>
+    <key>Inputlen</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

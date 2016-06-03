@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff" kind="class"><name>gr::OFDMPreamble::vamsi_OFDMPreamble_ff</name>
+    <member refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff_1ad0e1ddb0667b9da0fd18f79a1c0396c9" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff_1ad0227772bc1e533fbbbe2a139f1e7e9b" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff__impl" kind="class"><name>gr::OFDMPreamble::vamsi_OFDMPreamble_ff_impl</name>
+    <member refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff__impl_1a313893f359318dd87c182d8d08d4b82d" kind="variable"><name>d_Indatalen</name></member>
+    <member refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff__impl_1a90cbe97010aacc4ac06e2ec7f1d40e16" kind="function"><name>vamsi_OFDMPreamble_ff_impl</name></member>
+    <member refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff__impl_1ad986dceb31e48e9b220fd170e98b01b3" kind="function"><name>~vamsi_OFDMPreamble_ff_impl</name></member>
+    <member refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff__impl_1a146280027a89bcad55928da85125aee9" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff__impl_1a30825d5802dc22be0c8a51058e3686c4" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1OFDMPreamble" kind="namespace"><name>gr::OFDMPreamble</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a24219cf5c2adcee89fc02a29a487530b" kind="define"><name>OFDMPREAMBLE_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="vamsi__OFDMPreamble__ff_8h" kind="file"><name>vamsi_OFDMPreamble_ff.h</name>
+  </compound>
+  <compound refid="vamsi__OFDMPreamble__ff__impl_8h" kind="file"><name>vamsi_OFDMPreamble_ff_impl.h</name>
+    <member refid="vamsi__OFDMPreamble__ff__impl_8h_1ac44fa4aeec7a9a683cbce2b1f219da8e" kind="variable"><name>short_pre</name></member>
+    <member refid="vamsi__OFDMPreamble__ff__impl_8h_1af6439811336d8bd7f7c8364e3be36385" kind="variable"><name>long_pre</name></member>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_ec538aac01ad45369d3277b72a1e30f4" kind="dir"><name>OFDMPreamble</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

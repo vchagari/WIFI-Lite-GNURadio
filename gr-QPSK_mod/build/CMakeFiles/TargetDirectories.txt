@@ -1,0 +1,9 @@
+/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/swig/CMakeFiles/_QPSK_mod_swig.dir
+/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir
+/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir
+/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/lib/CMakeFiles/gnuradio-QPSK_mod.dir
+/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/python/CMakeFiles/pygen_python_60dd5.dir
+/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/swig/CMakeFiles/pygen_swig_acf07.dir
+/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/lib/CMakeFiles/test-QPSK_mod.dir
+/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/CMakeFiles/uninstall.dir

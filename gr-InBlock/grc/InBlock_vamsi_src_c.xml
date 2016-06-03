@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<block>
+  <name>vamsi_src_c</name>
+  <key>InBlock_vamsi_src_c</key>
+  <category>InBlock</category>
+  <import>import InBlock</import>
+  <make>InBlock.vamsi_src_c($InDatlen)</make>
+  <param>
+    <name>Input Data Len</name>
+    <key>InDatlen</key>
+    <type>int</type>
+  </param>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

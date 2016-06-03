@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/swig/_IFFT_V_swig_swig_tag.cpp
+

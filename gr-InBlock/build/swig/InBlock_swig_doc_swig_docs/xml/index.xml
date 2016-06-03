@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="classgr_1_1InBlock_1_1vamsi__src__c" kind="class"><name>gr::InBlock::vamsi_src_c</name>
+    <member refid="classgr_1_1InBlock_1_1vamsi__src__c_1a51b1b9df5dbc696128bdde60d48d68ba" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1InBlock_1_1vamsi__src__c_1a79b021d4f7fa0836252f313e30daf64b" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1InBlock" kind="namespace"><name>gr::InBlock</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1ac6f23b9b542320d2b2c4ee09179d30f0" kind="define"><name>INBLOCK_API</name></member>
+  </compound>
+  <compound refid="vamsi__src__c_8h" kind="file"><name>vamsi_src_c.h</name>
+  </compound>
+  <compound refid="dir_1d1c7b2120cd2e040c00db83d21ceb80" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/include/InBlock</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/include</name>
+  </compound>
+</doxygenindex>

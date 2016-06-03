@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/_vamsi_scram_swig_doc_tag.dir/_vamsi_scram_swig_doc_tag.cpp.o  -o _vamsi_scram_swig_doc_tag -rdynamic 

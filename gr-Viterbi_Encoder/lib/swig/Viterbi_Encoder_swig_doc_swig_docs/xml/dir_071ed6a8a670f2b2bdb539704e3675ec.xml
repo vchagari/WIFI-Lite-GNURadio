@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_071ed6a8a670f2b2bdb539704e3675ec" kind="dir">
+    <compoundname>/home/nuc-5/vamsi/My_Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder/</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="Viterbi__vamsi__cc_8h">Viterbi_vamsi_cc.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/nuc-5/vamsi/My_Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder/"/>
+  </compounddef>
+</doxygen>

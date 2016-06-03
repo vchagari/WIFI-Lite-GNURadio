@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio SOURCEBLOCK C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the SOURCEBLOCK GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+

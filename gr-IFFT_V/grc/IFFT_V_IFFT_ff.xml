@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<block>
+  <name>IFFT_ff</name>
+  <key>IFFT_V_IFFT_ff</key>
+  <category>IFFT_V</category>
+  <import>import IFFT_V</import>
+  <make>IFFT_V.IFFT_ff($IFFTSize)</make>
+  <param>
+    <name>IFFT Size</name>
+    <key>IFFTSize</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<block>
+  <name>vamsi_interleaver_cc</name>
+  <key>my_interleaver_vamsi_interleaver_cc</key>
+  <category>my_interleaver</category>
+  <import>import my_interleaver</import>
+  <make>my_interleaver.vamsi_interleaver_cc($Ninputs)</make>
+ <param>
+    <name>No of inputs</name>
+    <key>Ninputs</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

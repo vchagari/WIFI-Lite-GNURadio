@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nuc-5/vamsi/My_Blocks/gr-Viterbi_Encoder/lib/swig/_Viterbi_Encoder_swig_doc_tag.cpp
+

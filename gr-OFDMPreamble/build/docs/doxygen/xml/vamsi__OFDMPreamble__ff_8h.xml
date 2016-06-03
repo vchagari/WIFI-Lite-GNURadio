@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="vamsi__OFDMPreamble__ff_8h" kind="file">
+    <compoundname>vamsi_OFDMPreamble_ff.h</compoundname>
+    <includes refid="api_8h" local="no">OFDMPreamble/api.h</includes>
+    <includes local="no">gnuradio/block.h</includes>
+    <includedby refid="vamsi__OFDMPreamble__ff__impl_8h" local="no">vamsi_OFDMPreamble_ff_impl.h</includedby>
+    <incdepgraph>
+      <node id="9">
+        <label>vamsi_OFDMPreamble_ff.h</label>
+        <link refid="vamsi_OFDMPreamble_ff.h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="10">
+        <label>OFDMPreamble/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>gnuradio/block.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="13">
+        <label>vamsi_OFDMPreamble_ff.h</label>
+        <link refid="vamsi_OFDMPreamble_ff.h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>vamsi_OFDMPreamble_ff_impl.h</label>
+        <link refid="vamsi__OFDMPreamble__ff__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1OFDMPreamble_1_1vamsi__OFDMPreamble__ff" prot="public">gr::OFDMPreamble::vamsi_OFDMPreamble_ff</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1OFDMPreamble">gr::OFDMPreamble</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/include/OFDMPreamble/vamsi_OFDMPreamble_ff.h"/>
+  </compounddef>
+</doxygen>

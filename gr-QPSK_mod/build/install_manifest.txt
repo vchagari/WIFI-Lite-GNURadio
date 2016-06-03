@@ -1,0 +1,14 @@
+/usr/local/lib/cmake/QPSK_mod/QPSK_modConfig.cmake
+/usr/local/include/QPSK_mod/api.h
+/usr/local/include/QPSK_mod/Vamsi_QPSK_mod_cf.h
+/usr/local/lib/libgnuradio-QPSK_mod.so
+/usr/local/lib/python2.7/dist-packages/QPSK_mod/_QPSK_mod_swig.so
+/usr/local/lib/python2.7/dist-packages/QPSK_mod/QPSK_mod_swig.py
+/usr/local/lib/python2.7/dist-packages/QPSK_mod/QPSK_mod_swig.pyc
+/usr/local/lib/python2.7/dist-packages/QPSK_mod/QPSK_mod_swig.pyo
+/usr/local/include/QPSK_mod/QPSK_mod/swig/QPSK_mod_swig.i
+/usr/local/include/QPSK_mod/QPSK_mod/swig/QPSK_mod_swig_doc.i
+/usr/local/lib/python2.7/dist-packages/QPSK_mod/__init__.py
+/usr/local/lib/python2.7/dist-packages/QPSK_mod/__init__.pyc
+/usr/local/lib/python2.7/dist-packages/QPSK_mod/__init__.pyo
+/usr/local/share/gnuradio/grc/blocks/QPSK_mod_Vamsi_QPSK_mod_cf.xml

@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio OFDM_CYCLIC_PREFIX C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the OFDM_CYCLIC_PREFIX GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+
