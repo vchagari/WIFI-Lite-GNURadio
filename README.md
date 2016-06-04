@@ -26,4 +26,3 @@ Open the WIFI-OFDM-TX_working.grc file (Which is avaible in the GRC directory) u
 Note:
 Receiver chain yet to be uploaded. I have a working version, I will upload it soon.  
 
-
