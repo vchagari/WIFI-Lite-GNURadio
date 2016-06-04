@@ -15,8 +15,8 @@
   </compound>
   <compound refid="scram__cc_8h" kind="file"><name>scram_cc.h</name>
   </compound>
-  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/include</name>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/intel-nuc/My-Blocks/gr-vamsi_scram/include</name>
   </compound>
-  <compound refid="dir_8fc91cf9b97ff58994f1a293a942d8eb" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/include/vamsi_scram</name>
+  <compound refid="dir_8fc91cf9b97ff58994f1a293a942d8eb" kind="dir"><name>/home/intel-nuc/My-Blocks/gr-vamsi_scram/include/vamsi_scram</name>
   </compound>
 </doxygenindex>

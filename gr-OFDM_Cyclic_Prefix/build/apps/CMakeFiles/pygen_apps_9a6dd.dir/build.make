@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build
 
 # Utility rule file for pygen_apps_9a6dd.
 
@@ -56,10 +56,10 @@ apps/CMakeFiles/pygen_apps_9a6dd.dir/build: pygen_apps_9a6dd
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/build
 
 apps/CMakeFiles/pygen_apps_9a6dd.dir/clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build/apps && $(CMAKE_COMMAND) -P CMakeFiles/pygen_apps_9a6dd.dir/cmake_clean.cmake
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build/apps && $(CMAKE_COMMAND) -P CMakeFiles/pygen_apps_9a6dd.dir/cmake_clean.cmake
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/clean
 
 apps/CMakeFiles/pygen_apps_9a6dd.dir/depend:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/apps /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build/apps /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build/apps/CMakeFiles/pygen_apps_9a6dd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/apps /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build/apps /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build/apps/CMakeFiles/pygen_apps_9a6dd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/depend
 

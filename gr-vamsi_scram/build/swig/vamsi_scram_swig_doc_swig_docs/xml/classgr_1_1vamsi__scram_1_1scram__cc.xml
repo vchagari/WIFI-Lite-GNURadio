@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/include/vamsi_scram/scram_cc.h" line="39" column="1" bodyfile="/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/include/vamsi_scram/scram_cc.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/intel-nuc/My-Blocks/gr-vamsi_scram/include/vamsi_scram/scram_cc.h" line="39" column="1" bodyfile="/home/intel-nuc/My-Blocks/gr-vamsi_scram/include/vamsi_scram/scram_cc.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -31,7 +31,7 @@
 <para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1vamsi__scram_1_1scram__cc" kindref="compound">vamsi_scram::scram_cc</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1vamsi__scram_1_1scram__cc_1a2bec38f1db74f57b99c031f33eb26ffc" kindref="member">vamsi_scram::scram_cc::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/include/vamsi_scram/scram_cc.h" line="49" column="1"/>
+        <location file="/home/intel-nuc/My-Blocks/gr-vamsi_scram/include/vamsi_scram/scram_cc.h" line="49" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -60,7 +60,7 @@
         <label>gr::block</label>
       </node>
     </collaborationgraph>
-    <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/include/vamsi_scram/scram_cc.h" line="37" column="1" bodyfile="/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/include/vamsi_scram/scram_cc.h" bodystart="36" bodyend="50"/>
+    <location file="/home/intel-nuc/My-Blocks/gr-vamsi_scram/include/vamsi_scram/scram_cc.h" line="37" column="1" bodyfile="/home/intel-nuc/My-Blocks/gr-vamsi_scram/include/vamsi_scram/scram_cc.h" bodystart="36" bodyend="50"/>
     <listofallmembers>
       <member refid="classgr_1_1vamsi__scram_1_1scram__cc_1a2bec38f1db74f57b99c031f33eb26ffc" prot="public" virt="non-virtual"><scope>gr::vamsi_scram::scram_cc</scope><name>make</name></member>
       <member refid="classgr_1_1vamsi__scram_1_1scram__cc_1a7d7c6f3fe4142cff8f9e82ccb50929b7" prot="public" virt="non-virtual"><scope>gr::vamsi_scram::scram_cc</scope><name>sptr</name></member>

@@ -16,9 +16,9 @@ gnuradio/block.h
 gnuradio/attributes.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/Viterbi_vamsi_cc_impl.cc
+/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/Viterbi_vamsi_cc_impl.cc
 config.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/config.h
+/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/config.h
 stdio.h
 -
 stdlib.h
@@ -26,21 +26,21 @@ stdlib.h
 assert.h
 -
 common.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/common.h
+/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/common.h
 gnuradio/io_signature.h
 -
 Viterbi_vamsi_cc_impl.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/Viterbi_vamsi_cc_impl.h
+/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/Viterbi_vamsi_cc_impl.h
 viterbi.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/viterbi.h
+/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/viterbi.h
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/Viterbi_vamsi_cc_impl.h
+/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/Viterbi_vamsi_cc_impl.h
 Viterbi_Encoder/Viterbi_vamsi_cc.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/common.h
+/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/common.h
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/viterbi.h
+/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/viterbi.h
 
 /usr/local/include/gnuradio/api.h
 gnuradio/attributes.h

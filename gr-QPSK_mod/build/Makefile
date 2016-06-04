@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-QPSK_mod
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-QPSK_mod/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,9 +120,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/CMakeFiles /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-QPSK_mod/build/CMakeFiles /home/intel-nuc/My-Blocks/gr-QPSK_mod/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-QPSK_mod/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -228,30 +228,30 @@ _QPSK_mod_swig_swig_tag/fast:
 .PHONY : _QPSK_mod_swig_swig_tag/fast
 
 #=============================================================================
-# Target rules for targets named pygen_swig_acf07
+# Target rules for targets named pygen_swig_0bc29
 
 # Build rule for target.
-pygen_swig_acf07: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pygen_swig_acf07
-.PHONY : pygen_swig_acf07
+pygen_swig_0bc29: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pygen_swig_0bc29
+.PHONY : pygen_swig_0bc29
 
 # fast build rule for target.
-pygen_swig_acf07/fast:
-	$(MAKE) -f swig/CMakeFiles/pygen_swig_acf07.dir/build.make swig/CMakeFiles/pygen_swig_acf07.dir/build
-.PHONY : pygen_swig_acf07/fast
+pygen_swig_0bc29/fast:
+	$(MAKE) -f swig/CMakeFiles/pygen_swig_0bc29.dir/build.make swig/CMakeFiles/pygen_swig_0bc29.dir/build
+.PHONY : pygen_swig_0bc29/fast
 
 #=============================================================================
-# Target rules for targets named pygen_python_60dd5
+# Target rules for targets named pygen_python_54e62
 
 # Build rule for target.
-pygen_python_60dd5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pygen_python_60dd5
-.PHONY : pygen_python_60dd5
+pygen_python_54e62: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pygen_python_54e62
+.PHONY : pygen_python_54e62
 
 # fast build rule for target.
-pygen_python_60dd5/fast:
-	$(MAKE) -f python/CMakeFiles/pygen_python_60dd5.dir/build.make python/CMakeFiles/pygen_python_60dd5.dir/build
-.PHONY : pygen_python_60dd5/fast
+pygen_python_54e62/fast:
+	$(MAKE) -f python/CMakeFiles/pygen_python_54e62.dir/build.make python/CMakeFiles/pygen_python_54e62.dir/build
+.PHONY : pygen_python_54e62/fast
 
 #=============================================================================
 # Target rules for targets named pygen_apps_9a6dd
@@ -285,8 +285,8 @@ help:
 	@echo "... _QPSK_mod_swig"
 	@echo "... _QPSK_mod_swig_doc_tag"
 	@echo "... _QPSK_mod_swig_swig_tag"
-	@echo "... pygen_swig_acf07"
-	@echo "... pygen_python_60dd5"
+	@echo "... pygen_swig_0bc29"
+	@echo "... pygen_python_54e62"
 	@echo "... pygen_apps_9a6dd"
 .PHONY : help
 

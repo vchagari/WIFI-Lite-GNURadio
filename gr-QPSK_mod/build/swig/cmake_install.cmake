@@ -1,4 +1,4 @@
-# Install script for directory: /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/swig
+# Install script for directory: /home/intel-nuc/My-Blocks/gr-QPSK_mod/swig
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/QPSK_mod/_QPSK_mod_swig.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/QPSK_mod" TYPE MODULE FILES "/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/swig/_QPSK_mod_swig.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/QPSK_mod" TYPE MODULE FILES "/home/intel-nuc/My-Blocks/gr-QPSK_mod/build/swig/_QPSK_mod_swig.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/QPSK_mod/_QPSK_mod_swig.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/QPSK_mod/_QPSK_mod_swig.so")
     FILE(RPATH_REMOVE
@@ -51,20 +51,20 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/QPSK_mod" TYPE FILE FILES "/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/swig/QPSK_mod_swig.py")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/QPSK_mod" TYPE FILE FILES "/home/intel-nuc/My-Blocks/gr-QPSK_mod/build/swig/QPSK_mod_swig.py")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/QPSK_mod" TYPE FILE FILES
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/swig/QPSK_mod_swig.pyc"
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/swig/QPSK_mod_swig.pyo"
+    "/home/intel-nuc/My-Blocks/gr-QPSK_mod/build/swig/QPSK_mod_swig.pyc"
+    "/home/intel-nuc/My-Blocks/gr-QPSK_mod/build/swig/QPSK_mod_swig.pyo"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/QPSK_mod/QPSK_mod/swig" TYPE FILE FILES
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/swig/QPSK_mod_swig.i"
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/swig/QPSK_mod_swig_doc.i"
+    "/home/intel-nuc/My-Blocks/gr-QPSK_mod/swig/QPSK_mod_swig.i"
+    "/home/intel-nuc/My-Blocks/gr-QPSK_mod/build/swig/QPSK_mod_swig_doc.i"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

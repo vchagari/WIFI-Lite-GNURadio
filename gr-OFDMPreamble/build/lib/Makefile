@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-OFDMPreamble
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/CMakeFiles /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/lib/CMakeFiles/progress.marks
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/CMakeFiles 0
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/CMakeFiles /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/lib/CMakeFiles/progress.marks
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/gnuradio-OFDMPreamble.dir/rule:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-OFDMPreamble.dir/rule
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-OFDMPreamble.dir/rule
 .PHONY : lib/CMakeFiles/gnuradio-OFDMPreamble.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ gnuradio-OFDMPreamble: lib/CMakeFiles/gnuradio-OFDMPreamble.dir/rule
 
 # fast build rule for target.
 gnuradio-OFDMPreamble/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/gnuradio-OFDMPreamble.dir/build.make lib/CMakeFiles/gnuradio-OFDMPreamble.dir/build
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/gnuradio-OFDMPreamble.dir/build.make lib/CMakeFiles/gnuradio-OFDMPreamble.dir/build
 .PHONY : gnuradio-OFDMPreamble/fast
 
 # Convenience name for target.
 lib/CMakeFiles/test-OFDMPreamble.dir/rule:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-OFDMPreamble.dir/rule
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-OFDMPreamble.dir/rule
 .PHONY : lib/CMakeFiles/test-OFDMPreamble.dir/rule
 
 # Convenience name for target.
@@ -174,7 +174,7 @@ test-OFDMPreamble: lib/CMakeFiles/test-OFDMPreamble.dir/rule
 
 # fast build rule for target.
 test-OFDMPreamble/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/build
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/build
 .PHONY : test-OFDMPreamble/fast
 
 qa_OFDMPreamble.o: qa_OFDMPreamble.cc.o
@@ -182,7 +182,7 @@ qa_OFDMPreamble.o: qa_OFDMPreamble.cc.o
 
 # target to build an object file
 qa_OFDMPreamble.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.o
 .PHONY : qa_OFDMPreamble.cc.o
 
 qa_OFDMPreamble.i: qa_OFDMPreamble.cc.i
@@ -190,7 +190,7 @@ qa_OFDMPreamble.i: qa_OFDMPreamble.cc.i
 
 # target to preprocess a source file
 qa_OFDMPreamble.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.i
 .PHONY : qa_OFDMPreamble.cc.i
 
 qa_OFDMPreamble.s: qa_OFDMPreamble.cc.s
@@ -198,7 +198,7 @@ qa_OFDMPreamble.s: qa_OFDMPreamble.cc.s
 
 # target to generate assembly for a file
 qa_OFDMPreamble.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.s
 .PHONY : qa_OFDMPreamble.cc.s
 
 qa_vamsi_OFDMPreamble_ff.o: qa_vamsi_OFDMPreamble_ff.cc.o
@@ -206,7 +206,7 @@ qa_vamsi_OFDMPreamble_ff.o: qa_vamsi_OFDMPreamble_ff.cc.o
 
 # target to build an object file
 qa_vamsi_OFDMPreamble_ff.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.o
 .PHONY : qa_vamsi_OFDMPreamble_ff.cc.o
 
 qa_vamsi_OFDMPreamble_ff.i: qa_vamsi_OFDMPreamble_ff.cc.i
@@ -214,7 +214,7 @@ qa_vamsi_OFDMPreamble_ff.i: qa_vamsi_OFDMPreamble_ff.cc.i
 
 # target to preprocess a source file
 qa_vamsi_OFDMPreamble_ff.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.i
 .PHONY : qa_vamsi_OFDMPreamble_ff.cc.i
 
 qa_vamsi_OFDMPreamble_ff.s: qa_vamsi_OFDMPreamble_ff.cc.s
@@ -222,7 +222,7 @@ qa_vamsi_OFDMPreamble_ff.s: qa_vamsi_OFDMPreamble_ff.cc.s
 
 # target to generate assembly for a file
 qa_vamsi_OFDMPreamble_ff.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.s
 .PHONY : qa_vamsi_OFDMPreamble_ff.cc.s
 
 test_OFDMPreamble.o: test_OFDMPreamble.cc.o
@@ -230,7 +230,7 @@ test_OFDMPreamble.o: test_OFDMPreamble.cc.o
 
 # target to build an object file
 test_OFDMPreamble.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.o
 .PHONY : test_OFDMPreamble.cc.o
 
 test_OFDMPreamble.i: test_OFDMPreamble.cc.i
@@ -238,7 +238,7 @@ test_OFDMPreamble.i: test_OFDMPreamble.cc.i
 
 # target to preprocess a source file
 test_OFDMPreamble.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.i
 .PHONY : test_OFDMPreamble.cc.i
 
 test_OFDMPreamble.s: test_OFDMPreamble.cc.s
@@ -246,7 +246,7 @@ test_OFDMPreamble.s: test_OFDMPreamble.cc.s
 
 # target to generate assembly for a file
 test_OFDMPreamble.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/test-OFDMPreamble.dir/build.make lib/CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.s
 .PHONY : test_OFDMPreamble.cc.s
 
 vamsi_OFDMPreamble_ff_impl.o: vamsi_OFDMPreamble_ff_impl.cc.o
@@ -254,7 +254,7 @@ vamsi_OFDMPreamble_ff_impl.o: vamsi_OFDMPreamble_ff_impl.cc.o
 
 # target to build an object file
 vamsi_OFDMPreamble_ff_impl.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/gnuradio-OFDMPreamble.dir/build.make lib/CMakeFiles/gnuradio-OFDMPreamble.dir/vamsi_OFDMPreamble_ff_impl.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/gnuradio-OFDMPreamble.dir/build.make lib/CMakeFiles/gnuradio-OFDMPreamble.dir/vamsi_OFDMPreamble_ff_impl.cc.o
 .PHONY : vamsi_OFDMPreamble_ff_impl.cc.o
 
 vamsi_OFDMPreamble_ff_impl.i: vamsi_OFDMPreamble_ff_impl.cc.i
@@ -262,7 +262,7 @@ vamsi_OFDMPreamble_ff_impl.i: vamsi_OFDMPreamble_ff_impl.cc.i
 
 # target to preprocess a source file
 vamsi_OFDMPreamble_ff_impl.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/gnuradio-OFDMPreamble.dir/build.make lib/CMakeFiles/gnuradio-OFDMPreamble.dir/vamsi_OFDMPreamble_ff_impl.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/gnuradio-OFDMPreamble.dir/build.make lib/CMakeFiles/gnuradio-OFDMPreamble.dir/vamsi_OFDMPreamble_ff_impl.cc.i
 .PHONY : vamsi_OFDMPreamble_ff_impl.cc.i
 
 vamsi_OFDMPreamble_ff_impl.s: vamsi_OFDMPreamble_ff_impl.cc.s
@@ -270,7 +270,7 @@ vamsi_OFDMPreamble_ff_impl.s: vamsi_OFDMPreamble_ff_impl.cc.s
 
 # target to generate assembly for a file
 vamsi_OFDMPreamble_ff_impl.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/gnuradio-OFDMPreamble.dir/build.make lib/CMakeFiles/gnuradio-OFDMPreamble.dir/vamsi_OFDMPreamble_ff_impl.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f lib/CMakeFiles/gnuradio-OFDMPreamble.dir/build.make lib/CMakeFiles/gnuradio-OFDMPreamble.dir/vamsi_OFDMPreamble_ff_impl.cc.s
 .PHONY : vamsi_OFDMPreamble_ff_impl.cc.s
 
 # Help Target
@@ -311,6 +311,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

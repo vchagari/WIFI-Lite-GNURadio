@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="dir_7bfefb76c74d934f20a2798b711a0d2f" kind="dir">
-    <compoundname>/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/include/OFDM_Cyclic_Prefix</compoundname>
+    <compoundname>/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/include/OFDM_Cyclic_Prefix</compoundname>
     <innerfile refid="api_8h">api.h</innerfile>
     <innerfile refid="vamsi__OFDMCP__ff_8h">vamsi_OFDMCP_ff.h</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/include/OFDM_Cyclic_Prefix/"/>
+    <location file="/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/include/OFDM_Cyclic_Prefix/"/>
   </compounddef>
 </doxygen>

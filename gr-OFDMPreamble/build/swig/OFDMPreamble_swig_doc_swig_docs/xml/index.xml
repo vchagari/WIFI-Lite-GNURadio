@@ -15,8 +15,8 @@
   </compound>
   <compound refid="vamsi__OFDMPreamble__ff_8h" kind="file"><name>vamsi_OFDMPreamble_ff.h</name>
   </compound>
-  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/include</name>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/intel-nuc/My-Blocks/gr-OFDMPreamble/include</name>
   </compound>
-  <compound refid="dir_ec538aac01ad45369d3277b72a1e30f4" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/include/OFDMPreamble</name>
+  <compound refid="dir_ec538aac01ad45369d3277b72a1e30f4" kind="dir"><name>/home/intel-nuc/My-Blocks/gr-OFDMPreamble/include/OFDMPreamble</name>
   </compound>
 </doxygenindex>

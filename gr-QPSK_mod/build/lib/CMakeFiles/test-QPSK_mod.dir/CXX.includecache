@@ -16,37 +16,37 @@ gnuradio/block.h
 gnuradio/attributes.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/lib/qa_QPSK_mod.cc
+/home/intel-nuc/My-Blocks/gr-QPSK_mod/lib/qa_QPSK_mod.cc
 qa_QPSK_mod.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/lib/qa_QPSK_mod.h
+/home/intel-nuc/My-Blocks/gr-QPSK_mod/lib/qa_QPSK_mod.h
 qa_Vamsi_QPSK_mod_cf.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/lib/qa_Vamsi_QPSK_mod_cf.h
+/home/intel-nuc/My-Blocks/gr-QPSK_mod/lib/qa_Vamsi_QPSK_mod_cf.h
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/lib/qa_QPSK_mod.h
+/home/intel-nuc/My-Blocks/gr-QPSK_mod/lib/qa_QPSK_mod.h
 gnuradio/attributes.h
 -
 cppunit/TestSuite.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/lib/qa_Vamsi_QPSK_mod_cf.cc
+/home/intel-nuc/My-Blocks/gr-QPSK_mod/lib/qa_Vamsi_QPSK_mod_cf.cc
 gnuradio/attributes.h
 -
 cppunit/TestAssert.h
 -
 qa_Vamsi_QPSK_mod_cf.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/lib/qa_Vamsi_QPSK_mod_cf.h
+/home/intel-nuc/My-Blocks/gr-QPSK_mod/lib/qa_Vamsi_QPSK_mod_cf.h
 QPSK_mod/Vamsi_QPSK_mod_cf.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/lib/qa_Vamsi_QPSK_mod_cf.h
+/home/intel-nuc/My-Blocks/gr-QPSK_mod/lib/qa_Vamsi_QPSK_mod_cf.h
 cppunit/extensions/HelperMacros.h
 -
 cppunit/TestCase.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/lib/test_QPSK_mod.cc
+/home/intel-nuc/My-Blocks/gr-QPSK_mod/lib/test_QPSK_mod.cc
 config.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/lib/config.h
+/home/intel-nuc/My-Blocks/gr-QPSK_mod/lib/config.h
 cppunit/TextTestRunner.h
 -
 cppunit/XmlOutputter.h
@@ -54,7 +54,7 @@ cppunit/XmlOutputter.h
 gnuradio/unittests.h
 -
 qa_QPSK_mod.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/lib/qa_QPSK_mod.h
+/home/intel-nuc/My-Blocks/gr-QPSK_mod/lib/qa_QPSK_mod.h
 iostream
 -
 

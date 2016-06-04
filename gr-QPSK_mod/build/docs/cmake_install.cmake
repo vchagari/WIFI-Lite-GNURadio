@@ -1,4 +1,4 @@
-# Install script for directory: /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/docs
+# Install script for directory: /home/intel-nuc/My-Blocks/gr-QPSK_mod/docs
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

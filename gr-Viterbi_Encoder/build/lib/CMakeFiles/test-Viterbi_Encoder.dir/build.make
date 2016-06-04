@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/test-Viterbi_Encoder.dir/depend.make
@@ -51,17 +51,17 @@ include lib/CMakeFiles/test-Viterbi_Encoder.dir/flags.make
 
 lib/CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.o: lib/CMakeFiles/test-Viterbi_Encoder.dir/flags.make
 lib/CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.o: ../lib/test_Viterbi_Encoder.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.o"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.o -c /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/test_Viterbi_Encoder.cc
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.o -c /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/test_Viterbi_Encoder.cc
 
 lib/CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.i"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/test_Viterbi_Encoder.cc > CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/test_Viterbi_Encoder.cc > CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.i
 
 lib/CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.s"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/test_Viterbi_Encoder.cc -o CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/test_Viterbi_Encoder.cc -o CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.s
 
 lib/CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.o.requires:
 .PHONY : lib/CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.o.requires
@@ -74,17 +74,17 @@ lib/CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.o.provides.build
 
 lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.o: lib/CMakeFiles/test-Viterbi_Encoder.dir/flags.make
 lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.o: ../lib/qa_Viterbi_Encoder.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.o"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.o -c /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/qa_Viterbi_Encoder.cc
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.o -c /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/qa_Viterbi_Encoder.cc
 
 lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.i"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/qa_Viterbi_Encoder.cc > CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/qa_Viterbi_Encoder.cc > CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.i
 
 lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.s"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/qa_Viterbi_Encoder.cc -o CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/qa_Viterbi_Encoder.cc -o CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.s
 
 lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.o.requires:
 .PHONY : lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.o.requires
@@ -97,17 +97,17 @@ lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.o.provides.build: 
 
 lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.o: lib/CMakeFiles/test-Viterbi_Encoder.dir/flags.make
 lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.o: ../lib/qa_Viterbi_vamsi_cc.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.o"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.o -c /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/qa_Viterbi_vamsi_cc.cc
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.o -c /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/qa_Viterbi_vamsi_cc.cc
 
 lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.i"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/qa_Viterbi_vamsi_cc.cc > CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/qa_Viterbi_vamsi_cc.cc > CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.i
 
 lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.s"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/qa_Viterbi_vamsi_cc.cc -o CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/qa_Viterbi_vamsi_cc.cc -o CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.s
 
 lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.o.requires:
 .PHONY : lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.o.requires
@@ -141,7 +141,7 @@ lib/test-Viterbi_Encoder: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 lib/test-Viterbi_Encoder: /usr/lib/x86_64-linux-gnu/libboost_system.so
 lib/test-Viterbi_Encoder: lib/CMakeFiles/test-Viterbi_Encoder.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable test-Viterbi_Encoder"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-Viterbi_Encoder.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-Viterbi_Encoder.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/test-Viterbi_Encoder.dir/build: lib/test-Viterbi_Encoder
@@ -153,10 +153,10 @@ lib/CMakeFiles/test-Viterbi_Encoder.dir/requires: lib/CMakeFiles/test-Viterbi_En
 .PHONY : lib/CMakeFiles/test-Viterbi_Encoder.dir/requires
 
 lib/CMakeFiles/test-Viterbi_Encoder.dir/clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/test-Viterbi_Encoder.dir/cmake_clean.cmake
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/test-Viterbi_Encoder.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/test-Viterbi_Encoder.dir/clean
 
 lib/CMakeFiles/test-Viterbi_Encoder.dir/depend:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/lib /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/lib/CMakeFiles/test-Viterbi_Encoder.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/lib /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/lib/CMakeFiles/test-Viterbi_Encoder.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMakeFiles/test-Viterbi_Encoder.dir/depend
 

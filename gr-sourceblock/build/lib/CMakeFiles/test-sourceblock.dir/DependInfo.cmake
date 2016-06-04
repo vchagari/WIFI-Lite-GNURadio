@@ -4,15 +4,15 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/qa_sourceblock.cc" "/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/lib/CMakeFiles/test-sourceblock.dir/qa_sourceblock.cc.o"
-  "/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/qa_vamsi_sourceblk_c.cc" "/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/lib/CMakeFiles/test-sourceblock.dir/qa_vamsi_sourceblk_c.cc.o"
-  "/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/test_sourceblock.cc" "/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/lib/CMakeFiles/test-sourceblock.dir/test_sourceblock.cc.o"
+  "/home/intel-nuc/My-Blocks/gr-sourceblock/lib/qa_sourceblock.cc" "/home/intel-nuc/My-Blocks/gr-sourceblock/build/lib/CMakeFiles/test-sourceblock.dir/qa_sourceblock.cc.o"
+  "/home/intel-nuc/My-Blocks/gr-sourceblock/lib/qa_vamsi_sourceblk_c.cc" "/home/intel-nuc/My-Blocks/gr-sourceblock/build/lib/CMakeFiles/test-sourceblock.dir/qa_vamsi_sourceblk_c.cc.o"
+  "/home/intel-nuc/My-Blocks/gr-sourceblock/lib/test_sourceblock.cc" "/home/intel-nuc/My-Blocks/gr-sourceblock/build/lib/CMakeFiles/test-sourceblock.dir/test_sourceblock.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/lib/CMakeFiles/gnuradio-sourceblock.dir/DependInfo.cmake"
+  "/home/intel-nuc/My-Blocks/gr-sourceblock/build/lib/CMakeFiles/gnuradio-sourceblock.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

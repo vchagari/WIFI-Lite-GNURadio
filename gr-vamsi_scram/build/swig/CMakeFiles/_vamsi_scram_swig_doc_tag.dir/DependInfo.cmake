@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig/_vamsi_scram_swig_doc_tag.cpp" "/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig/CMakeFiles/_vamsi_scram_swig_doc_tag.dir/_vamsi_scram_swig_doc_tag.cpp.o"
+  "/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig/_vamsi_scram_swig_doc_tag.cpp" "/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig/CMakeFiles/_vamsi_scram_swig_doc_tag.dir/_vamsi_scram_swig_doc_tag.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

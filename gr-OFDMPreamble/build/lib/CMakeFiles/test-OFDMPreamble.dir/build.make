@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-OFDMPreamble
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/test-OFDMPreamble.dir/depend.make
@@ -51,17 +51,17 @@ include lib/CMakeFiles/test-OFDMPreamble.dir/flags.make
 
 lib/CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.o: lib/CMakeFiles/test-OFDMPreamble.dir/flags.make
 lib/CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.o: ../lib/test_OFDMPreamble.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.o"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.o -c /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/test_OFDMPreamble.cc
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.o -c /home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/test_OFDMPreamble.cc
 
 lib/CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.i"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/test_OFDMPreamble.cc > CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/test_OFDMPreamble.cc > CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.i
 
 lib/CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.s"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/test_OFDMPreamble.cc -o CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/test_OFDMPreamble.cc -o CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.s
 
 lib/CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.o.requires:
 .PHONY : lib/CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.o.requires
@@ -74,17 +74,17 @@ lib/CMakeFiles/test-OFDMPreamble.dir/test_OFDMPreamble.cc.o.provides.build: lib/
 
 lib/CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.o: lib/CMakeFiles/test-OFDMPreamble.dir/flags.make
 lib/CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.o: ../lib/qa_OFDMPreamble.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.o"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.o -c /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/qa_OFDMPreamble.cc
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.o -c /home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/qa_OFDMPreamble.cc
 
 lib/CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.i"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/qa_OFDMPreamble.cc > CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/qa_OFDMPreamble.cc > CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.i
 
 lib/CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.s"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/qa_OFDMPreamble.cc -o CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/qa_OFDMPreamble.cc -o CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.s
 
 lib/CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.o.requires:
 .PHONY : lib/CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.o.requires
@@ -97,17 +97,17 @@ lib/CMakeFiles/test-OFDMPreamble.dir/qa_OFDMPreamble.cc.o.provides.build: lib/CM
 
 lib/CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.o: lib/CMakeFiles/test-OFDMPreamble.dir/flags.make
 lib/CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.o: ../lib/qa_vamsi_OFDMPreamble_ff.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.o"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.o -c /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/qa_vamsi_OFDMPreamble_ff.cc
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.o -c /home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/qa_vamsi_OFDMPreamble_ff.cc
 
 lib/CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.i"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/qa_vamsi_OFDMPreamble_ff.cc > CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/qa_vamsi_OFDMPreamble_ff.cc > CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.i
 
 lib/CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.s"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/qa_vamsi_OFDMPreamble_ff.cc -o CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/qa_vamsi_OFDMPreamble_ff.cc -o CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.s
 
 lib/CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.o.requires:
 .PHONY : lib/CMakeFiles/test-OFDMPreamble.dir/qa_vamsi_OFDMPreamble_ff.cc.o.requires
@@ -143,7 +143,7 @@ lib/test-OFDMPreamble: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 lib/test-OFDMPreamble: /usr/lib/x86_64-linux-gnu/libboost_system.so
 lib/test-OFDMPreamble: lib/CMakeFiles/test-OFDMPreamble.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable test-OFDMPreamble"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-OFDMPreamble.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-OFDMPreamble.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/test-OFDMPreamble.dir/build: lib/test-OFDMPreamble
@@ -155,10 +155,10 @@ lib/CMakeFiles/test-OFDMPreamble.dir/requires: lib/CMakeFiles/test-OFDMPreamble.
 .PHONY : lib/CMakeFiles/test-OFDMPreamble.dir/requires
 
 lib/CMakeFiles/test-OFDMPreamble.dir/clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/test-OFDMPreamble.dir/cmake_clean.cmake
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/test-OFDMPreamble.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/test-OFDMPreamble.dir/clean
 
 lib/CMakeFiles/test-OFDMPreamble.dir/depend:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/lib /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/lib/CMakeFiles/test-OFDMPreamble.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/intel-nuc/My-Blocks/gr-OFDMPreamble /home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/lib /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/lib/CMakeFiles/test-OFDMPreamble.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMakeFiles/test-OFDMPreamble.dir/depend
 

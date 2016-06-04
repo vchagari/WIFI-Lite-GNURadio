@@ -1,4 +1,4 @@
-# Install script for directory: /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V
+# Install script for directory: /home/intel-nuc/My-Blocks/gr-IFFT_V
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,18 +33,18 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/IFFT_V" TYPE FILE FILES "/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/cmake/Modules/IFFT_VConfig.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/IFFT_V" TYPE FILE FILES "/home/intel-nuc/My-Blocks/gr-IFFT_V/cmake/Modules/IFFT_VConfig.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/include/IFFT_V/cmake_install.cmake")
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/lib/cmake_install.cmake")
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/swig/cmake_install.cmake")
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/python/cmake_install.cmake")
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/grc/cmake_install.cmake")
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/apps/cmake_install.cmake")
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/docs/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-IFFT_V/build/include/IFFT_V/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-IFFT_V/build/lib/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-IFFT_V/build/swig/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-IFFT_V/build/python/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-IFFT_V/build/grc/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-IFFT_V/build/apps/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-IFFT_V/build/docs/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -54,7 +54,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/intel-nuc/My-Blocks/gr-IFFT_V/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/intel-nuc/My-Blocks/gr-IFFT_V/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build/CMakeFiles /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build/lib/CMakeFiles/progress.marks
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build/CMakeFiles 0
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build/CMakeFiles /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build/lib/CMakeFiles/progress.marks
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/rule:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/rule
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/rule
 .PHONY : lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ gnuradio-OFDM_Cyclic_Prefix: lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/rule
 
 # fast build rule for target.
 gnuradio-OFDM_Cyclic_Prefix/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/build
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/build
 .PHONY : gnuradio-OFDM_Cyclic_Prefix/fast
 
 # Convenience name for target.
 lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/rule:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/rule
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/rule
 .PHONY : lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/rule
 
 # Convenience name for target.
@@ -174,7 +174,7 @@ test-OFDM_Cyclic_Prefix: lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/rule
 
 # fast build rule for target.
 test-OFDM_Cyclic_Prefix/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build
 .PHONY : test-OFDM_Cyclic_Prefix/fast
 
 qa_OFDM_Cyclic_Prefix.o: qa_OFDM_Cyclic_Prefix.cc.o
@@ -182,7 +182,7 @@ qa_OFDM_Cyclic_Prefix.o: qa_OFDM_Cyclic_Prefix.cc.o
 
 # target to build an object file
 qa_OFDM_Cyclic_Prefix.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/qa_OFDM_Cyclic_Prefix.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/qa_OFDM_Cyclic_Prefix.cc.o
 .PHONY : qa_OFDM_Cyclic_Prefix.cc.o
 
 qa_OFDM_Cyclic_Prefix.i: qa_OFDM_Cyclic_Prefix.cc.i
@@ -190,7 +190,7 @@ qa_OFDM_Cyclic_Prefix.i: qa_OFDM_Cyclic_Prefix.cc.i
 
 # target to preprocess a source file
 qa_OFDM_Cyclic_Prefix.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/qa_OFDM_Cyclic_Prefix.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/qa_OFDM_Cyclic_Prefix.cc.i
 .PHONY : qa_OFDM_Cyclic_Prefix.cc.i
 
 qa_OFDM_Cyclic_Prefix.s: qa_OFDM_Cyclic_Prefix.cc.s
@@ -198,7 +198,7 @@ qa_OFDM_Cyclic_Prefix.s: qa_OFDM_Cyclic_Prefix.cc.s
 
 # target to generate assembly for a file
 qa_OFDM_Cyclic_Prefix.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/qa_OFDM_Cyclic_Prefix.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/qa_OFDM_Cyclic_Prefix.cc.s
 .PHONY : qa_OFDM_Cyclic_Prefix.cc.s
 
 qa_vamsi_OFDMCP_ff.o: qa_vamsi_OFDMCP_ff.cc.o
@@ -206,7 +206,7 @@ qa_vamsi_OFDMCP_ff.o: qa_vamsi_OFDMCP_ff.cc.o
 
 # target to build an object file
 qa_vamsi_OFDMCP_ff.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/qa_vamsi_OFDMCP_ff.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/qa_vamsi_OFDMCP_ff.cc.o
 .PHONY : qa_vamsi_OFDMCP_ff.cc.o
 
 qa_vamsi_OFDMCP_ff.i: qa_vamsi_OFDMCP_ff.cc.i
@@ -214,7 +214,7 @@ qa_vamsi_OFDMCP_ff.i: qa_vamsi_OFDMCP_ff.cc.i
 
 # target to preprocess a source file
 qa_vamsi_OFDMCP_ff.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/qa_vamsi_OFDMCP_ff.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/qa_vamsi_OFDMCP_ff.cc.i
 .PHONY : qa_vamsi_OFDMCP_ff.cc.i
 
 qa_vamsi_OFDMCP_ff.s: qa_vamsi_OFDMCP_ff.cc.s
@@ -222,7 +222,7 @@ qa_vamsi_OFDMCP_ff.s: qa_vamsi_OFDMCP_ff.cc.s
 
 # target to generate assembly for a file
 qa_vamsi_OFDMCP_ff.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/qa_vamsi_OFDMCP_ff.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/qa_vamsi_OFDMCP_ff.cc.s
 .PHONY : qa_vamsi_OFDMCP_ff.cc.s
 
 test_OFDM_Cyclic_Prefix.o: test_OFDM_Cyclic_Prefix.cc.o
@@ -230,7 +230,7 @@ test_OFDM_Cyclic_Prefix.o: test_OFDM_Cyclic_Prefix.cc.o
 
 # target to build an object file
 test_OFDM_Cyclic_Prefix.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/test_OFDM_Cyclic_Prefix.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/test_OFDM_Cyclic_Prefix.cc.o
 .PHONY : test_OFDM_Cyclic_Prefix.cc.o
 
 test_OFDM_Cyclic_Prefix.i: test_OFDM_Cyclic_Prefix.cc.i
@@ -238,7 +238,7 @@ test_OFDM_Cyclic_Prefix.i: test_OFDM_Cyclic_Prefix.cc.i
 
 # target to preprocess a source file
 test_OFDM_Cyclic_Prefix.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/test_OFDM_Cyclic_Prefix.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/test_OFDM_Cyclic_Prefix.cc.i
 .PHONY : test_OFDM_Cyclic_Prefix.cc.i
 
 test_OFDM_Cyclic_Prefix.s: test_OFDM_Cyclic_Prefix.cc.s
@@ -246,7 +246,7 @@ test_OFDM_Cyclic_Prefix.s: test_OFDM_Cyclic_Prefix.cc.s
 
 # target to generate assembly for a file
 test_OFDM_Cyclic_Prefix.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/test_OFDM_Cyclic_Prefix.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/test-OFDM_Cyclic_Prefix.dir/test_OFDM_Cyclic_Prefix.cc.s
 .PHONY : test_OFDM_Cyclic_Prefix.cc.s
 
 vamsi_OFDMCP_ff_impl.o: vamsi_OFDMCP_ff_impl.cc.o
@@ -254,7 +254,7 @@ vamsi_OFDMCP_ff_impl.o: vamsi_OFDMCP_ff_impl.cc.o
 
 # target to build an object file
 vamsi_OFDMCP_ff_impl.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/vamsi_OFDMCP_ff_impl.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/vamsi_OFDMCP_ff_impl.cc.o
 .PHONY : vamsi_OFDMCP_ff_impl.cc.o
 
 vamsi_OFDMCP_ff_impl.i: vamsi_OFDMCP_ff_impl.cc.i
@@ -262,7 +262,7 @@ vamsi_OFDMCP_ff_impl.i: vamsi_OFDMCP_ff_impl.cc.i
 
 # target to preprocess a source file
 vamsi_OFDMCP_ff_impl.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/vamsi_OFDMCP_ff_impl.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/vamsi_OFDMCP_ff_impl.cc.i
 .PHONY : vamsi_OFDMCP_ff_impl.cc.i
 
 vamsi_OFDMCP_ff_impl.s: vamsi_OFDMCP_ff_impl.cc.s
@@ -270,7 +270,7 @@ vamsi_OFDMCP_ff_impl.s: vamsi_OFDMCP_ff_impl.cc.s
 
 # target to generate assembly for a file
 vamsi_OFDMCP_ff_impl.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/vamsi_OFDMCP_ff_impl.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(MAKE) -f lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/build.make lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/vamsi_OFDMCP_ff_impl.cc.s
 .PHONY : vamsi_OFDMCP_ff_impl.cc.s
 
 # Help Target
@@ -311,6 +311,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

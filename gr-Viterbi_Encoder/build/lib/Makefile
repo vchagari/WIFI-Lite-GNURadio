@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/CMakeFiles /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/lib/CMakeFiles/progress.marks
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/CMakeFiles 0
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/CMakeFiles /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/lib/CMakeFiles/progress.marks
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/rule:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/rule
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/rule
 .PHONY : lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ gnuradio-Viterbi_Encoder: lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/rule
 
 # fast build rule for target.
 gnuradio-Viterbi_Encoder/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/build.make lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/build
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/build.make lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/build
 .PHONY : gnuradio-Viterbi_Encoder/fast
 
 # Convenience name for target.
 lib/CMakeFiles/test-Viterbi_Encoder.dir/rule:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-Viterbi_Encoder.dir/rule
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-Viterbi_Encoder.dir/rule
 .PHONY : lib/CMakeFiles/test-Viterbi_Encoder.dir/rule
 
 # Convenience name for target.
@@ -174,7 +174,7 @@ test-Viterbi_Encoder: lib/CMakeFiles/test-Viterbi_Encoder.dir/rule
 
 # fast build rule for target.
 test-Viterbi_Encoder/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/build
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/build
 .PHONY : test-Viterbi_Encoder/fast
 
 Viterbi_vamsi_cc_impl.o: Viterbi_vamsi_cc_impl.cc.o
@@ -182,7 +182,7 @@ Viterbi_vamsi_cc_impl.o: Viterbi_vamsi_cc_impl.cc.o
 
 # target to build an object file
 Viterbi_vamsi_cc_impl.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/build.make lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/Viterbi_vamsi_cc_impl.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/build.make lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/Viterbi_vamsi_cc_impl.cc.o
 .PHONY : Viterbi_vamsi_cc_impl.cc.o
 
 Viterbi_vamsi_cc_impl.i: Viterbi_vamsi_cc_impl.cc.i
@@ -190,7 +190,7 @@ Viterbi_vamsi_cc_impl.i: Viterbi_vamsi_cc_impl.cc.i
 
 # target to preprocess a source file
 Viterbi_vamsi_cc_impl.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/build.make lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/Viterbi_vamsi_cc_impl.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/build.make lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/Viterbi_vamsi_cc_impl.cc.i
 .PHONY : Viterbi_vamsi_cc_impl.cc.i
 
 Viterbi_vamsi_cc_impl.s: Viterbi_vamsi_cc_impl.cc.s
@@ -198,7 +198,7 @@ Viterbi_vamsi_cc_impl.s: Viterbi_vamsi_cc_impl.cc.s
 
 # target to generate assembly for a file
 Viterbi_vamsi_cc_impl.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/build.make lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/Viterbi_vamsi_cc_impl.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/build.make lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/Viterbi_vamsi_cc_impl.cc.s
 .PHONY : Viterbi_vamsi_cc_impl.cc.s
 
 qa_Viterbi_Encoder.o: qa_Viterbi_Encoder.cc.o
@@ -206,7 +206,7 @@ qa_Viterbi_Encoder.o: qa_Viterbi_Encoder.cc.o
 
 # target to build an object file
 qa_Viterbi_Encoder.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.o
 .PHONY : qa_Viterbi_Encoder.cc.o
 
 qa_Viterbi_Encoder.i: qa_Viterbi_Encoder.cc.i
@@ -214,7 +214,7 @@ qa_Viterbi_Encoder.i: qa_Viterbi_Encoder.cc.i
 
 # target to preprocess a source file
 qa_Viterbi_Encoder.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.i
 .PHONY : qa_Viterbi_Encoder.cc.i
 
 qa_Viterbi_Encoder.s: qa_Viterbi_Encoder.cc.s
@@ -222,7 +222,7 @@ qa_Viterbi_Encoder.s: qa_Viterbi_Encoder.cc.s
 
 # target to generate assembly for a file
 qa_Viterbi_Encoder.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_Encoder.cc.s
 .PHONY : qa_Viterbi_Encoder.cc.s
 
 qa_Viterbi_vamsi_cc.o: qa_Viterbi_vamsi_cc.cc.o
@@ -230,7 +230,7 @@ qa_Viterbi_vamsi_cc.o: qa_Viterbi_vamsi_cc.cc.o
 
 # target to build an object file
 qa_Viterbi_vamsi_cc.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.o
 .PHONY : qa_Viterbi_vamsi_cc.cc.o
 
 qa_Viterbi_vamsi_cc.i: qa_Viterbi_vamsi_cc.cc.i
@@ -238,7 +238,7 @@ qa_Viterbi_vamsi_cc.i: qa_Viterbi_vamsi_cc.cc.i
 
 # target to preprocess a source file
 qa_Viterbi_vamsi_cc.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.i
 .PHONY : qa_Viterbi_vamsi_cc.cc.i
 
 qa_Viterbi_vamsi_cc.s: qa_Viterbi_vamsi_cc.cc.s
@@ -246,7 +246,7 @@ qa_Viterbi_vamsi_cc.s: qa_Viterbi_vamsi_cc.cc.s
 
 # target to generate assembly for a file
 qa_Viterbi_vamsi_cc.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/qa_Viterbi_vamsi_cc.cc.s
 .PHONY : qa_Viterbi_vamsi_cc.cc.s
 
 test_Viterbi_Encoder.o: test_Viterbi_Encoder.cc.o
@@ -254,7 +254,7 @@ test_Viterbi_Encoder.o: test_Viterbi_Encoder.cc.o
 
 # target to build an object file
 test_Viterbi_Encoder.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.o
 .PHONY : test_Viterbi_Encoder.cc.o
 
 test_Viterbi_Encoder.i: test_Viterbi_Encoder.cc.i
@@ -262,7 +262,7 @@ test_Viterbi_Encoder.i: test_Viterbi_Encoder.cc.i
 
 # target to preprocess a source file
 test_Viterbi_Encoder.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.i
 .PHONY : test_Viterbi_Encoder.cc.i
 
 test_Viterbi_Encoder.s: test_Viterbi_Encoder.cc.s
@@ -270,7 +270,7 @@ test_Viterbi_Encoder.s: test_Viterbi_Encoder.cc.s
 
 # target to generate assembly for a file
 test_Viterbi_Encoder.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(MAKE) -f lib/CMakeFiles/test-Viterbi_Encoder.dir/build.make lib/CMakeFiles/test-Viterbi_Encoder.dir/test_Viterbi_Encoder.cc.s
 .PHONY : test_Viterbi_Encoder.cc.s
 
 # Help Target
@@ -311,6 +311,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

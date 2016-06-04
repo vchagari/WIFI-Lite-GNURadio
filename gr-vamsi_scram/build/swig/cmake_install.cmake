@@ -1,4 +1,4 @@
-# Install script for directory: /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/swig
+# Install script for directory: /home/intel-nuc/My-Blocks/gr-vamsi_scram/swig
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/vamsi_scram/_vamsi_scram_swig.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/vamsi_scram" TYPE MODULE FILES "/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig/_vamsi_scram_swig.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/vamsi_scram" TYPE MODULE FILES "/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig/_vamsi_scram_swig.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/vamsi_scram/_vamsi_scram_swig.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/vamsi_scram/_vamsi_scram_swig.so")
     FILE(RPATH_REMOVE
@@ -51,20 +51,20 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/vamsi_scram" TYPE FILE FILES "/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swig.py")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/vamsi_scram" TYPE FILE FILES "/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swig.py")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/vamsi_scram" TYPE FILE FILES
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swig.pyc"
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swig.pyo"
+    "/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swig.pyc"
+    "/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swig.pyo"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/vamsi_scram/vamsi_scram/swig" TYPE FILE FILES
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/swig/vamsi_scram_swig.i"
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swig_doc.i"
+    "/home/intel-nuc/My-Blocks/gr-vamsi_scram/swig/vamsi_scram_swig.i"
+    "/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swig_doc.i"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="dir_d44c64559bbebec7f509842c48db8b23" kind="dir">
-    <compoundname>/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/include</compoundname>
-    <innerdir refid="dir_149e37bd327586c525869edcea50501f">/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/include/IFFT_V</innerdir>
+    <compoundname>/home/intel-nuc/My-Blocks/gr-IFFT_V/include</compoundname>
+    <innerdir refid="dir_149e37bd327586c525869edcea50501f">/home/intel-nuc/My-Blocks/gr-IFFT_V/include/IFFT_V</innerdir>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/include/"/>
+    <location file="/home/intel-nuc/My-Blocks/gr-IFFT_V/include/"/>
   </compounddef>
 </doxygen>

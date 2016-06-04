@@ -4,8 +4,8 @@
 lib/CMakeFiles/gnuradio-sourceblock.dir/vamsi_sourceblk_c_impl.cc.o
  ../include/sourceblock/api.h
  ../include/sourceblock/vamsi_sourceblk_c.h
- /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/vamsi_sourceblk_c_impl.cc
- /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/vamsi_sourceblk_c_impl.h
+ /home/intel-nuc/My-Blocks/gr-sourceblock/lib/vamsi_sourceblk_c_impl.cc
+ /home/intel-nuc/My-Blocks/gr-sourceblock/lib/vamsi_sourceblk_c_impl.h
  /usr/local/include/gnuradio/api.h
  /usr/local/include/gnuradio/attributes.h
  /usr/local/include/gnuradio/basic_block.h

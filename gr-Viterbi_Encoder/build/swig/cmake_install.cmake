@@ -1,4 +1,4 @@
-# Install script for directory: /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/swig
+# Install script for directory: /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/swig
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/Viterbi_Encoder/_Viterbi_Encoder_swig.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/Viterbi_Encoder" TYPE MODULE FILES "/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/swig/_Viterbi_Encoder_swig.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/Viterbi_Encoder" TYPE MODULE FILES "/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/swig/_Viterbi_Encoder_swig.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/Viterbi_Encoder/_Viterbi_Encoder_swig.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/Viterbi_Encoder/_Viterbi_Encoder_swig.so")
     FILE(RPATH_REMOVE
@@ -51,20 +51,20 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/Viterbi_Encoder" TYPE FILE FILES "/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/swig/Viterbi_Encoder_swig.py")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/Viterbi_Encoder" TYPE FILE FILES "/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/swig/Viterbi_Encoder_swig.py")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/Viterbi_Encoder" TYPE FILE FILES
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/swig/Viterbi_Encoder_swig.pyc"
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/swig/Viterbi_Encoder_swig.pyo"
+    "/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/swig/Viterbi_Encoder_swig.pyc"
+    "/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/swig/Viterbi_Encoder_swig.pyo"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/Viterbi_Encoder/Viterbi_Encoder/swig" TYPE FILE FILES
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/swig/Viterbi_Encoder_swig.i"
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/swig/Viterbi_Encoder_swig_doc.i"
+    "/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/swig/Viterbi_Encoder_swig.i"
+    "/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/swig/Viterbi_Encoder_swig_doc.i"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

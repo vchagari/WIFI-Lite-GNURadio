@@ -15,8 +15,8 @@
   </compound>
   <compound refid="vamsi__sourceblk__c_8h" kind="file"><name>vamsi_sourceblk_c.h</name>
   </compound>
-  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/include</name>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/intel-nuc/My-Blocks/gr-sourceblock/include</name>
   </compound>
-  <compound refid="dir_e96ab4e01cc1ec23f100f48c12352883" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/include/sourceblock</name>
+  <compound refid="dir_e96ab4e01cc1ec23f100f48c12352883" kind="dir"><name>/home/intel-nuc/My-Blocks/gr-sourceblock/include/sourceblock</name>
   </compound>
 </doxygenindex>

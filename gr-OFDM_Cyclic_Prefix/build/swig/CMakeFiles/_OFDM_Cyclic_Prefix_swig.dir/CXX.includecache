@@ -16,7 +16,7 @@ OFDM_Cyclic_Prefix/api.h
 gnuradio/block.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build/swig/OFDM_Cyclic_Prefix_swigPYTHON_wrap.cxx
+/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build/swig/OFDM_Cyclic_Prefix_swigPYTHON_wrap.cxx
 Python.h
 -
 Python.h
@@ -28,7 +28,7 @@ stdexcept
 string
 -
 gnuradio_swig_bug_workaround.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build/swig/gnuradio_swig_bug_workaround.h
+/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build/swig/gnuradio_swig_bug_workaround.h
 cstddef
 -
 stdexcept
@@ -60,7 +60,7 @@ gnuradio/high_res_timer.h
 limits.h
 -
 OFDM_Cyclic_Prefix/vamsi_OFDMCP_ff.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build/swig/OFDM_Cyclic_Prefix/vamsi_OFDMCP_ff.h
+/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build/swig/OFDM_Cyclic_Prefix/vamsi_OFDMCP_ff.h
 float.h
 -
 math.h

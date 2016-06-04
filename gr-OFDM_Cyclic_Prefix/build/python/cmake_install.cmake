@@ -1,4 +1,4 @@
-# Install script for directory: /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/python
+# Install script for directory: /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/python
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,13 +33,13 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/OFDM_Cyclic_Prefix" TYPE FILE FILES "/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/python/__init__.py")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/OFDM_Cyclic_Prefix" TYPE FILE FILES "/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/python/__init__.py")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/OFDM_Cyclic_Prefix" TYPE FILE FILES
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build/python/__init__.pyc"
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build/python/__init__.pyo"
+    "/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build/python/__init__.pyc"
+    "/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build/python/__init__.pyo"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

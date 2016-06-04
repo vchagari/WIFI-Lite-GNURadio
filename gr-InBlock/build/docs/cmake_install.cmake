@@ -1,4 +1,4 @@
-# Install script for directory: /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/docs
+# Install script for directory: /home/intel-nuc/My-Blocks/gr-InBlock/docs
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/docs/doxygen/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-InBlock/build/docs/doxygen/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

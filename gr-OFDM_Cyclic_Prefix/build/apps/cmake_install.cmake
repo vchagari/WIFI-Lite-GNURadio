@@ -1,4 +1,4 @@
-# Install script for directory: /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/apps
+# Install script for directory: /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/apps
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

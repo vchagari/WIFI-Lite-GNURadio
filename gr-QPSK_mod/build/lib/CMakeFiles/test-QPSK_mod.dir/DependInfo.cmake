@@ -4,15 +4,15 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/lib/qa_QPSK_mod.cc" "/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/lib/CMakeFiles/test-QPSK_mod.dir/qa_QPSK_mod.cc.o"
-  "/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/lib/qa_Vamsi_QPSK_mod_cf.cc" "/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/lib/CMakeFiles/test-QPSK_mod.dir/qa_Vamsi_QPSK_mod_cf.cc.o"
-  "/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/lib/test_QPSK_mod.cc" "/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/lib/CMakeFiles/test-QPSK_mod.dir/test_QPSK_mod.cc.o"
+  "/home/intel-nuc/My-Blocks/gr-QPSK_mod/lib/qa_QPSK_mod.cc" "/home/intel-nuc/My-Blocks/gr-QPSK_mod/build/lib/CMakeFiles/test-QPSK_mod.dir/qa_QPSK_mod.cc.o"
+  "/home/intel-nuc/My-Blocks/gr-QPSK_mod/lib/qa_Vamsi_QPSK_mod_cf.cc" "/home/intel-nuc/My-Blocks/gr-QPSK_mod/build/lib/CMakeFiles/test-QPSK_mod.dir/qa_Vamsi_QPSK_mod_cf.cc.o"
+  "/home/intel-nuc/My-Blocks/gr-QPSK_mod/lib/test_QPSK_mod.cc" "/home/intel-nuc/My-Blocks/gr-QPSK_mod/build/lib/CMakeFiles/test-QPSK_mod.dir/test_QPSK_mod.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/lib/CMakeFiles/gnuradio-QPSK_mod.dir/DependInfo.cmake"
+  "/home/intel-nuc/My-Blocks/gr-QPSK_mod/build/lib/CMakeFiles/gnuradio-QPSK_mod.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

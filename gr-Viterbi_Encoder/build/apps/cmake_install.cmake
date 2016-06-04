@@ -1,4 +1,4 @@
-# Install script for directory: /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/apps
+# Install script for directory: /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/apps
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

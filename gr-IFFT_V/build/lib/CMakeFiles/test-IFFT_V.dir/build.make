@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-IFFT_V
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-IFFT_V/build
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/test-IFFT_V.dir/depend.make
@@ -51,17 +51,17 @@ include lib/CMakeFiles/test-IFFT_V.dir/flags.make
 
 lib/CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.o: lib/CMakeFiles/test-IFFT_V.dir/flags.make
 lib/CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.o: ../lib/test_IFFT_V.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-IFFT_V/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.o"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.o -c /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/test_IFFT_V.cc
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.o -c /home/intel-nuc/My-Blocks/gr-IFFT_V/lib/test_IFFT_V.cc
 
 lib/CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.i"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/test_IFFT_V.cc > CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/intel-nuc/My-Blocks/gr-IFFT_V/lib/test_IFFT_V.cc > CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.i
 
 lib/CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.s"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/test_IFFT_V.cc -o CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/intel-nuc/My-Blocks/gr-IFFT_V/lib/test_IFFT_V.cc -o CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.s
 
 lib/CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.o.requires:
 .PHONY : lib/CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.o.requires
@@ -74,17 +74,17 @@ lib/CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.o.provides.build: lib/CMakeFiles/t
 
 lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.o: lib/CMakeFiles/test-IFFT_V.dir/flags.make
 lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.o: ../lib/qa_IFFT_V.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-IFFT_V/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.o"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.o -c /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/qa_IFFT_V.cc
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.o -c /home/intel-nuc/My-Blocks/gr-IFFT_V/lib/qa_IFFT_V.cc
 
 lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.i"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/qa_IFFT_V.cc > CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/intel-nuc/My-Blocks/gr-IFFT_V/lib/qa_IFFT_V.cc > CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.i
 
 lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.s"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/qa_IFFT_V.cc -o CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/intel-nuc/My-Blocks/gr-IFFT_V/lib/qa_IFFT_V.cc -o CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.s
 
 lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.o.requires:
 .PHONY : lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.o.requires
@@ -97,17 +97,17 @@ lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.o.provides.build: lib/CMakeFiles/tes
 
 lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.o: lib/CMakeFiles/test-IFFT_V.dir/flags.make
 lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.o: ../lib/qa_IFFT_ff.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-IFFT_V/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.o"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.o -c /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/qa_IFFT_ff.cc
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.o -c /home/intel-nuc/My-Blocks/gr-IFFT_V/lib/qa_IFFT_ff.cc
 
 lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.i"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/qa_IFFT_ff.cc > CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/intel-nuc/My-Blocks/gr-IFFT_V/lib/qa_IFFT_ff.cc > CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.i
 
 lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.s"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/qa_IFFT_ff.cc -o CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/intel-nuc/My-Blocks/gr-IFFT_V/lib/qa_IFFT_ff.cc -o CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.s
 
 lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.o.requires:
 .PHONY : lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.o.requires
@@ -141,7 +141,7 @@ lib/test-IFFT_V: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 lib/test-IFFT_V: /usr/lib/x86_64-linux-gnu/libboost_system.so
 lib/test-IFFT_V: lib/CMakeFiles/test-IFFT_V.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable test-IFFT_V"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-IFFT_V.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-IFFT_V.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/test-IFFT_V.dir/build: lib/test-IFFT_V
@@ -153,10 +153,10 @@ lib/CMakeFiles/test-IFFT_V.dir/requires: lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_
 .PHONY : lib/CMakeFiles/test-IFFT_V.dir/requires
 
 lib/CMakeFiles/test-IFFT_V.dir/clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/test-IFFT_V.dir/cmake_clean.cmake
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/test-IFFT_V.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/test-IFFT_V.dir/clean
 
 lib/CMakeFiles/test-IFFT_V.dir/depend:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/lib /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/lib/CMakeFiles/test-IFFT_V.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/intel-nuc/My-Blocks/gr-IFFT_V /home/intel-nuc/My-Blocks/gr-IFFT_V/lib /home/intel-nuc/My-Blocks/gr-IFFT_V/build /home/intel-nuc/My-Blocks/gr-IFFT_V/build/lib /home/intel-nuc/My-Blocks/gr-IFFT_V/build/lib/CMakeFiles/test-IFFT_V.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMakeFiles/test-IFFT_V.dir/depend
 

@@ -16,19 +16,19 @@ gnuradio/block.h
 gnuradio/attributes.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/lib/Vamsi_QPSK_mod_cf_impl.cc
+/home/intel-nuc/My-Blocks/gr-QPSK_mod/lib/Vamsi_QPSK_mod_cf_impl.cc
 stdio.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/lib/stdio.h
+/home/intel-nuc/My-Blocks/gr-QPSK_mod/lib/stdio.h
 stdlib.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/lib/stdlib.h
+/home/intel-nuc/My-Blocks/gr-QPSK_mod/lib/stdlib.h
 config.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/lib/config.h
+/home/intel-nuc/My-Blocks/gr-QPSK_mod/lib/config.h
 gnuradio/io_signature.h
 -
 Vamsi_QPSK_mod_cf_impl.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/lib/Vamsi_QPSK_mod_cf_impl.h
+/home/intel-nuc/My-Blocks/gr-QPSK_mod/lib/Vamsi_QPSK_mod_cf_impl.h
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/lib/Vamsi_QPSK_mod_cf_impl.h
+/home/intel-nuc/My-Blocks/gr-QPSK_mod/lib/Vamsi_QPSK_mod_cf_impl.h
 QPSK_mod/Vamsi_QPSK_mod_cf.h
 -
 

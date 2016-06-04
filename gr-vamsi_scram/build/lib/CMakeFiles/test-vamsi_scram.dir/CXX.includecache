@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/lib/qa_vamsi_scram.cc
+/home/intel-nuc/My-Blocks/gr-vamsi_scram/lib/qa_vamsi_scram.cc
 qa_vamsi_scram.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/lib/qa_vamsi_scram.h
+/home/intel-nuc/My-Blocks/gr-vamsi_scram/lib/qa_vamsi_scram.h
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/lib/qa_vamsi_scram.h
+/home/intel-nuc/My-Blocks/gr-vamsi_scram/lib/qa_vamsi_scram.h
 gnuradio/attributes.h
 -
 cppunit/TestSuite.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/lib/test_vamsi_scram.cc
+/home/intel-nuc/My-Blocks/gr-vamsi_scram/lib/test_vamsi_scram.cc
 config.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/lib/config.h
+/home/intel-nuc/My-Blocks/gr-vamsi_scram/lib/config.h
 cppunit/TextTestRunner.h
 -
 cppunit/XmlOutputter.h
@@ -26,7 +26,7 @@ cppunit/XmlOutputter.h
 gnuradio/unittests.h
 -
 qa_vamsi_scram.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/lib/qa_vamsi_scram.h
+/home/intel-nuc/My-Blocks/gr-vamsi_scram/lib/qa_vamsi_scram.h
 iostream
 -
 

@@ -1,10 +1,10 @@
 # http://www.vtk.org/Wiki/CMake_FAQ#Can_I_do_.22make_uninstall.22_with_CMake.3F
 
-IF(NOT EXISTS "/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build/install_manifest.txt")
-  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build/install_manifest.txt\"")
-ENDIF(NOT EXISTS "/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build/install_manifest.txt")
+IF(NOT EXISTS "/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build/install_manifest.txt")
+  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build/install_manifest.txt\"")
+ENDIF(NOT EXISTS "/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build/install_manifest.txt")
 
-FILE(READ "/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build/install_manifest.txt" files)
+FILE(READ "/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build/install_manifest.txt" files)
 STRING(REGEX REPLACE "\n" ";" files "${files}")
 FOREACH(file ${files})
   MESSAGE(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")

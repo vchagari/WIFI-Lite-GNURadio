@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-sourceblock
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-sourceblock/build
 
 # Utility rule file for doxygen_target.
 
@@ -49,9 +49,9 @@ docs/doxygen/CMakeFiles/doxygen_target: docs/doxygen/xml
 docs/doxygen/CMakeFiles/doxygen_target: docs/doxygen/html
 
 docs/doxygen/xml:
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-sourceblock/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating documentation with doxygen"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/docs/doxygen && /usr/bin/doxygen /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/docs/doxygen/Doxyfile
+	cd /home/intel-nuc/My-Blocks/gr-sourceblock/build/docs/doxygen && /usr/bin/doxygen /home/intel-nuc/My-Blocks/gr-sourceblock/build/docs/doxygen/Doxyfile
 
 docs/doxygen/html: docs/doxygen/xml
 
@@ -66,10 +66,10 @@ docs/doxygen/CMakeFiles/doxygen_target.dir/build: doxygen_target
 .PHONY : docs/doxygen/CMakeFiles/doxygen_target.dir/build
 
 docs/doxygen/CMakeFiles/doxygen_target.dir/clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/docs/doxygen && $(CMAKE_COMMAND) -P CMakeFiles/doxygen_target.dir/cmake_clean.cmake
+	cd /home/intel-nuc/My-Blocks/gr-sourceblock/build/docs/doxygen && $(CMAKE_COMMAND) -P CMakeFiles/doxygen_target.dir/cmake_clean.cmake
 .PHONY : docs/doxygen/CMakeFiles/doxygen_target.dir/clean
 
 docs/doxygen/CMakeFiles/doxygen_target.dir/depend:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/docs/doxygen /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/docs/doxygen /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/docs/doxygen/CMakeFiles/doxygen_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/intel-nuc/My-Blocks/gr-sourceblock/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/intel-nuc/My-Blocks/gr-sourceblock /home/intel-nuc/My-Blocks/gr-sourceblock/docs/doxygen /home/intel-nuc/My-Blocks/gr-sourceblock/build /home/intel-nuc/My-Blocks/gr-sourceblock/build/docs/doxygen /home/intel-nuc/My-Blocks/gr-sourceblock/build/docs/doxygen/CMakeFiles/doxygen_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : docs/doxygen/CMakeFiles/doxygen_target.dir/depend
 

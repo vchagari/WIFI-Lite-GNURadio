@@ -16,37 +16,37 @@ sourceblock/api.h
 gnuradio/sync_block.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/qa_sourceblock.cc
+/home/intel-nuc/My-Blocks/gr-sourceblock/lib/qa_sourceblock.cc
 qa_sourceblock.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/qa_sourceblock.h
+/home/intel-nuc/My-Blocks/gr-sourceblock/lib/qa_sourceblock.h
 qa_vamsi_sourceblk_c.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/qa_vamsi_sourceblk_c.h
+/home/intel-nuc/My-Blocks/gr-sourceblock/lib/qa_vamsi_sourceblk_c.h
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/qa_sourceblock.h
+/home/intel-nuc/My-Blocks/gr-sourceblock/lib/qa_sourceblock.h
 gnuradio/attributes.h
 -
 cppunit/TestSuite.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/qa_vamsi_sourceblk_c.cc
+/home/intel-nuc/My-Blocks/gr-sourceblock/lib/qa_vamsi_sourceblk_c.cc
 gnuradio/attributes.h
 -
 cppunit/TestAssert.h
 -
 qa_vamsi_sourceblk_c.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/qa_vamsi_sourceblk_c.h
+/home/intel-nuc/My-Blocks/gr-sourceblock/lib/qa_vamsi_sourceblk_c.h
 sourceblock/vamsi_sourceblk_c.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/qa_vamsi_sourceblk_c.h
+/home/intel-nuc/My-Blocks/gr-sourceblock/lib/qa_vamsi_sourceblk_c.h
 cppunit/extensions/HelperMacros.h
 -
 cppunit/TestCase.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/test_sourceblock.cc
+/home/intel-nuc/My-Blocks/gr-sourceblock/lib/test_sourceblock.cc
 config.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/config.h
+/home/intel-nuc/My-Blocks/gr-sourceblock/lib/config.h
 cppunit/TextTestRunner.h
 -
 cppunit/XmlOutputter.h
@@ -54,7 +54,7 @@ cppunit/XmlOutputter.h
 gnuradio/unittests.h
 -
 qa_sourceblock.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/qa_sourceblock.h
+/home/intel-nuc/My-Blocks/gr-sourceblock/lib/qa_sourceblock.h
 iostream
 -
 fstream

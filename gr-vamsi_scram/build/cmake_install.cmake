@@ -1,4 +1,4 @@
-# Install script for directory: /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram
+# Install script for directory: /home/intel-nuc/My-Blocks/gr-vamsi_scram
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,18 +33,18 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/vamsi_scram" TYPE FILE FILES "/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/cmake/Modules/vamsi_scramConfig.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/vamsi_scram" TYPE FILE FILES "/home/intel-nuc/My-Blocks/gr-vamsi_scram/cmake/Modules/vamsi_scramConfig.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/include/vamsi_scram/cmake_install.cmake")
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/lib/cmake_install.cmake")
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig/cmake_install.cmake")
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/python/cmake_install.cmake")
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/grc/cmake_install.cmake")
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/apps/cmake_install.cmake")
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/docs/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/include/vamsi_scram/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/lib/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/python/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/grc/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/apps/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/docs/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -54,7 +54,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

@@ -15,8 +15,8 @@
   </compound>
   <compound refid="Viterbi__vamsi__cc_8h" kind="file"><name>Viterbi_vamsi_cc.h</name>
   </compound>
-  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/include</name>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/include</name>
   </compound>
-  <compound refid="dir_76320e7082eee1c9694b461a9cca344e" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder</name>
+  <compound refid="dir_76320e7082eee1c9694b461a9cca344e" kind="dir"><name>/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder</name>
   </compound>
 </doxygenindex>

@@ -16,37 +16,37 @@ OFDMPreamble/api.h
 gnuradio/block.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/qa_OFDMPreamble.cc
+/home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/qa_OFDMPreamble.cc
 qa_OFDMPreamble.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/qa_OFDMPreamble.h
+/home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/qa_OFDMPreamble.h
 qa_vamsi_OFDMPreamble_ff.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/qa_vamsi_OFDMPreamble_ff.h
+/home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/qa_vamsi_OFDMPreamble_ff.h
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/qa_OFDMPreamble.h
+/home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/qa_OFDMPreamble.h
 gnuradio/attributes.h
 -
 cppunit/TestSuite.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/qa_vamsi_OFDMPreamble_ff.cc
+/home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/qa_vamsi_OFDMPreamble_ff.cc
 gnuradio/attributes.h
 -
 cppunit/TestAssert.h
 -
 qa_vamsi_OFDMPreamble_ff.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/qa_vamsi_OFDMPreamble_ff.h
+/home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/qa_vamsi_OFDMPreamble_ff.h
 OFDMPreamble/vamsi_OFDMPreamble_ff.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/qa_vamsi_OFDMPreamble_ff.h
+/home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/qa_vamsi_OFDMPreamble_ff.h
 cppunit/extensions/HelperMacros.h
 -
 cppunit/TestCase.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/test_OFDMPreamble.cc
+/home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/test_OFDMPreamble.cc
 config.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/config.h
+/home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/config.h
 cppunit/TextTestRunner.h
 -
 cppunit/XmlOutputter.h
@@ -54,7 +54,7 @@ cppunit/XmlOutputter.h
 gnuradio/unittests.h
 -
 qa_OFDMPreamble.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/qa_OFDMPreamble.h
+/home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/qa_OFDMPreamble.h
 iostream
 -
 fstream

@@ -15,8 +15,8 @@
   </compound>
   <compound refid="Vamsi__QPSK__mod__cf_8h" kind="file"><name>Vamsi_QPSK_mod_cf.h</name>
   </compound>
-  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/include</name>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/intel-nuc/My-Blocks/gr-QPSK_mod/include</name>
   </compound>
-  <compound refid="dir_30fdc28067a4e45250d5cfaf7ff0ee71" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/include/QPSK_mod</name>
+  <compound refid="dir_30fdc28067a4e45250d5cfaf7ff0ee71" kind="dir"><name>/home/intel-nuc/My-Blocks/gr-QPSK_mod/include/QPSK_mod</name>
   </compound>
 </doxygenindex>

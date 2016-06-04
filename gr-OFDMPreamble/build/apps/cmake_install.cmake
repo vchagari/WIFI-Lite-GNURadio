@@ -1,4 +1,4 @@
-# Install script for directory: /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/apps
+# Install script for directory: /home/intel-nuc/My-Blocks/gr-OFDMPreamble/apps
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

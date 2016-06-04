@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-OFDMPreamble
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/CMakeFiles /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/python/CMakeFiles/progress.marks
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 python/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/CMakeFiles 0
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/CMakeFiles /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/python/CMakeFiles/progress.marks
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 python/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 python/clean
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 python/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,32 +136,32 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 python/preinstall
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 python/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 python/preinstall
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 python/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-python/CMakeFiles/pygen_python_c7f7a.dir/rule:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 python/CMakeFiles/pygen_python_c7f7a.dir/rule
-.PHONY : python/CMakeFiles/pygen_python_c7f7a.dir/rule
+python/CMakeFiles/pygen_python_f4d84.dir/rule:
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f CMakeFiles/Makefile2 python/CMakeFiles/pygen_python_f4d84.dir/rule
+.PHONY : python/CMakeFiles/pygen_python_f4d84.dir/rule
 
 # Convenience name for target.
-pygen_python_c7f7a: python/CMakeFiles/pygen_python_c7f7a.dir/rule
-.PHONY : pygen_python_c7f7a
+pygen_python_f4d84: python/CMakeFiles/pygen_python_f4d84.dir/rule
+.PHONY : pygen_python_f4d84
 
 # fast build rule for target.
-pygen_python_c7f7a/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(MAKE) -f python/CMakeFiles/pygen_python_c7f7a.dir/build.make python/CMakeFiles/pygen_python_c7f7a.dir/build
-.PHONY : pygen_python_c7f7a/fast
+pygen_python_f4d84/fast:
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(MAKE) -f python/CMakeFiles/pygen_python_f4d84.dir/build.make python/CMakeFiles/pygen_python_f4d84.dir/build
+.PHONY : pygen_python_f4d84/fast
 
 # Help Target
 help:
@@ -174,7 +174,7 @@ help:
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
-	@echo "... pygen_python_c7f7a"
+	@echo "... pygen_python_f4d84"
 	@echo "... rebuild_cache"
 	@echo "... test"
 .PHONY : help
@@ -188,6 +188,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

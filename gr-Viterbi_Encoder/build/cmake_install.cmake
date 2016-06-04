@@ -1,4 +1,4 @@
-# Install script for directory: /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder
+# Install script for directory: /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,18 +33,18 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Viterbi_Encoder" TYPE FILE FILES "/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/cmake/Modules/Viterbi_EncoderConfig.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/Viterbi_Encoder" TYPE FILE FILES "/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/cmake/Modules/Viterbi_EncoderConfig.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/include/Viterbi_Encoder/cmake_install.cmake")
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/lib/cmake_install.cmake")
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/swig/cmake_install.cmake")
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/python/cmake_install.cmake")
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/grc/cmake_install.cmake")
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/apps/cmake_install.cmake")
-  INCLUDE("/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/docs/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/include/Viterbi_Encoder/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/lib/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/swig/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/python/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/grc/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/apps/cmake_install.cmake")
+  INCLUDE("/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/docs/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -54,7 +54,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

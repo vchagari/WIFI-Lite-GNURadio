@@ -1,4 +1,4 @@
-# Install script for directory: /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/docs/doxygen
+# Install script for directory: /home/intel-nuc/My-Blocks/gr-OFDMPreamble/docs/doxygen
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/gr-OFDMPreamble" TYPE DIRECTORY FILES
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/docs/doxygen/xml"
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/docs/doxygen/html"
+    "/home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/docs/doxygen/xml"
+    "/home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/docs/doxygen/html"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

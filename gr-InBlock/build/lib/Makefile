@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-InBlock
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-InBlock/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/CMakeFiles /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/lib/CMakeFiles/progress.marks
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/CMakeFiles 0
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-InBlock/build/CMakeFiles /home/intel-nuc/My-Blocks/gr-InBlock/build/lib/CMakeFiles/progress.marks
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-InBlock/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/gnuradio-InBlock.dir/rule:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-InBlock.dir/rule
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-InBlock.dir/rule
 .PHONY : lib/CMakeFiles/gnuradio-InBlock.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ gnuradio-InBlock: lib/CMakeFiles/gnuradio-InBlock.dir/rule
 
 # fast build rule for target.
 gnuradio-InBlock/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/gnuradio-InBlock.dir/build.make lib/CMakeFiles/gnuradio-InBlock.dir/build
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/gnuradio-InBlock.dir/build.make lib/CMakeFiles/gnuradio-InBlock.dir/build
 .PHONY : gnuradio-InBlock/fast
 
 # Convenience name for target.
 lib/CMakeFiles/test-InBlock.dir/rule:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-InBlock.dir/rule
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-InBlock.dir/rule
 .PHONY : lib/CMakeFiles/test-InBlock.dir/rule
 
 # Convenience name for target.
@@ -174,7 +174,7 @@ test-InBlock: lib/CMakeFiles/test-InBlock.dir/rule
 
 # fast build rule for target.
 test-InBlock/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/build
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/build
 .PHONY : test-InBlock/fast
 
 qa_InBlock.o: qa_InBlock.cc.o
@@ -182,7 +182,7 @@ qa_InBlock.o: qa_InBlock.cc.o
 
 # target to build an object file
 qa_InBlock.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/qa_InBlock.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/qa_InBlock.cc.o
 .PHONY : qa_InBlock.cc.o
 
 qa_InBlock.i: qa_InBlock.cc.i
@@ -190,7 +190,7 @@ qa_InBlock.i: qa_InBlock.cc.i
 
 # target to preprocess a source file
 qa_InBlock.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/qa_InBlock.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/qa_InBlock.cc.i
 .PHONY : qa_InBlock.cc.i
 
 qa_InBlock.s: qa_InBlock.cc.s
@@ -198,7 +198,7 @@ qa_InBlock.s: qa_InBlock.cc.s
 
 # target to generate assembly for a file
 qa_InBlock.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/qa_InBlock.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/qa_InBlock.cc.s
 .PHONY : qa_InBlock.cc.s
 
 qa_vamsi_src_c.o: qa_vamsi_src_c.cc.o
@@ -206,7 +206,7 @@ qa_vamsi_src_c.o: qa_vamsi_src_c.cc.o
 
 # target to build an object file
 qa_vamsi_src_c.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.o
 .PHONY : qa_vamsi_src_c.cc.o
 
 qa_vamsi_src_c.i: qa_vamsi_src_c.cc.i
@@ -214,7 +214,7 @@ qa_vamsi_src_c.i: qa_vamsi_src_c.cc.i
 
 # target to preprocess a source file
 qa_vamsi_src_c.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.i
 .PHONY : qa_vamsi_src_c.cc.i
 
 qa_vamsi_src_c.s: qa_vamsi_src_c.cc.s
@@ -222,7 +222,7 @@ qa_vamsi_src_c.s: qa_vamsi_src_c.cc.s
 
 # target to generate assembly for a file
 qa_vamsi_src_c.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.s
 .PHONY : qa_vamsi_src_c.cc.s
 
 test_InBlock.o: test_InBlock.cc.o
@@ -230,7 +230,7 @@ test_InBlock.o: test_InBlock.cc.o
 
 # target to build an object file
 test_InBlock.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/test_InBlock.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/test_InBlock.cc.o
 .PHONY : test_InBlock.cc.o
 
 test_InBlock.i: test_InBlock.cc.i
@@ -238,7 +238,7 @@ test_InBlock.i: test_InBlock.cc.i
 
 # target to preprocess a source file
 test_InBlock.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/test_InBlock.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/test_InBlock.cc.i
 .PHONY : test_InBlock.cc.i
 
 test_InBlock.s: test_InBlock.cc.s
@@ -246,7 +246,7 @@ test_InBlock.s: test_InBlock.cc.s
 
 # target to generate assembly for a file
 test_InBlock.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/test_InBlock.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/test-InBlock.dir/build.make lib/CMakeFiles/test-InBlock.dir/test_InBlock.cc.s
 .PHONY : test_InBlock.cc.s
 
 vamsi_src_c_impl.o: vamsi_src_c_impl.cc.o
@@ -254,7 +254,7 @@ vamsi_src_c_impl.o: vamsi_src_c_impl.cc.o
 
 # target to build an object file
 vamsi_src_c_impl.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/gnuradio-InBlock.dir/build.make lib/CMakeFiles/gnuradio-InBlock.dir/vamsi_src_c_impl.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/gnuradio-InBlock.dir/build.make lib/CMakeFiles/gnuradio-InBlock.dir/vamsi_src_c_impl.cc.o
 .PHONY : vamsi_src_c_impl.cc.o
 
 vamsi_src_c_impl.i: vamsi_src_c_impl.cc.i
@@ -262,7 +262,7 @@ vamsi_src_c_impl.i: vamsi_src_c_impl.cc.i
 
 # target to preprocess a source file
 vamsi_src_c_impl.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/gnuradio-InBlock.dir/build.make lib/CMakeFiles/gnuradio-InBlock.dir/vamsi_src_c_impl.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/gnuradio-InBlock.dir/build.make lib/CMakeFiles/gnuradio-InBlock.dir/vamsi_src_c_impl.cc.i
 .PHONY : vamsi_src_c_impl.cc.i
 
 vamsi_src_c_impl.s: vamsi_src_c_impl.cc.s
@@ -270,7 +270,7 @@ vamsi_src_c_impl.s: vamsi_src_c_impl.cc.s
 
 # target to generate assembly for a file
 vamsi_src_c_impl.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/gnuradio-InBlock.dir/build.make lib/CMakeFiles/gnuradio-InBlock.dir/vamsi_src_c_impl.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(MAKE) -f lib/CMakeFiles/gnuradio-InBlock.dir/build.make lib/CMakeFiles/gnuradio-InBlock.dir/vamsi_src_c_impl.cc.s
 .PHONY : vamsi_src_c_impl.cc.s
 
 # Help Target
@@ -311,6 +311,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

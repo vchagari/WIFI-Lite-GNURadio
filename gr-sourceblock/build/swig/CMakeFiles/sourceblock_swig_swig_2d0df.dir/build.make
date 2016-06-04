@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-sourceblock
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-sourceblock/build
 
 # Include any dependencies generated for this target.
 include swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/depend.make
@@ -81,27 +81,27 @@ swig/sourceblock_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/sync_deci
 swig/sourceblock_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/gr_logger.i
 swig/sourceblock_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/prefs.i
 swig/sourceblock_swig_swig_2d0df.cpp: swig/sourceblock_swig.tag
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig && /usr/bin/cmake -E copy /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig/sourceblock_swig_swig_2d0df.cpp.in /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig/sourceblock_swig_swig_2d0df.cpp
+	cd /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig && /usr/bin/cmake -E copy /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig/sourceblock_swig_swig_2d0df.cpp.in /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig/sourceblock_swig_swig_2d0df.cpp
 
 swig/sourceblock_swig.tag: swig/_sourceblock_swig_swig_tag
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-sourceblock/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating sourceblock_swig.tag"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig && ./_sourceblock_swig_swig_tag
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig && /usr/bin/cmake -E touch /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig/sourceblock_swig.tag
+	cd /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig && ./_sourceblock_swig_swig_tag
+	cd /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig && /usr/bin/cmake -E touch /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig/sourceblock_swig.tag
 
 swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/sourceblock_swig_swig_2d0df.cpp.o: swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/flags.make
 swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/sourceblock_swig_swig_2d0df.cpp.o: swig/sourceblock_swig_swig_2d0df.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-sourceblock/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/sourceblock_swig_swig_2d0df.cpp.o"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sourceblock_swig_swig_2d0df.dir/sourceblock_swig_swig_2d0df.cpp.o -c /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig/sourceblock_swig_swig_2d0df.cpp
+	cd /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sourceblock_swig_swig_2d0df.dir/sourceblock_swig_swig_2d0df.cpp.o -c /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig/sourceblock_swig_swig_2d0df.cpp
 
 swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/sourceblock_swig_swig_2d0df.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sourceblock_swig_swig_2d0df.dir/sourceblock_swig_swig_2d0df.cpp.i"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig/sourceblock_swig_swig_2d0df.cpp > CMakeFiles/sourceblock_swig_swig_2d0df.dir/sourceblock_swig_swig_2d0df.cpp.i
+	cd /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig/sourceblock_swig_swig_2d0df.cpp > CMakeFiles/sourceblock_swig_swig_2d0df.dir/sourceblock_swig_swig_2d0df.cpp.i
 
 swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/sourceblock_swig_swig_2d0df.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sourceblock_swig_swig_2d0df.dir/sourceblock_swig_swig_2d0df.cpp.s"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig/sourceblock_swig_swig_2d0df.cpp -o CMakeFiles/sourceblock_swig_swig_2d0df.dir/sourceblock_swig_swig_2d0df.cpp.s
+	cd /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig/sourceblock_swig_swig_2d0df.cpp -o CMakeFiles/sourceblock_swig_swig_2d0df.dir/sourceblock_swig_swig_2d0df.cpp.s
 
 swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/sourceblock_swig_swig_2d0df.cpp.o.requires:
 .PHONY : swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/sourceblock_swig_swig_2d0df.cpp.o.requires
@@ -123,10 +123,10 @@ swig/sourceblock_swig_swig_2d0df: swig/CMakeFiles/sourceblock_swig_swig_2d0df.di
 swig/sourceblock_swig_swig_2d0df: swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/build.make
 swig/sourceblock_swig_swig_2d0df: swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable sourceblock_swig_swig_2d0df"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sourceblock_swig_swig_2d0df.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sourceblock_swig_swig_2d0df.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Swig source"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig && /usr/bin/cmake -E make_directory /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig && /usr/bin/swig2.0 -python -fvirtual -modern -keyword -w511 -module sourceblock_swig -DSIZE_T_UL -I/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig -I/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/swig -I/usr/local/include/gnuradio/swig -I/usr/include/python2.7 -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu/python2.7 -outdir /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig -c++ -I/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib -I/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/include -I/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/lib -I/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/include -I/usr/include -I/usr/include -I/usr/local/include -I/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig -I/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/swig -I/usr/local/include/gnuradio/swig -I/usr/include/python2.7 -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu/python2.7 -o /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig/sourceblock_swigPYTHON_wrap.cxx /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/swig/sourceblock_swig.i
+	cd /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig && /usr/bin/cmake -E make_directory /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig
+	cd /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig && /usr/bin/swig2.0 -python -fvirtual -modern -keyword -w511 -module sourceblock_swig -DSIZE_T_UL -I/home/intel-nuc/My-Blocks/gr-sourceblock/build/swig -I/home/intel-nuc/My-Blocks/gr-sourceblock/swig -I/usr/local/include/gnuradio/swig -I/usr/include/python2.7 -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu/python2.7 -outdir /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig -c++ -I/home/intel-nuc/My-Blocks/gr-sourceblock/lib -I/home/intel-nuc/My-Blocks/gr-sourceblock/include -I/home/intel-nuc/My-Blocks/gr-sourceblock/build/lib -I/home/intel-nuc/My-Blocks/gr-sourceblock/build/include -I/usr/include -I/usr/include -I/usr/local/include -I/home/intel-nuc/My-Blocks/gr-sourceblock/build/swig -I/home/intel-nuc/My-Blocks/gr-sourceblock/swig -I/usr/local/include/gnuradio/swig -I/usr/include/python2.7 -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu/python2.7 -o /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig/sourceblock_swigPYTHON_wrap.cxx /home/intel-nuc/My-Blocks/gr-sourceblock/swig/sourceblock_swig.i
 
 # Rule to build all files generated by this target.
 swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/build: swig/sourceblock_swig_swig_2d0df
@@ -136,11 +136,11 @@ swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/requires: swig/CMakeFiles/source
 .PHONY : swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/requires
 
 swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/sourceblock_swig_swig_2d0df.dir/cmake_clean.cmake
+	cd /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/sourceblock_swig_swig_2d0df.dir/cmake_clean.cmake
 .PHONY : swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/clean
 
 swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/depend: swig/sourceblock_swig_swig_2d0df.cpp
 swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/depend: swig/sourceblock_swig.tag
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/swig /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig /home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/intel-nuc/My-Blocks/gr-sourceblock/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/intel-nuc/My-Blocks/gr-sourceblock /home/intel-nuc/My-Blocks/gr-sourceblock/swig /home/intel-nuc/My-Blocks/gr-sourceblock/build /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig /home/intel-nuc/My-Blocks/gr-sourceblock/build/swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/sourceblock_swig_swig_2d0df.dir/depend
 

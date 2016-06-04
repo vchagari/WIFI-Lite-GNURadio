@@ -4,10 +4,10 @@
 lib/CMakeFiles/gnuradio-Viterbi_Encoder.dir/Viterbi_vamsi_cc_impl.cc.o
  ../include/Viterbi_Encoder/Viterbi_vamsi_cc.h
  ../include/Viterbi_Encoder/api.h
- /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/Viterbi_vamsi_cc_impl.cc
- /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/Viterbi_vamsi_cc_impl.h
- /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/common.h
- /home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/lib/viterbi.h
+ /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/Viterbi_vamsi_cc_impl.cc
+ /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/Viterbi_vamsi_cc_impl.h
+ /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/common.h
+ /home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/lib/viterbi.h
  /usr/local/include/gnuradio/api.h
  /usr/local/include/gnuradio/attributes.h
  /usr/local/include/gnuradio/basic_block.h

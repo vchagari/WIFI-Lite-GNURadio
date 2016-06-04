@@ -16,17 +16,17 @@ OFDMPreamble/api.h
 gnuradio/block.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/vamsi_OFDMPreamble_ff_impl.cc
+/home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/vamsi_OFDMPreamble_ff_impl.cc
 config.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/config.h
+/home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/config.h
 gnuradio/io_signature.h
 -
 vamsi_OFDMPreamble_ff_impl.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/vamsi_OFDMPreamble_ff_impl.h
+/home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/vamsi_OFDMPreamble_ff_impl.h
 stdio.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/lib/vamsi_OFDMPreamble_ff_impl.h
+/home/intel-nuc/My-Blocks/gr-OFDMPreamble/lib/vamsi_OFDMPreamble_ff_impl.h
 OFDMPreamble/vamsi_OFDMPreamble_ff.h
 -
 

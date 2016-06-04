@@ -16,7 +16,7 @@ OFDMPreamble/api.h
 gnuradio/block.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/swig/OFDMPreamble_swigPYTHON_wrap.cxx
+/home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/swig/OFDMPreamble_swigPYTHON_wrap.cxx
 Python.h
 -
 Python.h
@@ -28,7 +28,7 @@ stdexcept
 string
 -
 gnuradio_swig_bug_workaround.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/swig/gnuradio_swig_bug_workaround.h
+/home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/swig/gnuradio_swig_bug_workaround.h
 cstddef
 -
 stdexcept
@@ -60,7 +60,7 @@ gnuradio/high_res_timer.h
 limits.h
 -
 OFDMPreamble/vamsi_OFDMPreamble_ff.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/swig/OFDMPreamble/vamsi_OFDMPreamble_ff.h
+/home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/swig/OFDMPreamble/vamsi_OFDMPreamble_ff.h
 float.h
 -
 math.h

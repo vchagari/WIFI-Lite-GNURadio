@@ -1,4 +1,4 @@
-# Install script for directory: /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/swig
+# Install script for directory: /home/intel-nuc/My-Blocks/gr-IFFT_V/swig
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/IFFT_V/_IFFT_V_swig.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/IFFT_V" TYPE MODULE FILES "/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/swig/_IFFT_V_swig.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/IFFT_V" TYPE MODULE FILES "/home/intel-nuc/My-Blocks/gr-IFFT_V/build/swig/_IFFT_V_swig.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/IFFT_V/_IFFT_V_swig.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/IFFT_V/_IFFT_V_swig.so")
     FILE(RPATH_REMOVE
@@ -51,20 +51,20 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/IFFT_V" TYPE FILE FILES "/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/swig/IFFT_V_swig.py")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/IFFT_V" TYPE FILE FILES "/home/intel-nuc/My-Blocks/gr-IFFT_V/build/swig/IFFT_V_swig.py")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/IFFT_V" TYPE FILE FILES
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/swig/IFFT_V_swig.pyc"
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/swig/IFFT_V_swig.pyo"
+    "/home/intel-nuc/My-Blocks/gr-IFFT_V/build/swig/IFFT_V_swig.pyc"
+    "/home/intel-nuc/My-Blocks/gr-IFFT_V/build/swig/IFFT_V_swig.pyo"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/IFFT_V/IFFT_V/swig" TYPE FILE FILES
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/swig/IFFT_V_swig.i"
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/swig/IFFT_V_swig_doc.i"
+    "/home/intel-nuc/My-Blocks/gr-IFFT_V/swig/IFFT_V_swig.i"
+    "/home/intel-nuc/My-Blocks/gr-IFFT_V/build/swig/IFFT_V_swig_doc.i"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

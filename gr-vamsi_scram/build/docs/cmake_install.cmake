@@ -1,4 +1,4 @@
-# Install script for directory: /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/docs
+# Install script for directory: /home/intel-nuc/My-Blocks/gr-vamsi_scram/docs
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

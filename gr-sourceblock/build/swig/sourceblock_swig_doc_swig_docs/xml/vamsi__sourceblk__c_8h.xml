@@ -12,7 +12,7 @@
         <label>gnuradio/attributes.h</label>
       </node>
       <node id="4">
-        <label>/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/include/sourceblock/vamsi_sourceblk_c.h</label>
+        <label>/home/intel-nuc/My-Blocks/gr-sourceblock/include/sourceblock/vamsi_sourceblk_c.h</label>
         <link refid="vamsi_sourceblk_c.h"/>
         <childnode refid="5" relation="include">
         </childnode>
@@ -78,6 +78,6 @@
 <codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_SOURCEBLOCK_VAMSI_SOURCEBLK_C_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
 <codeline lineno="56"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/include/sourceblock/vamsi_sourceblk_c.h"/>
+    <location file="/home/intel-nuc/My-Blocks/gr-sourceblock/include/sourceblock/vamsi_sourceblk_c.h"/>
   </compounddef>
 </doxygen>

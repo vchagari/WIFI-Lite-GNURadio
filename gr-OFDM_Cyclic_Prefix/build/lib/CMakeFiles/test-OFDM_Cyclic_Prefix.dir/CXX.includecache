@@ -16,37 +16,37 @@ OFDM_Cyclic_Prefix/api.h
 gnuradio/block.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/qa_OFDM_Cyclic_Prefix.cc
+/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/lib/qa_OFDM_Cyclic_Prefix.cc
 qa_OFDM_Cyclic_Prefix.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/qa_OFDM_Cyclic_Prefix.h
+/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/lib/qa_OFDM_Cyclic_Prefix.h
 qa_vamsi_OFDMCP_ff.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/qa_vamsi_OFDMCP_ff.h
+/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/lib/qa_vamsi_OFDMCP_ff.h
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/qa_OFDM_Cyclic_Prefix.h
+/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/lib/qa_OFDM_Cyclic_Prefix.h
 gnuradio/attributes.h
 -
 cppunit/TestSuite.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/qa_vamsi_OFDMCP_ff.cc
+/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/lib/qa_vamsi_OFDMCP_ff.cc
 gnuradio/attributes.h
 -
 cppunit/TestAssert.h
 -
 qa_vamsi_OFDMCP_ff.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/qa_vamsi_OFDMCP_ff.h
+/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/lib/qa_vamsi_OFDMCP_ff.h
 OFDM_Cyclic_Prefix/vamsi_OFDMCP_ff.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/qa_vamsi_OFDMCP_ff.h
+/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/lib/qa_vamsi_OFDMCP_ff.h
 cppunit/extensions/HelperMacros.h
 -
 cppunit/TestCase.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/test_OFDM_Cyclic_Prefix.cc
+/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/lib/test_OFDM_Cyclic_Prefix.cc
 config.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/config.h
+/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/lib/config.h
 cppunit/TextTestRunner.h
 -
 cppunit/XmlOutputter.h
@@ -54,7 +54,7 @@ cppunit/XmlOutputter.h
 gnuradio/unittests.h
 -
 qa_OFDM_Cyclic_Prefix.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/qa_OFDM_Cyclic_Prefix.h
+/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/lib/qa_OFDM_Cyclic_Prefix.h
 iostream
 -
 fstream

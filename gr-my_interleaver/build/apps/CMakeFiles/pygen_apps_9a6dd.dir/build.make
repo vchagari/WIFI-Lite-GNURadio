@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-my_interleaver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-my_interleaver/build
 
 # Utility rule file for pygen_apps_9a6dd.
 
@@ -56,10 +56,10 @@ apps/CMakeFiles/pygen_apps_9a6dd.dir/build: pygen_apps_9a6dd
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/build
 
 apps/CMakeFiles/pygen_apps_9a6dd.dir/clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/build/apps && $(CMAKE_COMMAND) -P CMakeFiles/pygen_apps_9a6dd.dir/cmake_clean.cmake
+	cd /home/intel-nuc/My-Blocks/gr-my_interleaver/build/apps && $(CMAKE_COMMAND) -P CMakeFiles/pygen_apps_9a6dd.dir/cmake_clean.cmake
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/clean
 
 apps/CMakeFiles/pygen_apps_9a6dd.dir/depend:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver /home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/apps /home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/build /home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/build/apps /home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/build/apps/CMakeFiles/pygen_apps_9a6dd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/intel-nuc/My-Blocks/gr-my_interleaver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/intel-nuc/My-Blocks/gr-my_interleaver /home/intel-nuc/My-Blocks/gr-my_interleaver/apps /home/intel-nuc/My-Blocks/gr-my_interleaver/build /home/intel-nuc/My-Blocks/gr-my_interleaver/build/apps /home/intel-nuc/My-Blocks/gr-my_interleaver/build/apps/CMakeFiles/pygen_apps_9a6dd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/depend
 

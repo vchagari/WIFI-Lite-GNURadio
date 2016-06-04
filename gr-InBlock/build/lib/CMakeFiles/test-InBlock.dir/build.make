@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-InBlock
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-InBlock/build
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/test-InBlock.dir/depend.make
@@ -51,17 +51,17 @@ include lib/CMakeFiles/test-InBlock.dir/flags.make
 
 lib/CMakeFiles/test-InBlock.dir/test_InBlock.cc.o: lib/CMakeFiles/test-InBlock.dir/flags.make
 lib/CMakeFiles/test-InBlock.dir/test_InBlock.cc.o: ../lib/test_InBlock.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-InBlock/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/test-InBlock.dir/test_InBlock.cc.o"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-InBlock.dir/test_InBlock.cc.o -c /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/lib/test_InBlock.cc
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-InBlock.dir/test_InBlock.cc.o -c /home/intel-nuc/My-Blocks/gr-InBlock/lib/test_InBlock.cc
 
 lib/CMakeFiles/test-InBlock.dir/test_InBlock.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-InBlock.dir/test_InBlock.cc.i"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/lib/test_InBlock.cc > CMakeFiles/test-InBlock.dir/test_InBlock.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/intel-nuc/My-Blocks/gr-InBlock/lib/test_InBlock.cc > CMakeFiles/test-InBlock.dir/test_InBlock.cc.i
 
 lib/CMakeFiles/test-InBlock.dir/test_InBlock.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-InBlock.dir/test_InBlock.cc.s"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/lib/test_InBlock.cc -o CMakeFiles/test-InBlock.dir/test_InBlock.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/intel-nuc/My-Blocks/gr-InBlock/lib/test_InBlock.cc -o CMakeFiles/test-InBlock.dir/test_InBlock.cc.s
 
 lib/CMakeFiles/test-InBlock.dir/test_InBlock.cc.o.requires:
 .PHONY : lib/CMakeFiles/test-InBlock.dir/test_InBlock.cc.o.requires
@@ -74,17 +74,17 @@ lib/CMakeFiles/test-InBlock.dir/test_InBlock.cc.o.provides.build: lib/CMakeFiles
 
 lib/CMakeFiles/test-InBlock.dir/qa_InBlock.cc.o: lib/CMakeFiles/test-InBlock.dir/flags.make
 lib/CMakeFiles/test-InBlock.dir/qa_InBlock.cc.o: ../lib/qa_InBlock.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-InBlock/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/test-InBlock.dir/qa_InBlock.cc.o"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-InBlock.dir/qa_InBlock.cc.o -c /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/lib/qa_InBlock.cc
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-InBlock.dir/qa_InBlock.cc.o -c /home/intel-nuc/My-Blocks/gr-InBlock/lib/qa_InBlock.cc
 
 lib/CMakeFiles/test-InBlock.dir/qa_InBlock.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-InBlock.dir/qa_InBlock.cc.i"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/lib/qa_InBlock.cc > CMakeFiles/test-InBlock.dir/qa_InBlock.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/intel-nuc/My-Blocks/gr-InBlock/lib/qa_InBlock.cc > CMakeFiles/test-InBlock.dir/qa_InBlock.cc.i
 
 lib/CMakeFiles/test-InBlock.dir/qa_InBlock.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-InBlock.dir/qa_InBlock.cc.s"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/lib/qa_InBlock.cc -o CMakeFiles/test-InBlock.dir/qa_InBlock.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/intel-nuc/My-Blocks/gr-InBlock/lib/qa_InBlock.cc -o CMakeFiles/test-InBlock.dir/qa_InBlock.cc.s
 
 lib/CMakeFiles/test-InBlock.dir/qa_InBlock.cc.o.requires:
 .PHONY : lib/CMakeFiles/test-InBlock.dir/qa_InBlock.cc.o.requires
@@ -97,17 +97,17 @@ lib/CMakeFiles/test-InBlock.dir/qa_InBlock.cc.o.provides.build: lib/CMakeFiles/t
 
 lib/CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.o: lib/CMakeFiles/test-InBlock.dir/flags.make
 lib/CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.o: ../lib/qa_vamsi_src_c.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-InBlock/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.o"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.o -c /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/lib/qa_vamsi_src_c.cc
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.o -c /home/intel-nuc/My-Blocks/gr-InBlock/lib/qa_vamsi_src_c.cc
 
 lib/CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.i"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/lib/qa_vamsi_src_c.cc > CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/intel-nuc/My-Blocks/gr-InBlock/lib/qa_vamsi_src_c.cc > CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.i
 
 lib/CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.s"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/lib/qa_vamsi_src_c.cc -o CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/intel-nuc/My-Blocks/gr-InBlock/lib/qa_vamsi_src_c.cc -o CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.s
 
 lib/CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.o.requires:
 .PHONY : lib/CMakeFiles/test-InBlock.dir/qa_vamsi_src_c.cc.o.requires
@@ -143,7 +143,7 @@ lib/test-InBlock: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 lib/test-InBlock: /usr/lib/x86_64-linux-gnu/libboost_system.so
 lib/test-InBlock: lib/CMakeFiles/test-InBlock.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable test-InBlock"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-InBlock.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-InBlock.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/test-InBlock.dir/build: lib/test-InBlock
@@ -155,10 +155,10 @@ lib/CMakeFiles/test-InBlock.dir/requires: lib/CMakeFiles/test-InBlock.dir/qa_vam
 .PHONY : lib/CMakeFiles/test-InBlock.dir/requires
 
 lib/CMakeFiles/test-InBlock.dir/clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/test-InBlock.dir/cmake_clean.cmake
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/test-InBlock.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/test-InBlock.dir/clean
 
 lib/CMakeFiles/test-InBlock.dir/depend:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/lib /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/lib /home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/lib/CMakeFiles/test-InBlock.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/intel-nuc/My-Blocks/gr-InBlock/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/intel-nuc/My-Blocks/gr-InBlock /home/intel-nuc/My-Blocks/gr-InBlock/lib /home/intel-nuc/My-Blocks/gr-InBlock/build /home/intel-nuc/My-Blocks/gr-InBlock/build/lib /home/intel-nuc/My-Blocks/gr-InBlock/build/lib/CMakeFiles/test-InBlock.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMakeFiles/test-InBlock.dir/depend
 

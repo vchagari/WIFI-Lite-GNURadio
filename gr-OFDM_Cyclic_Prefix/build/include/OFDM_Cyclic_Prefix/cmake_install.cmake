@@ -1,4 +1,4 @@
-# Install script for directory: /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/include/OFDM_Cyclic_Prefix
+# Install script for directory: /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/include/OFDM_Cyclic_Prefix
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/OFDM_Cyclic_Prefix" TYPE FILE FILES
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/include/OFDM_Cyclic_Prefix/api.h"
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/include/OFDM_Cyclic_Prefix/vamsi_OFDMCP_ff.h"
+    "/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/include/OFDM_Cyclic_Prefix/api.h"
+    "/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/include/OFDM_Cyclic_Prefix/vamsi_OFDMCP_ff.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

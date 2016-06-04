@@ -4,14 +4,14 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/lib/qa_vamsi_scram.cc" "/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/lib/CMakeFiles/test-vamsi_scram.dir/qa_vamsi_scram.cc.o"
-  "/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/lib/test_vamsi_scram.cc" "/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/lib/CMakeFiles/test-vamsi_scram.dir/test_vamsi_scram.cc.o"
+  "/home/intel-nuc/My-Blocks/gr-vamsi_scram/lib/qa_vamsi_scram.cc" "/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/lib/CMakeFiles/test-vamsi_scram.dir/qa_vamsi_scram.cc.o"
+  "/home/intel-nuc/My-Blocks/gr-vamsi_scram/lib/test_vamsi_scram.cc" "/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/lib/CMakeFiles/test-vamsi_scram.dir/test_vamsi_scram.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/lib/CMakeFiles/gnuradio-vamsi_scram.dir/DependInfo.cmake"
+  "/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/lib/CMakeFiles/gnuradio-vamsi_scram.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

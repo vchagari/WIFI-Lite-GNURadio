@@ -4,9 +4,9 @@
 lib/CMakeFiles/gnuradio-IFFT_V.dir/IFFT_ff_impl.cc.o
  ../include/IFFT_V/IFFT_ff.h
  ../include/IFFT_V/api.h
- /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/IFFT_FFT.h
- /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/IFFT_ff_impl.cc
- /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/IFFT_ff_impl.h
+ /home/intel-nuc/My-Blocks/gr-IFFT_V/lib/IFFT_FFT.h
+ /home/intel-nuc/My-Blocks/gr-IFFT_V/lib/IFFT_ff_impl.cc
+ /home/intel-nuc/My-Blocks/gr-IFFT_V/lib/IFFT_ff_impl.h
  /usr/local/include/gnuradio/api.h
  /usr/local/include/gnuradio/attributes.h
  /usr/local/include/gnuradio/basic_block.h

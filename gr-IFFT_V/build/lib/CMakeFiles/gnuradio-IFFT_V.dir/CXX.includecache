@@ -16,11 +16,11 @@ gnuradio/block.h
 gnuradio/attributes.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/IFFT_FFT.h
+/home/intel-nuc/My-Blocks/gr-IFFT_V/lib/IFFT_FFT.h
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/IFFT_ff_impl.cc
+/home/intel-nuc/My-Blocks/gr-IFFT_V/lib/IFFT_ff_impl.cc
 config.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/config.h
+/home/intel-nuc/My-Blocks/gr-IFFT_V/lib/config.h
 stdio.h
 -
 stdlib.h
@@ -30,11 +30,11 @@ math.h
 gnuradio/io_signature.h
 -
 IFFT_ff_impl.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/IFFT_ff_impl.h
+/home/intel-nuc/My-Blocks/gr-IFFT_V/lib/IFFT_ff_impl.h
 IFFT_FFT.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/IFFT_FFT.h
+/home/intel-nuc/My-Blocks/gr-IFFT_V/lib/IFFT_FFT.h
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/IFFT_ff_impl.h
+/home/intel-nuc/My-Blocks/gr-IFFT_V/lib/IFFT_ff_impl.h
 IFFT_V/IFFT_ff.h
 -
 

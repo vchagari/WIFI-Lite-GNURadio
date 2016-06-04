@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/include/IFFT_V/IFFT_ff.h" line="39" column="1" bodyfile="/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/include/IFFT_V/IFFT_ff.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/intel-nuc/My-Blocks/gr-IFFT_V/include/IFFT_V/IFFT_ff.h" line="39" column="1" bodyfile="/home/intel-nuc/My-Blocks/gr-IFFT_V/include/IFFT_V/IFFT_ff.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -35,7 +35,7 @@
 <para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1IFFT__V_1_1IFFT__ff" kindref="compound">IFFT_V::IFFT_ff</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1IFFT__V_1_1IFFT__ff_1a68498a4046888009699c936fa58668e7" kindref="member">IFFT_V::IFFT_ff::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/include/IFFT_V/IFFT_ff.h" line="49" column="1"/>
+        <location file="/home/intel-nuc/My-Blocks/gr-IFFT_V/include/IFFT_V/IFFT_ff.h" line="49" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -64,7 +64,7 @@
         <label>gr::block</label>
       </node>
     </collaborationgraph>
-    <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/include/IFFT_V/IFFT_ff.h" line="37" column="1" bodyfile="/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/include/IFFT_V/IFFT_ff.h" bodystart="36" bodyend="50"/>
+    <location file="/home/intel-nuc/My-Blocks/gr-IFFT_V/include/IFFT_V/IFFT_ff.h" line="37" column="1" bodyfile="/home/intel-nuc/My-Blocks/gr-IFFT_V/include/IFFT_V/IFFT_ff.h" bodystart="36" bodyend="50"/>
     <listofallmembers>
       <member refid="classgr_1_1IFFT__V_1_1IFFT__ff_1a68498a4046888009699c936fa58668e7" prot="public" virt="non-virtual"><scope>gr::IFFT_V::IFFT_ff</scope><name>make</name></member>
       <member refid="classgr_1_1IFFT__V_1_1IFFT__ff_1a4032d90638a750cd52fd07ca4be4b6e0" prot="public" virt="non-virtual"><scope>gr::IFFT_V::IFFT_ff</scope><name>sptr</name></member>

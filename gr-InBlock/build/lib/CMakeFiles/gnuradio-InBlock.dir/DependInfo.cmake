@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/lib/vamsi_src_c_impl.cc" "/home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/build/lib/CMakeFiles/gnuradio-InBlock.dir/vamsi_src_c_impl.cc.o"
+  "/home/intel-nuc/My-Blocks/gr-InBlock/lib/vamsi_src_c_impl.cc" "/home/intel-nuc/My-Blocks/gr-InBlock/build/lib/CMakeFiles/gnuradio-InBlock.dir/vamsi_src_c_impl.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

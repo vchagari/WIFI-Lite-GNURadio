@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/IFFT_ff_impl.cc" "/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/lib/CMakeFiles/gnuradio-IFFT_V.dir/IFFT_ff_impl.cc.o"
+  "/home/intel-nuc/My-Blocks/gr-IFFT_V/lib/IFFT_ff_impl.cc" "/home/intel-nuc/My-Blocks/gr-IFFT_V/build/lib/CMakeFiles/gnuradio-IFFT_V.dir/IFFT_ff_impl.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

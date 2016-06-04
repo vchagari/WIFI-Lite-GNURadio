@@ -15,8 +15,8 @@
   </compound>
   <compound refid="IFFT__ff_8h" kind="file"><name>IFFT_ff.h</name>
   </compound>
-  <compound refid="dir_149e37bd327586c525869edcea50501f" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/include/IFFT_V</name>
+  <compound refid="dir_149e37bd327586c525869edcea50501f" kind="dir"><name>/home/intel-nuc/My-Blocks/gr-IFFT_V/include/IFFT_V</name>
   </compound>
-  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/include</name>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/intel-nuc/My-Blocks/gr-IFFT_V/include</name>
   </compound>
 </doxygenindex>

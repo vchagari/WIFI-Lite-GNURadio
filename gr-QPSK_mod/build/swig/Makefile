@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-QPSK_mod
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-QPSK_mod/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/CMakeFiles /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/swig/CMakeFiles/progress.marks
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 swig/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/CMakeFiles 0
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-QPSK_mod/build/CMakeFiles /home/intel-nuc/My-Blocks/gr-QPSK_mod/build/swig/CMakeFiles/progress.marks
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 swig/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-QPSK_mod/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 swig/clean
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 swig/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 swig/preinstall
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 swig/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 swig/preinstall
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 swig/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 swig/CMakeFiles/_QPSK_mod_swig.dir/rule:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_QPSK_mod_swig.dir/rule
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_QPSK_mod_swig.dir/rule
 .PHONY : swig/CMakeFiles/_QPSK_mod_swig.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ _QPSK_mod_swig: swig/CMakeFiles/_QPSK_mod_swig.dir/rule
 
 # fast build rule for target.
 _QPSK_mod_swig/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig.dir/build.make swig/CMakeFiles/_QPSK_mod_swig.dir/build
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig.dir/build.make swig/CMakeFiles/_QPSK_mod_swig.dir/build
 .PHONY : _QPSK_mod_swig/fast
 
 # Convenience name for target.
 swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/rule:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/rule
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/rule
 .PHONY : swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/rule
 
 # Convenience name for target.
@@ -174,12 +174,12 @@ _QPSK_mod_swig_doc_tag: swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/rule
 
 # fast build rule for target.
 _QPSK_mod_swig_doc_tag/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/build.make swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/build
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/build.make swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/build
 .PHONY : _QPSK_mod_swig_doc_tag/fast
 
 # Convenience name for target.
 swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/rule:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/rule
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/rule
 .PHONY : swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/rule
 
 # Convenience name for target.
@@ -188,29 +188,29 @@ _QPSK_mod_swig_swig_tag: swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/rule
 
 # fast build rule for target.
 _QPSK_mod_swig_swig_tag/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/build.make swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/build
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/build.make swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/build
 .PHONY : _QPSK_mod_swig_swig_tag/fast
 
 # Convenience name for target.
-swig/CMakeFiles/pygen_swig_acf07.dir/rule:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/pygen_swig_acf07.dir/rule
-.PHONY : swig/CMakeFiles/pygen_swig_acf07.dir/rule
+swig/CMakeFiles/pygen_swig_0bc29.dir/rule:
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/pygen_swig_0bc29.dir/rule
+.PHONY : swig/CMakeFiles/pygen_swig_0bc29.dir/rule
 
 # Convenience name for target.
-pygen_swig_acf07: swig/CMakeFiles/pygen_swig_acf07.dir/rule
-.PHONY : pygen_swig_acf07
+pygen_swig_0bc29: swig/CMakeFiles/pygen_swig_0bc29.dir/rule
+.PHONY : pygen_swig_0bc29
 
 # fast build rule for target.
-pygen_swig_acf07/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/pygen_swig_acf07.dir/build.make swig/CMakeFiles/pygen_swig_acf07.dir/build
-.PHONY : pygen_swig_acf07/fast
+pygen_swig_0bc29/fast:
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/pygen_swig_0bc29.dir/build.make swig/CMakeFiles/pygen_swig_0bc29.dir/build
+.PHONY : pygen_swig_0bc29/fast
 
 QPSK_mod_swigPYTHON_wrap.o: QPSK_mod_swigPYTHON_wrap.cxx.o
 .PHONY : QPSK_mod_swigPYTHON_wrap.o
 
 # target to build an object file
 QPSK_mod_swigPYTHON_wrap.cxx.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig.dir/build.make swig/CMakeFiles/_QPSK_mod_swig.dir/QPSK_mod_swigPYTHON_wrap.cxx.o
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig.dir/build.make swig/CMakeFiles/_QPSK_mod_swig.dir/QPSK_mod_swigPYTHON_wrap.cxx.o
 .PHONY : QPSK_mod_swigPYTHON_wrap.cxx.o
 
 QPSK_mod_swigPYTHON_wrap.i: QPSK_mod_swigPYTHON_wrap.cxx.i
@@ -218,7 +218,7 @@ QPSK_mod_swigPYTHON_wrap.i: QPSK_mod_swigPYTHON_wrap.cxx.i
 
 # target to preprocess a source file
 QPSK_mod_swigPYTHON_wrap.cxx.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig.dir/build.make swig/CMakeFiles/_QPSK_mod_swig.dir/QPSK_mod_swigPYTHON_wrap.cxx.i
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig.dir/build.make swig/CMakeFiles/_QPSK_mod_swig.dir/QPSK_mod_swigPYTHON_wrap.cxx.i
 .PHONY : QPSK_mod_swigPYTHON_wrap.cxx.i
 
 QPSK_mod_swigPYTHON_wrap.s: QPSK_mod_swigPYTHON_wrap.cxx.s
@@ -226,7 +226,7 @@ QPSK_mod_swigPYTHON_wrap.s: QPSK_mod_swigPYTHON_wrap.cxx.s
 
 # target to generate assembly for a file
 QPSK_mod_swigPYTHON_wrap.cxx.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig.dir/build.make swig/CMakeFiles/_QPSK_mod_swig.dir/QPSK_mod_swigPYTHON_wrap.cxx.s
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig.dir/build.make swig/CMakeFiles/_QPSK_mod_swig.dir/QPSK_mod_swigPYTHON_wrap.cxx.s
 .PHONY : QPSK_mod_swigPYTHON_wrap.cxx.s
 
 _QPSK_mod_swig_doc_tag.o: _QPSK_mod_swig_doc_tag.cpp.o
@@ -234,7 +234,7 @@ _QPSK_mod_swig_doc_tag.o: _QPSK_mod_swig_doc_tag.cpp.o
 
 # target to build an object file
 _QPSK_mod_swig_doc_tag.cpp.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/build.make swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/_QPSK_mod_swig_doc_tag.cpp.o
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/build.make swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/_QPSK_mod_swig_doc_tag.cpp.o
 .PHONY : _QPSK_mod_swig_doc_tag.cpp.o
 
 _QPSK_mod_swig_doc_tag.i: _QPSK_mod_swig_doc_tag.cpp.i
@@ -242,7 +242,7 @@ _QPSK_mod_swig_doc_tag.i: _QPSK_mod_swig_doc_tag.cpp.i
 
 # target to preprocess a source file
 _QPSK_mod_swig_doc_tag.cpp.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/build.make swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/_QPSK_mod_swig_doc_tag.cpp.i
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/build.make swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/_QPSK_mod_swig_doc_tag.cpp.i
 .PHONY : _QPSK_mod_swig_doc_tag.cpp.i
 
 _QPSK_mod_swig_doc_tag.s: _QPSK_mod_swig_doc_tag.cpp.s
@@ -250,7 +250,7 @@ _QPSK_mod_swig_doc_tag.s: _QPSK_mod_swig_doc_tag.cpp.s
 
 # target to generate assembly for a file
 _QPSK_mod_swig_doc_tag.cpp.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/build.make swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/_QPSK_mod_swig_doc_tag.cpp.s
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/build.make swig/CMakeFiles/_QPSK_mod_swig_doc_tag.dir/_QPSK_mod_swig_doc_tag.cpp.s
 .PHONY : _QPSK_mod_swig_doc_tag.cpp.s
 
 _QPSK_mod_swig_swig_tag.o: _QPSK_mod_swig_swig_tag.cpp.o
@@ -258,7 +258,7 @@ _QPSK_mod_swig_swig_tag.o: _QPSK_mod_swig_swig_tag.cpp.o
 
 # target to build an object file
 _QPSK_mod_swig_swig_tag.cpp.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/build.make swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/_QPSK_mod_swig_swig_tag.cpp.o
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/build.make swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/_QPSK_mod_swig_swig_tag.cpp.o
 .PHONY : _QPSK_mod_swig_swig_tag.cpp.o
 
 _QPSK_mod_swig_swig_tag.i: _QPSK_mod_swig_swig_tag.cpp.i
@@ -266,7 +266,7 @@ _QPSK_mod_swig_swig_tag.i: _QPSK_mod_swig_swig_tag.cpp.i
 
 # target to preprocess a source file
 _QPSK_mod_swig_swig_tag.cpp.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/build.make swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/_QPSK_mod_swig_swig_tag.cpp.i
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/build.make swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/_QPSK_mod_swig_swig_tag.cpp.i
 .PHONY : _QPSK_mod_swig_swig_tag.cpp.i
 
 _QPSK_mod_swig_swig_tag.s: _QPSK_mod_swig_swig_tag.cpp.s
@@ -274,7 +274,7 @@ _QPSK_mod_swig_swig_tag.s: _QPSK_mod_swig_swig_tag.cpp.s
 
 # target to generate assembly for a file
 _QPSK_mod_swig_swig_tag.cpp.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/build.make swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/_QPSK_mod_swig_swig_tag.cpp.s
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/build.make swig/CMakeFiles/_QPSK_mod_swig_swig_tag.dir/_QPSK_mod_swig_swig_tag.cpp.s
 .PHONY : _QPSK_mod_swig_swig_tag.cpp.s
 
 # Help Target
@@ -291,7 +291,7 @@ help:
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
-	@echo "... pygen_swig_acf07"
+	@echo "... pygen_swig_0bc29"
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... QPSK_mod_swigPYTHON_wrap.o"
@@ -314,6 +314,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

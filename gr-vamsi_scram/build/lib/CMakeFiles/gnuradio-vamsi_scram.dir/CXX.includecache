@@ -16,17 +16,17 @@ vamsi_scram/api.h
 gnuradio/block.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/lib/scram_cc_impl.cc
+/home/intel-nuc/My-Blocks/gr-vamsi_scram/lib/scram_cc_impl.cc
 config.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/lib/config.h
+/home/intel-nuc/My-Blocks/gr-vamsi_scram/lib/config.h
 stdio.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/lib/stdio.h
+/home/intel-nuc/My-Blocks/gr-vamsi_scram/lib/stdio.h
 gnuradio/io_signature.h
 -
 scram_cc_impl.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/lib/scram_cc_impl.h
+/home/intel-nuc/My-Blocks/gr-vamsi_scram/lib/scram_cc_impl.h
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/lib/scram_cc_impl.h
+/home/intel-nuc/My-Blocks/gr-vamsi_scram/lib/scram_cc_impl.h
 vamsi_scram/scram_cc.h
 -
 

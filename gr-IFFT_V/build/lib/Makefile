@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-IFFT_V
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-IFFT_V/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/CMakeFiles /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/lib/CMakeFiles/progress.marks
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build/CMakeFiles 0
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-IFFT_V/build/CMakeFiles /home/intel-nuc/My-Blocks/gr-IFFT_V/build/lib/CMakeFiles/progress.marks
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-IFFT_V/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/gnuradio-IFFT_V.dir/rule:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-IFFT_V.dir/rule
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-IFFT_V.dir/rule
 .PHONY : lib/CMakeFiles/gnuradio-IFFT_V.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ gnuradio-IFFT_V: lib/CMakeFiles/gnuradio-IFFT_V.dir/rule
 
 # fast build rule for target.
 gnuradio-IFFT_V/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/gnuradio-IFFT_V.dir/build.make lib/CMakeFiles/gnuradio-IFFT_V.dir/build
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/gnuradio-IFFT_V.dir/build.make lib/CMakeFiles/gnuradio-IFFT_V.dir/build
 .PHONY : gnuradio-IFFT_V/fast
 
 # Convenience name for target.
 lib/CMakeFiles/test-IFFT_V.dir/rule:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-IFFT_V.dir/rule
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-IFFT_V.dir/rule
 .PHONY : lib/CMakeFiles/test-IFFT_V.dir/rule
 
 # Convenience name for target.
@@ -174,7 +174,7 @@ test-IFFT_V: lib/CMakeFiles/test-IFFT_V.dir/rule
 
 # fast build rule for target.
 test-IFFT_V/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/build
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/build
 .PHONY : test-IFFT_V/fast
 
 IFFT_ff_impl.o: IFFT_ff_impl.cc.o
@@ -182,7 +182,7 @@ IFFT_ff_impl.o: IFFT_ff_impl.cc.o
 
 # target to build an object file
 IFFT_ff_impl.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/gnuradio-IFFT_V.dir/build.make lib/CMakeFiles/gnuradio-IFFT_V.dir/IFFT_ff_impl.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/gnuradio-IFFT_V.dir/build.make lib/CMakeFiles/gnuradio-IFFT_V.dir/IFFT_ff_impl.cc.o
 .PHONY : IFFT_ff_impl.cc.o
 
 IFFT_ff_impl.i: IFFT_ff_impl.cc.i
@@ -190,7 +190,7 @@ IFFT_ff_impl.i: IFFT_ff_impl.cc.i
 
 # target to preprocess a source file
 IFFT_ff_impl.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/gnuradio-IFFT_V.dir/build.make lib/CMakeFiles/gnuradio-IFFT_V.dir/IFFT_ff_impl.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/gnuradio-IFFT_V.dir/build.make lib/CMakeFiles/gnuradio-IFFT_V.dir/IFFT_ff_impl.cc.i
 .PHONY : IFFT_ff_impl.cc.i
 
 IFFT_ff_impl.s: IFFT_ff_impl.cc.s
@@ -198,7 +198,7 @@ IFFT_ff_impl.s: IFFT_ff_impl.cc.s
 
 # target to generate assembly for a file
 IFFT_ff_impl.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/gnuradio-IFFT_V.dir/build.make lib/CMakeFiles/gnuradio-IFFT_V.dir/IFFT_ff_impl.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/gnuradio-IFFT_V.dir/build.make lib/CMakeFiles/gnuradio-IFFT_V.dir/IFFT_ff_impl.cc.s
 .PHONY : IFFT_ff_impl.cc.s
 
 qa_IFFT_V.o: qa_IFFT_V.cc.o
@@ -206,7 +206,7 @@ qa_IFFT_V.o: qa_IFFT_V.cc.o
 
 # target to build an object file
 qa_IFFT_V.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.o
 .PHONY : qa_IFFT_V.cc.o
 
 qa_IFFT_V.i: qa_IFFT_V.cc.i
@@ -214,7 +214,7 @@ qa_IFFT_V.i: qa_IFFT_V.cc.i
 
 # target to preprocess a source file
 qa_IFFT_V.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.i
 .PHONY : qa_IFFT_V.cc.i
 
 qa_IFFT_V.s: qa_IFFT_V.cc.s
@@ -222,7 +222,7 @@ qa_IFFT_V.s: qa_IFFT_V.cc.s
 
 # target to generate assembly for a file
 qa_IFFT_V.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_V.cc.s
 .PHONY : qa_IFFT_V.cc.s
 
 qa_IFFT_ff.o: qa_IFFT_ff.cc.o
@@ -230,7 +230,7 @@ qa_IFFT_ff.o: qa_IFFT_ff.cc.o
 
 # target to build an object file
 qa_IFFT_ff.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.o
 .PHONY : qa_IFFT_ff.cc.o
 
 qa_IFFT_ff.i: qa_IFFT_ff.cc.i
@@ -238,7 +238,7 @@ qa_IFFT_ff.i: qa_IFFT_ff.cc.i
 
 # target to preprocess a source file
 qa_IFFT_ff.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.i
 .PHONY : qa_IFFT_ff.cc.i
 
 qa_IFFT_ff.s: qa_IFFT_ff.cc.s
@@ -246,7 +246,7 @@ qa_IFFT_ff.s: qa_IFFT_ff.cc.s
 
 # target to generate assembly for a file
 qa_IFFT_ff.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/qa_IFFT_ff.cc.s
 .PHONY : qa_IFFT_ff.cc.s
 
 test_IFFT_V.o: test_IFFT_V.cc.o
@@ -254,7 +254,7 @@ test_IFFT_V.o: test_IFFT_V.cc.o
 
 # target to build an object file
 test_IFFT_V.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.o
 .PHONY : test_IFFT_V.cc.o
 
 test_IFFT_V.i: test_IFFT_V.cc.i
@@ -262,7 +262,7 @@ test_IFFT_V.i: test_IFFT_V.cc.i
 
 # target to preprocess a source file
 test_IFFT_V.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.i
 .PHONY : test_IFFT_V.cc.i
 
 test_IFFT_V.s: test_IFFT_V.cc.s
@@ -270,7 +270,7 @@ test_IFFT_V.s: test_IFFT_V.cc.s
 
 # target to generate assembly for a file
 test_IFFT_V.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(MAKE) -f lib/CMakeFiles/test-IFFT_V.dir/build.make lib/CMakeFiles/test-IFFT_V.dir/test_IFFT_V.cc.s
 .PHONY : test_IFFT_V.cc.s
 
 # Help Target
@@ -311,6 +311,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/intel-nuc/My-Blocks/gr-IFFT_V/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

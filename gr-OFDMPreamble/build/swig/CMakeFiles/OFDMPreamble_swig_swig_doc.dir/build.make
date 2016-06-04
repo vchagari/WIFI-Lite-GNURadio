@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-OFDMPreamble
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build
 
 # Utility rule file for OFDMPreamble_swig_swig_doc.
 
@@ -48,15 +48,15 @@ include swig/CMakeFiles/OFDMPreamble_swig_swig_doc.dir/progress.make
 swig/CMakeFiles/OFDMPreamble_swig_swig_doc: swig/OFDMPreamble_swig_doc.i
 
 swig/OFDMPreamble_swig_doc.i: swig/OFDMPreamble_swig_doc_swig_docs/xml/index.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating python docstrings for OFDMPreamble_swig_doc"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/docs/doxygen && /usr/bin/python2 -B /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/docs/doxygen/swig_doc.py /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/swig/OFDMPreamble_swig_doc_swig_docs/xml /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/swig/OFDMPreamble_swig_doc.i
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/docs/doxygen && /usr/bin/python2 -B /home/intel-nuc/My-Blocks/gr-OFDMPreamble/docs/doxygen/swig_doc.py /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/swig/OFDMPreamble_swig_doc_swig_docs/xml /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/swig/OFDMPreamble_swig_doc.i
 
 swig/OFDMPreamble_swig_doc_swig_docs/xml/index.xml: swig/_OFDMPreamble_swig_doc_tag
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating doxygen xml for OFDMPreamble_swig_doc docs"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/swig && ./_OFDMPreamble_swig_doc_tag
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/swig && /usr/bin/doxygen /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/swig/OFDMPreamble_swig_doc_swig_docs/Doxyfile
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/swig && ./_OFDMPreamble_swig_doc_tag
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/swig && /usr/bin/doxygen /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/swig/OFDMPreamble_swig_doc_swig_docs/Doxyfile
 
 OFDMPreamble_swig_swig_doc: swig/CMakeFiles/OFDMPreamble_swig_swig_doc
 OFDMPreamble_swig_swig_doc: swig/OFDMPreamble_swig_doc.i
@@ -69,10 +69,10 @@ swig/CMakeFiles/OFDMPreamble_swig_swig_doc.dir/build: OFDMPreamble_swig_swig_doc
 .PHONY : swig/CMakeFiles/OFDMPreamble_swig_swig_doc.dir/build
 
 swig/CMakeFiles/OFDMPreamble_swig_swig_doc.dir/clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/OFDMPreamble_swig_swig_doc.dir/cmake_clean.cmake
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/OFDMPreamble_swig_swig_doc.dir/cmake_clean.cmake
 .PHONY : swig/CMakeFiles/OFDMPreamble_swig_swig_doc.dir/clean
 
 swig/CMakeFiles/OFDMPreamble_swig_swig_doc.dir/depend:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/swig /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/swig /home/chagari/Work/GNURadio/My_Blocks/gr-OFDMPreamble/build/swig/CMakeFiles/OFDMPreamble_swig_swig_doc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/intel-nuc/My-Blocks/gr-OFDMPreamble /home/intel-nuc/My-Blocks/gr-OFDMPreamble/swig /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/swig /home/intel-nuc/My-Blocks/gr-OFDMPreamble/build/swig/CMakeFiles/OFDMPreamble_swig_swig_doc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/OFDMPreamble_swig_swig_doc.dir/depend
 

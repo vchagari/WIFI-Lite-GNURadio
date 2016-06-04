@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="dir_76320e7082eee1c9694b461a9cca344e" kind="dir">
-    <compoundname>/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder</compoundname>
+    <compoundname>/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder</compoundname>
     <innerfile refid="api_8h">api.h</innerfile>
     <innerfile refid="Viterbi__vamsi__cc_8h">Viterbi_vamsi_cc.h</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder/"/>
+    <location file="/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder/"/>
   </compounddef>
 </doxygen>

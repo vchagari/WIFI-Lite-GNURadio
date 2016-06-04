@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder/Viterbi_vamsi_cc.h" line="39" column="1" bodyfile="/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder/Viterbi_vamsi_cc.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder/Viterbi_vamsi_cc.h" line="39" column="1" bodyfile="/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder/Viterbi_vamsi_cc.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -31,7 +31,7 @@
 <para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1Viterbi__Encoder_1_1Viterbi__vamsi__cc" kindref="compound">Viterbi_Encoder::Viterbi_vamsi_cc</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1Viterbi__Encoder_1_1Viterbi__vamsi__cc_1acc5c93a9282384a948ccf5681d9b7e61" kindref="member">Viterbi_Encoder::Viterbi_vamsi_cc::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder/Viterbi_vamsi_cc.h" line="49" column="1"/>
+        <location file="/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder/Viterbi_vamsi_cc.h" line="49" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -60,7 +60,7 @@
         <label>gr::block</label>
       </node>
     </collaborationgraph>
-    <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder/Viterbi_vamsi_cc.h" line="37" column="1" bodyfile="/home/chagari/Work/GNURadio/My_Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder/Viterbi_vamsi_cc.h" bodystart="36" bodyend="50"/>
+    <location file="/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder/Viterbi_vamsi_cc.h" line="37" column="1" bodyfile="/home/intel-nuc/My-Blocks/gr-Viterbi_Encoder/include/Viterbi_Encoder/Viterbi_vamsi_cc.h" bodystart="36" bodyend="50"/>
     <listofallmembers>
       <member refid="classgr_1_1Viterbi__Encoder_1_1Viterbi__vamsi__cc_1acc5c93a9282384a948ccf5681d9b7e61" prot="public" virt="non-virtual"><scope>gr::Viterbi_Encoder::Viterbi_vamsi_cc</scope><name>make</name></member>
       <member refid="classgr_1_1Viterbi__Encoder_1_1Viterbi__vamsi__cc_1a5c829d3c1791f54ccfe23bf639df1a03" prot="public" virt="non-virtual"><scope>gr::Viterbi_Encoder::Viterbi_vamsi_cc</scope><name>sptr</name></member>

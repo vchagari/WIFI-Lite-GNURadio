@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-vamsi_scram
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-vamsi_scram/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/CMakeFiles /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/lib/CMakeFiles/progress.marks
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/CMakeFiles 0
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/CMakeFiles /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/lib/CMakeFiles/progress.marks
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/gnuradio-vamsi_scram.dir/rule:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-vamsi_scram.dir/rule
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-vamsi_scram.dir/rule
 .PHONY : lib/CMakeFiles/gnuradio-vamsi_scram.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ gnuradio-vamsi_scram: lib/CMakeFiles/gnuradio-vamsi_scram.dir/rule
 
 # fast build rule for target.
 gnuradio-vamsi_scram/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/gnuradio-vamsi_scram.dir/build.make lib/CMakeFiles/gnuradio-vamsi_scram.dir/build
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/gnuradio-vamsi_scram.dir/build.make lib/CMakeFiles/gnuradio-vamsi_scram.dir/build
 .PHONY : gnuradio-vamsi_scram/fast
 
 # Convenience name for target.
 lib/CMakeFiles/test-vamsi_scram.dir/rule:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-vamsi_scram.dir/rule
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-vamsi_scram.dir/rule
 .PHONY : lib/CMakeFiles/test-vamsi_scram.dir/rule
 
 # Convenience name for target.
@@ -174,7 +174,7 @@ test-vamsi_scram: lib/CMakeFiles/test-vamsi_scram.dir/rule
 
 # fast build rule for target.
 test-vamsi_scram/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/test-vamsi_scram.dir/build.make lib/CMakeFiles/test-vamsi_scram.dir/build
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/test-vamsi_scram.dir/build.make lib/CMakeFiles/test-vamsi_scram.dir/build
 .PHONY : test-vamsi_scram/fast
 
 qa_vamsi_scram.o: qa_vamsi_scram.cc.o
@@ -182,7 +182,7 @@ qa_vamsi_scram.o: qa_vamsi_scram.cc.o
 
 # target to build an object file
 qa_vamsi_scram.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/test-vamsi_scram.dir/build.make lib/CMakeFiles/test-vamsi_scram.dir/qa_vamsi_scram.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/test-vamsi_scram.dir/build.make lib/CMakeFiles/test-vamsi_scram.dir/qa_vamsi_scram.cc.o
 .PHONY : qa_vamsi_scram.cc.o
 
 qa_vamsi_scram.i: qa_vamsi_scram.cc.i
@@ -190,7 +190,7 @@ qa_vamsi_scram.i: qa_vamsi_scram.cc.i
 
 # target to preprocess a source file
 qa_vamsi_scram.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/test-vamsi_scram.dir/build.make lib/CMakeFiles/test-vamsi_scram.dir/qa_vamsi_scram.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/test-vamsi_scram.dir/build.make lib/CMakeFiles/test-vamsi_scram.dir/qa_vamsi_scram.cc.i
 .PHONY : qa_vamsi_scram.cc.i
 
 qa_vamsi_scram.s: qa_vamsi_scram.cc.s
@@ -198,7 +198,7 @@ qa_vamsi_scram.s: qa_vamsi_scram.cc.s
 
 # target to generate assembly for a file
 qa_vamsi_scram.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/test-vamsi_scram.dir/build.make lib/CMakeFiles/test-vamsi_scram.dir/qa_vamsi_scram.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/test-vamsi_scram.dir/build.make lib/CMakeFiles/test-vamsi_scram.dir/qa_vamsi_scram.cc.s
 .PHONY : qa_vamsi_scram.cc.s
 
 scram_cc_impl.o: scram_cc_impl.cc.o
@@ -206,7 +206,7 @@ scram_cc_impl.o: scram_cc_impl.cc.o
 
 # target to build an object file
 scram_cc_impl.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/gnuradio-vamsi_scram.dir/build.make lib/CMakeFiles/gnuradio-vamsi_scram.dir/scram_cc_impl.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/gnuradio-vamsi_scram.dir/build.make lib/CMakeFiles/gnuradio-vamsi_scram.dir/scram_cc_impl.cc.o
 .PHONY : scram_cc_impl.cc.o
 
 scram_cc_impl.i: scram_cc_impl.cc.i
@@ -214,7 +214,7 @@ scram_cc_impl.i: scram_cc_impl.cc.i
 
 # target to preprocess a source file
 scram_cc_impl.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/gnuradio-vamsi_scram.dir/build.make lib/CMakeFiles/gnuradio-vamsi_scram.dir/scram_cc_impl.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/gnuradio-vamsi_scram.dir/build.make lib/CMakeFiles/gnuradio-vamsi_scram.dir/scram_cc_impl.cc.i
 .PHONY : scram_cc_impl.cc.i
 
 scram_cc_impl.s: scram_cc_impl.cc.s
@@ -222,7 +222,7 @@ scram_cc_impl.s: scram_cc_impl.cc.s
 
 # target to generate assembly for a file
 scram_cc_impl.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/gnuradio-vamsi_scram.dir/build.make lib/CMakeFiles/gnuradio-vamsi_scram.dir/scram_cc_impl.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/gnuradio-vamsi_scram.dir/build.make lib/CMakeFiles/gnuradio-vamsi_scram.dir/scram_cc_impl.cc.s
 .PHONY : scram_cc_impl.cc.s
 
 test_vamsi_scram.o: test_vamsi_scram.cc.o
@@ -230,7 +230,7 @@ test_vamsi_scram.o: test_vamsi_scram.cc.o
 
 # target to build an object file
 test_vamsi_scram.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/test-vamsi_scram.dir/build.make lib/CMakeFiles/test-vamsi_scram.dir/test_vamsi_scram.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/test-vamsi_scram.dir/build.make lib/CMakeFiles/test-vamsi_scram.dir/test_vamsi_scram.cc.o
 .PHONY : test_vamsi_scram.cc.o
 
 test_vamsi_scram.i: test_vamsi_scram.cc.i
@@ -238,7 +238,7 @@ test_vamsi_scram.i: test_vamsi_scram.cc.i
 
 # target to preprocess a source file
 test_vamsi_scram.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/test-vamsi_scram.dir/build.make lib/CMakeFiles/test-vamsi_scram.dir/test_vamsi_scram.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/test-vamsi_scram.dir/build.make lib/CMakeFiles/test-vamsi_scram.dir/test_vamsi_scram.cc.i
 .PHONY : test_vamsi_scram.cc.i
 
 test_vamsi_scram.s: test_vamsi_scram.cc.s
@@ -246,7 +246,7 @@ test_vamsi_scram.s: test_vamsi_scram.cc.s
 
 # target to generate assembly for a file
 test_vamsi_scram.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/test-vamsi_scram.dir/build.make lib/CMakeFiles/test-vamsi_scram.dir/test_vamsi_scram.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(MAKE) -f lib/CMakeFiles/test-vamsi_scram.dir/build.make lib/CMakeFiles/test-vamsi_scram.dir/test_vamsi_scram.cc.s
 .PHONY : test_vamsi_scram.cc.s
 
 # Help Target
@@ -284,6 +284,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

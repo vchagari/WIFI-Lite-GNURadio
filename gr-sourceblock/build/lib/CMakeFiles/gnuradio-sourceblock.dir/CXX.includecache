@@ -16,9 +16,9 @@ sourceblock/api.h
 gnuradio/sync_block.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/vamsi_sourceblk_c_impl.cc
+/home/intel-nuc/My-Blocks/gr-sourceblock/lib/vamsi_sourceblk_c_impl.cc
 config.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/config.h
+/home/intel-nuc/My-Blocks/gr-sourceblock/lib/config.h
 stdio.h
 -
 stdlib.h
@@ -26,9 +26,9 @@ stdlib.h
 gnuradio/io_signature.h
 -
 vamsi_sourceblk_c_impl.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/vamsi_sourceblk_c_impl.h
+/home/intel-nuc/My-Blocks/gr-sourceblock/lib/vamsi_sourceblk_c_impl.h
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/lib/vamsi_sourceblk_c_impl.h
+/home/intel-nuc/My-Blocks/gr-sourceblock/lib/vamsi_sourceblk_c_impl.h
 sourceblock/vamsi_sourceblk_c.h
 -
 

@@ -15,8 +15,8 @@
   </compound>
   <compound refid="vamsi__interleaver__cc_8h" kind="file"><name>vamsi_interleaver_cc.h</name>
   </compound>
-  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/include</name>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/intel-nuc/My-Blocks/gr-my_interleaver/include</name>
   </compound>
-  <compound refid="dir_5b3011a1725c02a9c56c12c61760c53d" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/include/my_interleaver</name>
+  <compound refid="dir_5b3011a1725c02a9c56c12c61760c53d" kind="dir"><name>/home/intel-nuc/My-Blocks/gr-my_interleaver/include/my_interleaver</name>
   </compound>
 </doxygenindex>

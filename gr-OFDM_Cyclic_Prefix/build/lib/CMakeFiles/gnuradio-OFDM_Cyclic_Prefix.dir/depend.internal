@@ -4,8 +4,8 @@
 lib/CMakeFiles/gnuradio-OFDM_Cyclic_Prefix.dir/vamsi_OFDMCP_ff_impl.cc.o
  ../include/OFDM_Cyclic_Prefix/api.h
  ../include/OFDM_Cyclic_Prefix/vamsi_OFDMCP_ff.h
- /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/vamsi_OFDMCP_ff_impl.cc
- /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib/vamsi_OFDMCP_ff_impl.h
+ /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/lib/vamsi_OFDMCP_ff_impl.cc
+ /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/lib/vamsi_OFDMCP_ff_impl.h
  /usr/local/include/gnuradio/api.h
  /usr/local/include/gnuradio/attributes.h
  /usr/local/include/gnuradio/basic_block.h

@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig/_sourceblock_swig_swig_tag.cpp" "/home/chagari/Work/GNURadio/My_Blocks/gr-sourceblock/build/swig/CMakeFiles/_sourceblock_swig_swig_tag.dir/_sourceblock_swig_swig_tag.cpp.o"
+  "/home/intel-nuc/My-Blocks/gr-sourceblock/build/swig/_sourceblock_swig_swig_tag.cpp" "/home/intel-nuc/My-Blocks/gr-sourceblock/build/swig/CMakeFiles/_sourceblock_swig_swig_tag.dir/_sourceblock_swig_swig_tag.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

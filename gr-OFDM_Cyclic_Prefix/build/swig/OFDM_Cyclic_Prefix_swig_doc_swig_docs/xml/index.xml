@@ -15,8 +15,8 @@
   </compound>
   <compound refid="vamsi__OFDMCP__ff_8h" kind="file"><name>vamsi_OFDMCP_ff.h</name>
   </compound>
-  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/include</name>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/include</name>
   </compound>
-  <compound refid="dir_7bfefb76c74d934f20a2798b711a0d2f" kind="dir"><name>/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/include/OFDM_Cyclic_Prefix</name>
+  <compound refid="dir_7bfefb76c74d934f20a2798b711a0d2f" kind="dir"><name>/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/include/OFDM_Cyclic_Prefix</name>
   </compound>
 </doxygenindex>

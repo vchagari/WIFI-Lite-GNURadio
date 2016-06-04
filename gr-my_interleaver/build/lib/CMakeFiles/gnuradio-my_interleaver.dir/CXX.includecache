@@ -16,19 +16,19 @@ my_interleaver/api.h
 gnuradio/block.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/lib/vamsi_interleaver_cc_impl.cc
+/home/intel-nuc/My-Blocks/gr-my_interleaver/lib/vamsi_interleaver_cc_impl.cc
 stdio.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/lib/stdio.h
+/home/intel-nuc/My-Blocks/gr-my_interleaver/lib/stdio.h
 stdlib.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/lib/stdlib.h
+/home/intel-nuc/My-Blocks/gr-my_interleaver/lib/stdlib.h
 config.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/lib/config.h
+/home/intel-nuc/My-Blocks/gr-my_interleaver/lib/config.h
 gnuradio/io_signature.h
 -
 vamsi_interleaver_cc_impl.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/lib/vamsi_interleaver_cc_impl.h
+/home/intel-nuc/My-Blocks/gr-my_interleaver/lib/vamsi_interleaver_cc_impl.h
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/lib/vamsi_interleaver_cc_impl.h
+/home/intel-nuc/My-Blocks/gr-my_interleaver/lib/vamsi_interleaver_cc_impl.h
 my_interleaver/vamsi_interleaver_cc.h
 -
 

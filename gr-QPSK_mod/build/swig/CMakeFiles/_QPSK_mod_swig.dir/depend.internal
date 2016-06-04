@@ -4,7 +4,7 @@
 swig/CMakeFiles/_QPSK_mod_swig.dir/QPSK_mod_swigPYTHON_wrap.cxx.o
  ../include/QPSK_mod/Vamsi_QPSK_mod_cf.h
  ../include/QPSK_mod/api.h
- /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/swig/QPSK_mod_swigPYTHON_wrap.cxx
+ /home/intel-nuc/My-Blocks/gr-QPSK_mod/build/swig/QPSK_mod_swigPYTHON_wrap.cxx
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h

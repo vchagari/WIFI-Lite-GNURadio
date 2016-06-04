@@ -1,4 +1,4 @@
-# Install script for directory: /home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/lib
+# Install script for directory: /home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/lib
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-OFDM_Cyclic_Prefix.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/chagari/Work/GNURadio/My_Blocks/gr-OFDM_Cyclic_Prefix/build/lib/libgnuradio-OFDM_Cyclic_Prefix.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/intel-nuc/My-Blocks/gr-OFDM_Cyclic_Prefix/build/lib/libgnuradio-OFDM_Cyclic_Prefix.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-OFDM_Cyclic_Prefix.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-OFDM_Cyclic_Prefix.so")
     FILE(RPATH_REMOVE

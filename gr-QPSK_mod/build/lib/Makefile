@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-QPSK_mod
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-QPSK_mod/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/CMakeFiles /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/lib/CMakeFiles/progress.marks
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build/CMakeFiles 0
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-QPSK_mod/build/CMakeFiles /home/intel-nuc/My-Blocks/gr-QPSK_mod/build/lib/CMakeFiles/progress.marks
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/intel-nuc/My-Blocks/gr-QPSK_mod/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/gnuradio-QPSK_mod.dir/rule:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-QPSK_mod.dir/rule
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-QPSK_mod.dir/rule
 .PHONY : lib/CMakeFiles/gnuradio-QPSK_mod.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ gnuradio-QPSK_mod: lib/CMakeFiles/gnuradio-QPSK_mod.dir/rule
 
 # fast build rule for target.
 gnuradio-QPSK_mod/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/gnuradio-QPSK_mod.dir/build.make lib/CMakeFiles/gnuradio-QPSK_mod.dir/build
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/gnuradio-QPSK_mod.dir/build.make lib/CMakeFiles/gnuradio-QPSK_mod.dir/build
 .PHONY : gnuradio-QPSK_mod/fast
 
 # Convenience name for target.
 lib/CMakeFiles/test-QPSK_mod.dir/rule:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-QPSK_mod.dir/rule
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-QPSK_mod.dir/rule
 .PHONY : lib/CMakeFiles/test-QPSK_mod.dir/rule
 
 # Convenience name for target.
@@ -174,7 +174,7 @@ test-QPSK_mod: lib/CMakeFiles/test-QPSK_mod.dir/rule
 
 # fast build rule for target.
 test-QPSK_mod/fast:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/build
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/build
 .PHONY : test-QPSK_mod/fast
 
 Vamsi_QPSK_mod_cf_impl.o: Vamsi_QPSK_mod_cf_impl.cc.o
@@ -182,7 +182,7 @@ Vamsi_QPSK_mod_cf_impl.o: Vamsi_QPSK_mod_cf_impl.cc.o
 
 # target to build an object file
 Vamsi_QPSK_mod_cf_impl.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/gnuradio-QPSK_mod.dir/build.make lib/CMakeFiles/gnuradio-QPSK_mod.dir/Vamsi_QPSK_mod_cf_impl.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/gnuradio-QPSK_mod.dir/build.make lib/CMakeFiles/gnuradio-QPSK_mod.dir/Vamsi_QPSK_mod_cf_impl.cc.o
 .PHONY : Vamsi_QPSK_mod_cf_impl.cc.o
 
 Vamsi_QPSK_mod_cf_impl.i: Vamsi_QPSK_mod_cf_impl.cc.i
@@ -190,7 +190,7 @@ Vamsi_QPSK_mod_cf_impl.i: Vamsi_QPSK_mod_cf_impl.cc.i
 
 # target to preprocess a source file
 Vamsi_QPSK_mod_cf_impl.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/gnuradio-QPSK_mod.dir/build.make lib/CMakeFiles/gnuradio-QPSK_mod.dir/Vamsi_QPSK_mod_cf_impl.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/gnuradio-QPSK_mod.dir/build.make lib/CMakeFiles/gnuradio-QPSK_mod.dir/Vamsi_QPSK_mod_cf_impl.cc.i
 .PHONY : Vamsi_QPSK_mod_cf_impl.cc.i
 
 Vamsi_QPSK_mod_cf_impl.s: Vamsi_QPSK_mod_cf_impl.cc.s
@@ -198,7 +198,7 @@ Vamsi_QPSK_mod_cf_impl.s: Vamsi_QPSK_mod_cf_impl.cc.s
 
 # target to generate assembly for a file
 Vamsi_QPSK_mod_cf_impl.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/gnuradio-QPSK_mod.dir/build.make lib/CMakeFiles/gnuradio-QPSK_mod.dir/Vamsi_QPSK_mod_cf_impl.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/gnuradio-QPSK_mod.dir/build.make lib/CMakeFiles/gnuradio-QPSK_mod.dir/Vamsi_QPSK_mod_cf_impl.cc.s
 .PHONY : Vamsi_QPSK_mod_cf_impl.cc.s
 
 qa_QPSK_mod.o: qa_QPSK_mod.cc.o
@@ -206,7 +206,7 @@ qa_QPSK_mod.o: qa_QPSK_mod.cc.o
 
 # target to build an object file
 qa_QPSK_mod.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/qa_QPSK_mod.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/qa_QPSK_mod.cc.o
 .PHONY : qa_QPSK_mod.cc.o
 
 qa_QPSK_mod.i: qa_QPSK_mod.cc.i
@@ -214,7 +214,7 @@ qa_QPSK_mod.i: qa_QPSK_mod.cc.i
 
 # target to preprocess a source file
 qa_QPSK_mod.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/qa_QPSK_mod.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/qa_QPSK_mod.cc.i
 .PHONY : qa_QPSK_mod.cc.i
 
 qa_QPSK_mod.s: qa_QPSK_mod.cc.s
@@ -222,7 +222,7 @@ qa_QPSK_mod.s: qa_QPSK_mod.cc.s
 
 # target to generate assembly for a file
 qa_QPSK_mod.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/qa_QPSK_mod.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/qa_QPSK_mod.cc.s
 .PHONY : qa_QPSK_mod.cc.s
 
 qa_Vamsi_QPSK_mod_cf.o: qa_Vamsi_QPSK_mod_cf.cc.o
@@ -230,7 +230,7 @@ qa_Vamsi_QPSK_mod_cf.o: qa_Vamsi_QPSK_mod_cf.cc.o
 
 # target to build an object file
 qa_Vamsi_QPSK_mod_cf.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/qa_Vamsi_QPSK_mod_cf.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/qa_Vamsi_QPSK_mod_cf.cc.o
 .PHONY : qa_Vamsi_QPSK_mod_cf.cc.o
 
 qa_Vamsi_QPSK_mod_cf.i: qa_Vamsi_QPSK_mod_cf.cc.i
@@ -238,7 +238,7 @@ qa_Vamsi_QPSK_mod_cf.i: qa_Vamsi_QPSK_mod_cf.cc.i
 
 # target to preprocess a source file
 qa_Vamsi_QPSK_mod_cf.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/qa_Vamsi_QPSK_mod_cf.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/qa_Vamsi_QPSK_mod_cf.cc.i
 .PHONY : qa_Vamsi_QPSK_mod_cf.cc.i
 
 qa_Vamsi_QPSK_mod_cf.s: qa_Vamsi_QPSK_mod_cf.cc.s
@@ -246,7 +246,7 @@ qa_Vamsi_QPSK_mod_cf.s: qa_Vamsi_QPSK_mod_cf.cc.s
 
 # target to generate assembly for a file
 qa_Vamsi_QPSK_mod_cf.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/qa_Vamsi_QPSK_mod_cf.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/qa_Vamsi_QPSK_mod_cf.cc.s
 .PHONY : qa_Vamsi_QPSK_mod_cf.cc.s
 
 test_QPSK_mod.o: test_QPSK_mod.cc.o
@@ -254,7 +254,7 @@ test_QPSK_mod.o: test_QPSK_mod.cc.o
 
 # target to build an object file
 test_QPSK_mod.cc.o:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/test_QPSK_mod.cc.o
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/test_QPSK_mod.cc.o
 .PHONY : test_QPSK_mod.cc.o
 
 test_QPSK_mod.i: test_QPSK_mod.cc.i
@@ -262,7 +262,7 @@ test_QPSK_mod.i: test_QPSK_mod.cc.i
 
 # target to preprocess a source file
 test_QPSK_mod.cc.i:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/test_QPSK_mod.cc.i
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/test_QPSK_mod.cc.i
 .PHONY : test_QPSK_mod.cc.i
 
 test_QPSK_mod.s: test_QPSK_mod.cc.s
@@ -270,7 +270,7 @@ test_QPSK_mod.s: test_QPSK_mod.cc.s
 
 # target to generate assembly for a file
 test_QPSK_mod.cc.s:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/test_QPSK_mod.cc.s
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(MAKE) -f lib/CMakeFiles/test-QPSK_mod.dir/build.make lib/CMakeFiles/test-QPSK_mod.dir/test_QPSK_mod.cc.s
 .PHONY : test_QPSK_mod.cc.s
 
 # Help Target
@@ -311,6 +311,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/intel-nuc/My-Blocks/gr-QPSK_mod/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

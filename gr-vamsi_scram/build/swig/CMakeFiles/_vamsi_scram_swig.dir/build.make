@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-vamsi_scram
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-vamsi_scram/build
 
 # Include any dependencies generated for this target.
 include swig/CMakeFiles/_vamsi_scram_swig.dir/depend.make
@@ -57,44 +57,44 @@ swig/vamsi_scram_swigPYTHON_wrap.cxx: /usr/local/include/gnuradio/swig/gr_types.
 swig/vamsi_scram_swigPYTHON_wrap.cxx: ../swig/vamsi_scram_swig.i
 swig/vamsi_scram_swigPYTHON_wrap.cxx: swig/vamsi_scram_swig.tag
 swig/vamsi_scram_swigPYTHON_wrap.cxx: ../swig/vamsi_scram_swig.i
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Swig source"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig && /usr/bin/cmake -E make_directory /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig && /usr/bin/swig2.0 -python -fvirtual -modern -keyword -w511 -module vamsi_scram_swig -I/usr/local/include/gnuradio/swig -I/usr/include/python2.7 -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu/python2.7 -I/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/swig -I/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig -outdir /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig -c++ -I/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/lib -I/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/include -I/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/lib -I/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/include -I/usr/include -I/usr/include -I/usr/local/include -I/usr/local/include/gnuradio/swig -I/usr/include/python2.7 -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu/python2.7 -I/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/swig -I/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig -o /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swigPYTHON_wrap.cxx /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/swig/vamsi_scram_swig.i
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig && /usr/bin/cmake -E make_directory /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig && /usr/bin/swig2.0 -python -fvirtual -modern -keyword -w511 -module vamsi_scram_swig -I/usr/local/include/gnuradio/swig -I/usr/include/python2.7 -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu/python2.7 -I/home/intel-nuc/My-Blocks/gr-vamsi_scram/swig -I/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig -outdir /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig -c++ -I/home/intel-nuc/My-Blocks/gr-vamsi_scram/lib -I/home/intel-nuc/My-Blocks/gr-vamsi_scram/include -I/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/lib -I/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/include -I/usr/include -I/usr/include -I/usr/local/include -I/usr/local/include/gnuradio/swig -I/usr/include/python2.7 -I/usr/include/python2.7 -I/usr/include/x86_64-linux-gnu/python2.7 -I/home/intel-nuc/My-Blocks/gr-vamsi_scram/swig -I/home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig -o /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swigPYTHON_wrap.cxx /home/intel-nuc/My-Blocks/gr-vamsi_scram/swig/vamsi_scram_swig.i
 
 swig/vamsi_scram_swig.py: swig/vamsi_scram_swigPYTHON_wrap.cxx
 
 swig/vamsi_scram_swig.tag: swig/vamsi_scram_swig_doc.i
 swig/vamsi_scram_swig.tag: swig/_vamsi_scram_swig_swig_tag
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating vamsi_scram_swig.tag"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig && ./_vamsi_scram_swig_swig_tag
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig && /usr/bin/cmake -E touch /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swig.tag
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig && ./_vamsi_scram_swig_swig_tag
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig && /usr/bin/cmake -E touch /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swig.tag
 
 swig/vamsi_scram_swig_doc.i: swig/vamsi_scram_swig_doc_swig_docs/xml/index.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating vamsi_scram_swig_doc.i"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/docs/doxygen && /usr/bin/python2 -B /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/docs/doxygen/swig_doc.py /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swig_doc_swig_docs/xml /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swig_doc.i
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/docs/doxygen && /usr/bin/python2 -B /home/intel-nuc/My-Blocks/gr-vamsi_scram/docs/doxygen/swig_doc.py /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swig_doc_swig_docs/xml /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swig_doc.i
 
 swig/vamsi_scram_swig_doc_swig_docs/xml/index.xml: swig/_vamsi_scram_swig_doc_tag
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating doxygen xml for vamsi_scram_swig_doc docs"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig && ./_vamsi_scram_swig_doc_tag
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig && /usr/bin/doxygen /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swig_doc_swig_docs/Doxyfile
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig && ./_vamsi_scram_swig_doc_tag
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig && /usr/bin/doxygen /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swig_doc_swig_docs/Doxyfile
 
 swig/CMakeFiles/_vamsi_scram_swig.dir/vamsi_scram_swigPYTHON_wrap.cxx.o: swig/CMakeFiles/_vamsi_scram_swig.dir/flags.make
 swig/CMakeFiles/_vamsi_scram_swig.dir/vamsi_scram_swigPYTHON_wrap.cxx.o: swig/vamsi_scram_swigPYTHON_wrap.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object swig/CMakeFiles/_vamsi_scram_swig.dir/vamsi_scram_swigPYTHON_wrap.cxx.o"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/_vamsi_scram_swig.dir/vamsi_scram_swigPYTHON_wrap.cxx.o -c /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swigPYTHON_wrap.cxx
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/_vamsi_scram_swig.dir/vamsi_scram_swigPYTHON_wrap.cxx.o -c /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swigPYTHON_wrap.cxx
 
 swig/CMakeFiles/_vamsi_scram_swig.dir/vamsi_scram_swigPYTHON_wrap.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_vamsi_scram_swig.dir/vamsi_scram_swigPYTHON_wrap.cxx.i"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swigPYTHON_wrap.cxx > CMakeFiles/_vamsi_scram_swig.dir/vamsi_scram_swigPYTHON_wrap.cxx.i
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swigPYTHON_wrap.cxx > CMakeFiles/_vamsi_scram_swig.dir/vamsi_scram_swigPYTHON_wrap.cxx.i
 
 swig/CMakeFiles/_vamsi_scram_swig.dir/vamsi_scram_swigPYTHON_wrap.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_vamsi_scram_swig.dir/vamsi_scram_swigPYTHON_wrap.cxx.s"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swigPYTHON_wrap.cxx -o CMakeFiles/_vamsi_scram_swig.dir/vamsi_scram_swigPYTHON_wrap.cxx.s
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig/vamsi_scram_swigPYTHON_wrap.cxx -o CMakeFiles/_vamsi_scram_swig.dir/vamsi_scram_swigPYTHON_wrap.cxx.s
 
 swig/CMakeFiles/_vamsi_scram_swig.dir/vamsi_scram_swigPYTHON_wrap.cxx.o.requires:
 .PHONY : swig/CMakeFiles/_vamsi_scram_swig.dir/vamsi_scram_swigPYTHON_wrap.cxx.o.requires
@@ -121,7 +121,7 @@ swig/_vamsi_scram_swig.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
 swig/_vamsi_scram_swig.so: /usr/local/lib/libgnuradio-runtime.so
 swig/_vamsi_scram_swig.so: swig/CMakeFiles/_vamsi_scram_swig.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared module _vamsi_scram_swig.so"
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/_vamsi_scram_swig.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/_vamsi_scram_swig.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 swig/CMakeFiles/_vamsi_scram_swig.dir/build: swig/_vamsi_scram_swig.so
@@ -131,7 +131,7 @@ swig/CMakeFiles/_vamsi_scram_swig.dir/requires: swig/CMakeFiles/_vamsi_scram_swi
 .PHONY : swig/CMakeFiles/_vamsi_scram_swig.dir/requires
 
 swig/CMakeFiles/_vamsi_scram_swig.dir/clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/_vamsi_scram_swig.dir/cmake_clean.cmake
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig && $(CMAKE_COMMAND) -P CMakeFiles/_vamsi_scram_swig.dir/cmake_clean.cmake
 .PHONY : swig/CMakeFiles/_vamsi_scram_swig.dir/clean
 
 swig/CMakeFiles/_vamsi_scram_swig.dir/depend: swig/vamsi_scram_swigPYTHON_wrap.cxx
@@ -139,6 +139,6 @@ swig/CMakeFiles/_vamsi_scram_swig.dir/depend: swig/vamsi_scram_swig.py
 swig/CMakeFiles/_vamsi_scram_swig.dir/depend: swig/vamsi_scram_swig.tag
 swig/CMakeFiles/_vamsi_scram_swig.dir/depend: swig/vamsi_scram_swig_doc.i
 swig/CMakeFiles/_vamsi_scram_swig.dir/depend: swig/vamsi_scram_swig_doc_swig_docs/xml/index.xml
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/swig /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/swig/CMakeFiles/_vamsi_scram_swig.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/intel-nuc/My-Blocks/gr-vamsi_scram /home/intel-nuc/My-Blocks/gr-vamsi_scram/swig /home/intel-nuc/My-Blocks/gr-vamsi_scram/build /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/swig/CMakeFiles/_vamsi_scram_swig.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/_vamsi_scram_swig.dir/depend
 

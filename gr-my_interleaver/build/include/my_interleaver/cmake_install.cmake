@@ -1,4 +1,4 @@
-# Install script for directory: /home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/include/my_interleaver
+# Install script for directory: /home/intel-nuc/My-Blocks/gr-my_interleaver/include/my_interleaver
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/my_interleaver" TYPE FILE FILES
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/include/my_interleaver/api.h"
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-my_interleaver/include/my_interleaver/vamsi_interleaver_cc.h"
+    "/home/intel-nuc/My-Blocks/gr-my_interleaver/include/my_interleaver/api.h"
+    "/home/intel-nuc/My-Blocks/gr-my_interleaver/include/my_interleaver/vamsi_interleaver_cc.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

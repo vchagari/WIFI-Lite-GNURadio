@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="dir_30fdc28067a4e45250d5cfaf7ff0ee71" kind="dir">
-    <compoundname>/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/include/QPSK_mod</compoundname>
+    <compoundname>/home/intel-nuc/My-Blocks/gr-QPSK_mod/include/QPSK_mod</compoundname>
     <innerfile refid="api_8h">api.h</innerfile>
     <innerfile refid="Vamsi__QPSK__mod__cf_8h">Vamsi_QPSK_mod_cf.h</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-QPSK_mod/include/QPSK_mod/"/>
+    <location file="/home/intel-nuc/My-Blocks/gr-QPSK_mod/include/QPSK_mod/"/>
   </compounddef>
 </doxygen>

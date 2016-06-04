@@ -16,37 +16,37 @@ gnuradio/block.h
 gnuradio/attributes.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/qa_IFFT_V.cc
+/home/intel-nuc/My-Blocks/gr-IFFT_V/lib/qa_IFFT_V.cc
 qa_IFFT_V.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/qa_IFFT_V.h
+/home/intel-nuc/My-Blocks/gr-IFFT_V/lib/qa_IFFT_V.h
 qa_IFFT_ff.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/qa_IFFT_ff.h
+/home/intel-nuc/My-Blocks/gr-IFFT_V/lib/qa_IFFT_ff.h
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/qa_IFFT_V.h
+/home/intel-nuc/My-Blocks/gr-IFFT_V/lib/qa_IFFT_V.h
 gnuradio/attributes.h
 -
 cppunit/TestSuite.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/qa_IFFT_ff.cc
+/home/intel-nuc/My-Blocks/gr-IFFT_V/lib/qa_IFFT_ff.cc
 gnuradio/attributes.h
 -
 cppunit/TestAssert.h
 -
 qa_IFFT_ff.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/qa_IFFT_ff.h
+/home/intel-nuc/My-Blocks/gr-IFFT_V/lib/qa_IFFT_ff.h
 IFFT_V/IFFT_ff.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/qa_IFFT_ff.h
+/home/intel-nuc/My-Blocks/gr-IFFT_V/lib/qa_IFFT_ff.h
 cppunit/extensions/HelperMacros.h
 -
 cppunit/TestCase.h
 -
 
-/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/test_IFFT_V.cc
+/home/intel-nuc/My-Blocks/gr-IFFT_V/lib/test_IFFT_V.cc
 config.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/config.h
+/home/intel-nuc/My-Blocks/gr-IFFT_V/lib/config.h
 cppunit/TextTestRunner.h
 -
 cppunit/XmlOutputter.h
@@ -54,7 +54,7 @@ cppunit/XmlOutputter.h
 gnuradio/unittests.h
 -
 qa_IFFT_V.h
-/home/chagari/Work/GNURadio/My_Blocks/gr-IFFT_V/lib/qa_IFFT_V.h
+/home/intel-nuc/My-Blocks/gr-IFFT_V/lib/qa_IFFT_V.h
 iostream
 -
 

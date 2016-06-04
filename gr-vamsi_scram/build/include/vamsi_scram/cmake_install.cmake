@@ -1,4 +1,4 @@
-# Install script for directory: /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/include/vamsi_scram
+# Install script for directory: /home/intel-nuc/My-Blocks/gr-vamsi_scram/include/vamsi_scram
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/vamsi_scram" TYPE FILE FILES
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/include/vamsi_scram/api.h"
-    "/home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/include/vamsi_scram/scram_cc.h"
+    "/home/intel-nuc/My-Blocks/gr-vamsi_scram/include/vamsi_scram/api.h"
+    "/home/intel-nuc/My-Blocks/gr-vamsi_scram/include/vamsi_scram/scram_cc.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

@@ -5,20 +5,20 @@
     <includes refid="api_8h" local="no">InBlock/api.h</includes>
     <includes local="no">gnuradio/sync_block.h</includes>
     <incdepgraph>
-      <node id="7">
-        <label>gnuradio/sync_block.h</label>
-      </node>
-      <node id="6">
-        <label>gnuradio/attributes.h</label>
-      </node>
       <node id="5">
         <label>InBlock/api.h</label>
         <link refid="api_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
+      <node id="7">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="6">
+        <label>gnuradio/attributes.h</label>
+      </node>
       <node id="4">
-        <label>/home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/include/InBlock/vamsi_src_c.h</label>
+        <label>/home/intel-nuc/My-Blocks/gr-InBlock/include/InBlock/vamsi_src_c.h</label>
         <link refid="vamsi_src_c.h"/>
         <childnode refid="5" relation="include">
         </childnode>
@@ -78,6 +78,6 @@
 <codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_INBLOCK_VAMSI_SRC_C_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
 <codeline lineno="56"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/chagari/Work/GNURadio/My_Blocks/gr-InBlock/include/InBlock/vamsi_src_c.h"/>
+    <location file="/home/intel-nuc/My-Blocks/gr-InBlock/include/InBlock/vamsi_src_c.h"/>
   </compounddef>
 </doxygen>

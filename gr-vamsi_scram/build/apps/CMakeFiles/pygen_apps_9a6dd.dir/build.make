@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram
+CMAKE_SOURCE_DIR = /home/intel-nuc/My-Blocks/gr-vamsi_scram
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build
+CMAKE_BINARY_DIR = /home/intel-nuc/My-Blocks/gr-vamsi_scram/build
 
 # Utility rule file for pygen_apps_9a6dd.
 
@@ -56,10 +56,10 @@ apps/CMakeFiles/pygen_apps_9a6dd.dir/build: pygen_apps_9a6dd
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/build
 
 apps/CMakeFiles/pygen_apps_9a6dd.dir/clean:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/apps && $(CMAKE_COMMAND) -P CMakeFiles/pygen_apps_9a6dd.dir/cmake_clean.cmake
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/apps && $(CMAKE_COMMAND) -P CMakeFiles/pygen_apps_9a6dd.dir/cmake_clean.cmake
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/clean
 
 apps/CMakeFiles/pygen_apps_9a6dd.dir/depend:
-	cd /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/apps /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/apps /home/chagari/Work/GNURadio/My_Blocks/gr-vamsi_scram/build/apps/CMakeFiles/pygen_apps_9a6dd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/intel-nuc/My-Blocks/gr-vamsi_scram/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/intel-nuc/My-Blocks/gr-vamsi_scram /home/intel-nuc/My-Blocks/gr-vamsi_scram/apps /home/intel-nuc/My-Blocks/gr-vamsi_scram/build /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/apps /home/intel-nuc/My-Blocks/gr-vamsi_scram/build/apps/CMakeFiles/pygen_apps_9a6dd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/depend
 
